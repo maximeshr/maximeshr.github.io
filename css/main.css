@@ -1,0 +1,85 @@
+body {
+  border-top: 10px solid #2ecc71;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: normal;
+  font-size: 14px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 800;
+}
+
+a {
+  font-weight: 800;
+  color: #2ecc71;
+}
+
+a:hover {
+  color: #27ae60;
+}
+
+.resized {
+  width: 175px;
+}
+
+.circular {
+  border-radius: 150px;
+  -webkit-border-radius: 150px;
+  -moz-border-radius: 150px;
+}
+
+.centered {
+  margin: 0 auto;
+}
+
+.sidebar {
+  border-right: 1px solid #ddd;
+}
+
+.main {
+  padding-left: 35px;
+}
+
+.hello-world h1 {
+  font-size: 32px;
+}
+
+.hello-world img {
+  margin-top: 30px;
+}
+
+.hello-world .socials {
+  font-size: 1em;
+}
+
+.posts {
+  margin-top: 35px;
+}
+
+.posts li {
+  font-size: 16px;
+}
+
+.post-meta {
+  color: #aaa;
+}
+
+.post-meta:after {
+  content: " \00BB ";
+}
+
+.post-link {
+  font-weight: 800;
+}
+
+.back-link {
+  margin-top: 35px;
+}
+
+footer {
+  border-top: 5px solid rgba(170, 170, 170, 0.20);
+  margin-top: 25px;
+  padding-top: 15px;
+  color: #aaa;
+}

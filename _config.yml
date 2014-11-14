@@ -1,0 +1,12 @@
+# Site settings
+title: Maxime Sahroui
+email: hello@maximesahroui.be
+description: > # this means to ignore newlines until "baseurl:"
+  Bonjour, je m'appelle Maxime Sahroui et je suis un développeur web belge de 25 ans. J'habite la magnifique région couvinoise et je crée des applications web de qualités pour mon entreprise : ranqed.
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "http://maximesahroui.be" # the base hostname & protocol for your site
+twitter_username: maximeshr
+github_username:  maximeshr
+
+# Build settings
+markdown: kramdown
