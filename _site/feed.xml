@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Maxime Sahroui</title>
+    <description>Bonjour, je m&#39;appelle Maxime Sahroui et je suis un développeur web belge de 25 ans. J&#39;habite la magnifique région couvinoise et je crée des applications web de qualités pour mon entreprise : ranqed.
+</description>
+    <link>http://maximesahroui.be/</link>
+    <atom:link href="http://maximesahroui.be/feed.xml" rel="self" type="application/rss+xml" />
+    <pubDate>Fri, 14 Nov 2014 22:26:22 +0100</pubDate>
+    <lastBuildDate>Fri, 14 Nov 2014 22:26:22 +0100</lastBuildDate>
+    <generator>Jekyll v2.4.0</generator>
+    
+      <item>
+        <title>Lancement de mon carnet, youpi !</title>
+        <description>&lt;p&gt;Après quelques heures de lecture et un design digne d’un développeur, mon &lt;a href=&quot;http://maximesahroui.be&quot;&gt;blog&lt;/a&gt; ouvre enfin ses portes. #yay !&lt;/p&gt;
+
+&lt;p&gt;L’objectif principal sera d’échanger avec la communauté (principalement francophone) par le biais d’articles courts et précis. Les thématiques abordées seront diverses et variées : du lancement de carrière aux tips and tricks de développeur.&lt;/p&gt;
+
+&lt;p&gt;Me concernant, je m’appelle Maxime, j’ai 25 ans, je suis belge (mais attention, il parait que c’est moyen de se présenter comme belge à la communauté francophone !) et développeur (oui, c’est pas vraiment pas facile…). Je travaille principalement en JavaScript et en Ruby par le biais de méthodes agiles diverses : &lt;a href=&quot;http://fr.wikipedia.org/wiki/Technique_Pomodoro&quot; target=&quot;_blank&quot;&gt;Pomodoro&lt;/a&gt;, &lt;a href=&quot;http://fr.wikipedia.org/wiki/Kanban&quot; target=&quot;_blank&quot;&gt;Kanban&lt;/a&gt; et &lt;a href=&quot;http://fr.wikipedia.org/wiki/Scrum_(m%C3%A9thode)&quot; target=&quot;_blank&quot;&gt;SCRUM&lt;/a&gt;. J’aime le code propre, bien pensé et correctement testé !&lt;/p&gt;
+
+&lt;p&gt;Voilà, je pense que j’ai fait le tour pour ce premier article :D&lt;/p&gt;
+
+&lt;p&gt;À très vite !&lt;/p&gt;
+
+&lt;p&gt;PS: Le chien s’appelle &lt;strong&gt;Moshi&lt;/strong&gt; et non, ce n’est pas un caniche…&lt;/p&gt;
+</description>
+        <pubDate>Fri, 14 Nov 2014 00:00:00 +0100</pubDate>
+        <link>http://maximesahroui.be/2014/11/14/lancement-de-mon-carnet-youpi.html</link>
+        <guid isPermaLink="true">http://maximesahroui.be/2014/11/14/lancement-de-mon-carnet-youpi.html</guid>
+        
+        
+      </item>
+    
+  </channel>
+</rss>
