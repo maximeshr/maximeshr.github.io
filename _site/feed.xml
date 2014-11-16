@@ -6,9 +6,44 @@
 </description>
     <link>http://maximesahroui.be/</link>
     <atom:link href="http://maximesahroui.be/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Sat, 15 Nov 2014 14:27:57 +0100</pubDate>
-    <lastBuildDate>Sat, 15 Nov 2014 14:27:57 +0100</lastBuildDate>
+    <pubDate>Sun, 16 Nov 2014 13:05:38 +0100</pubDate>
+    <lastBuildDate>Sun, 16 Nov 2014 13:05:38 +0100</lastBuildDate>
     <generator>Jekyll v2.4.0</generator>
+    
+      <item>
+        <title>Passage au Standing Desk</title>
+        <description>&lt;p&gt;Cela fait plusieurs mois que j’entends parler de “Standing Desk”. J’ai donc voulu essayer d’améliorer mon bureau pour pouvoir travailler debout et assis lorsque l’envie se fait sentir.&lt;/p&gt;
+
+&lt;p&gt;Je suis parti sur une base “&lt;strong&gt;do it yourself&lt;/strong&gt;” made in Ikea :&lt;/p&gt;
+
+&lt;p&gt;Les dimensions (50 x 120) de mon bureau ne me permettant pas de simplement acheter une table d’appoint (le modèle &lt;a href=&quot;http://www.ikea.com/be/fr/catalog/products/40104294/&quot;&gt;lack&lt;/a&gt; pour les connaisseurs), j’ai du improviser et bricoler légèrement (oui, papa tu as été d’un grand secours ! #honte).&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;quatre pieds de table (&lt;a href=&quot;http://www.ikea.com/be/fr/catalog/products/90217972/&quot;&gt;ADILS&lt;/a&gt;) : 10 € (2.5 €/pièce)&lt;/li&gt;
+  &lt;li&gt;une planche de support blanche (récupération, merci papa !) : 0 €&lt;/li&gt;
+  &lt;li&gt;de l’huile de coude (pour recouper les pieds de table à la bonne hauteur : 30cm) : 0 €&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Je trouve le résultat final sympathique :&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/img/standing-desk/before.jpg&quot; alt=&quot;avant&quot; class=&quot;img-responsive&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/img/standing-desk/after.jpg&quot; alt=&quot;après&quot; class=&quot;img-responsive&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Je vous ajoute également un article (en anglais) sur la problématique qu’engendre le fait de rester assis toute la journée (c’était mon cas &lt;strong&gt;avant&lt;/strong&gt;) :&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/img/standing-desk/info.jpg&quot; alt=&quot;standing-desk&quot; class=&quot;img-responsive&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Bonne lecture ;)&lt;/p&gt;
+</description>
+        <pubDate>Sun, 16 Nov 2014 00:00:00 +0100</pubDate>
+        <link>http://maximesahroui.be/autre/2014/11/16/passage-au-standing-desk.html</link>
+        <guid isPermaLink="true">http://maximesahroui.be/autre/2014/11/16/passage-au-standing-desk.html</guid>
+        
+        
+        <category>autre</category>
+        
+      </item>
     
       <item>
         <title>Créer simplement des articles avec Thor et Jekyll</title>
