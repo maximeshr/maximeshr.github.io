@@ -68,6 +68,15 @@ a:hover {
   text-decoration: underline;
 }
 
+#quicksearch {
+  border: none;
+  border-bottom: 1px solid #2ecc71;
+}
+
+#quicksearch:focus {
+  outline: 0;
+}
+
 .posts {
   margin-top: 35px;
 }
