@@ -3,18 +3,22 @@ $(document).ready(function () {
   $( function() {
 
     var qsRegex;
+    var filterValue;
 
     var $container = $('.isotope').isotope({
       itemSelector: '.element-item',
       layoutMode: 'vertical',
       filter: function() {
-        return qsRegex ? $(this).text().match( qsRegex ) : true;
+        var $this = $(this);
+        var searchResult = qsRegex ? $this.text().match( qsRegex ) : true;
+        var filterResult = filterValue ? $this.is( filterValue ) : true;
+        return searchResult && filterResult;
       }
     });
 
     $('#filters').on( 'click', 'a', function() {
-      var filterValue = $( this ).attr('data-filter');
-      $container.isotope({ filter: filterValue });
+      filterValue = $( this ).attr('data-filter');
+      $container.isotope();
     });
 
     $('#filters').each( function( i, listElement ) {
@@ -28,7 +32,7 @@ $(document).ready(function () {
     var $quicksearch = $('#quicksearch').keyup( debounce( function() {
       qsRegex = new RegExp( $quicksearch.val(), 'gi' );
       $container.isotope();
-    }, 200 ) );
+    }) );
 
   });
 
@@ -42,7 +46,7 @@ $(document).ready(function () {
         fn();
         timeout = null;
       }
-      timeout = setTimeout( delayed, threshold || 100 );
+      setTimeout( delayed, threshold || 100 );
     }
   }
 
