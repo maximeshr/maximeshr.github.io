@@ -78,32 +78,32 @@
 
 <p>Ajouter à votre fichier ~/.npmrc (si il n’existe pas créez-le)</p>
 
-<div class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="n">root</span>    <span class="o">=</span> <span class="sr">/home/</span><span class="no">YOUR</span><span class="o">-</span><span class="no">USERNAME</span><span class="o">/.</span><span class="n">local</span><span class="o">/</span><span class="n">lib</span><span class="o">/</span><span class="n">node_modules</span>
-<span class="n">binroot</span> <span class="o">=</span> <span class="sr">/home/</span><span class="no">YOUR</span><span class="o">-</span><span class="no">USERNAME</span><span class="o">/.</span><span class="n">local</span><span class="o">/</span><span class="n">bin</span>
-<span class="n">manroot</span> <span class="o">=</span> <span class="sr">/home/</span><span class="no">YOUR</span><span class="o">-</span><span class="no">USERNAME</span><span class="o">/.</span><span class="n">local</span><span class="o">/</span><span class="n">share</span><span class="o">/</span><span class="n">man</span></code></pre></div>
+<div class="highlight"><pre><code class="language-bash" data-lang="bash"><span class="nv">root</span>    <span class="o">=</span> /home/YOUR-USERNAME/.local/lib/node_modules
+<span class="nv">binroot</span> <span class="o">=</span> /home/YOUR-USERNAME/.local/bin
+<span class="nv">manroot</span> <span class="o">=</span> /home/YOUR-USERNAME/.local/share/man</code></pre></div>
 
 <p>Télécharger le code source de node et installer le dans votre fichier <strong>.local</strong>. Attention, il est possible que certaines dépendances soit requises pour une installation propre via make (comme gcc). De plus amples informations sont disponibles <a href="https://help.ubuntu.com/community/CompilingEasyHowTo">ici</a></p>
 
-<div class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="err">$</span> <span class="n">wget</span> <span class="ss">http</span><span class="p">:</span><span class="sr">//no</span><span class="n">dejs</span><span class="o">.</span><span class="n">org</span><span class="o">/</span><span class="n">dist</span><span class="o">/</span><span class="n">v0</span><span class="o">.</span><span class="mi">10</span><span class="o">.</span><span class="mi">33</span><span class="o">/</span><span class="n">node</span><span class="o">-</span><span class="n">v0</span><span class="o">.</span><span class="mi">10</span><span class="o">.</span><span class="mi">33</span><span class="o">-</span><span class="n">linux</span><span class="o">-</span><span class="n">x64</span><span class="o">.</span><span class="n">tar</span><span class="o">.</span><span class="n">gz</span>
-<span class="err">$</span> <span class="n">tar</span> <span class="n">xf</span> <span class="n">node</span><span class="o">-</span><span class="n">v0</span><span class="o">.</span><span class="mi">10</span><span class="o">.</span><span class="mi">33</span><span class="o">-</span><span class="n">linux</span><span class="o">-</span><span class="n">x64</span><span class="o">.</span><span class="n">tar</span><span class="o">.</span><span class="n">gz</span>
-<span class="err">$</span> <span class="n">cd</span> <span class="n">node</span><span class="o">-</span><span class="n">v0</span><span class="o">.</span><span class="mi">10</span><span class="o">.</span><span class="mi">33</span><span class="o">-</span><span class="n">linux</span><span class="o">-</span><span class="n">x64</span>
-<span class="err">$</span> <span class="o">.</span><span class="n">/configure</span> <span class="o">--</span><span class="n">prefix</span><span class="o">=~</span><span class="sr">/.local</span>
-<span class="sr">$ make</span>
-<span class="sr">$ make install</span></code></pre></div>
+<div class="highlight"><pre><code class="language-bash" data-lang="bash"><span class="nv">$ </span>wget http://nodejs.org/dist/v0.10.33/node-v0.10.33-linux-x64.tar.gz
+<span class="nv">$ </span>tar xf node-v0.10.33-linux-x64.tar.gz
+<span class="nv">$ </span><span class="nb">cd </span>node-v0.10.33-linux-x64
+<span class="nv">$ </span>./configure --prefix<span class="o">=</span>~/.local
+<span class="nv">$ </span>make
+<span class="nv">$ </span>make install</code></pre></div>
 
 <p>Créer maintenant un lien symbolique vers ~/.node_modules</p>
 
-<div class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="err">$</span> <span class="n">cd</span> <span class="o">~</span>
-<span class="err">$</span> <span class="n">ln</span> <span class="o">-</span><span class="n">s</span> <span class="o">.</span><span class="n">local</span><span class="o">/</span><span class="n">lib</span><span class="o">/</span><span class="n">node_modules</span> <span class="o">.</span><span class="n">node_modules</span></code></pre></div>
+<div class="highlight"><pre><code class="language-bash" data-lang="bash"><span class="nv">$ </span><span class="nb">cd</span> ~
+<span class="nv">$ </span>ln -s .local/lib/node_modules .node_modules</code></pre></div>
 
 <p>Il ne reste plus qu’à ajouter ~/.local/bin à votre <code>$PATH</code> (via ~/.bashrc ou ~/.zshrc)</p>
 
-<div class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="n">export</span> <span class="no">PATH</span><span class="o">=</span><span class="vg">$HOME</span><span class="o">/.</span><span class="n">local</span><span class="o">/</span><span class="ss">bin</span><span class="p">:</span><span class="vg">$PATH</span></code></pre></div>
+<div class="highlight"><pre><code class="language-bash" data-lang="bash"><span class="nb">export </span><span class="nv">PATH</span><span class="o">=</span><span class="nv">$HOME</span>/.local/bin:<span class="nv">$PATH</span></code></pre></div>
 
 <p>Voilà node et npm sont installés et opérationnels</p>
 
-<div class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="err">$</span> <span class="n">which</span> <span class="n">npm</span>
-<span class="sr">/home/</span><span class="n">dev</span><span class="o">/.</span><span class="n">local</span><span class="o">/</span><span class="n">bin</span><span class="o">/</span><span class="n">npm</span></code></pre></div>
+<div class="highlight"><pre><code class="language-bash" data-lang="bash"><span class="nv">$ </span>which npm
+/home/dev/.local/bin/npm</code></pre></div>
 
 
   </article>
