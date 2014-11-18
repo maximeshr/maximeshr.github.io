@@ -53,10 +53,13 @@ a:hover {
   font-size: 1em;
 }
 
+.filter-menu {
+  margin-top: 35px;
+}
+
 #filters {
   color: #2ecc71;
   margin-left: 0;
-  margin-top: 25px;
 }
 
 #filters:before {

@@ -6,15 +6,19 @@ layout: default
 
   <h1 class="page-heading">Mon Carnet <small>(oui, c'est tendance &hearts;)</small></h1>
 
-  <ul id="filters" class="list-inline">
-    <li><a href="#" data-filter="*" class="is-checked">all</a></li>
-    - <li><a href="#" data-filter=".javascript">javascript</a></li>
-    - <li><a href="#" data-filter=".ruby">ruby</a></li>
-    - <li><a href="#" data-filter=".autre">autre</a></li>
-    <li class="pull-right">
+  <div class="row filter-menu">
+    <div class="col-md-6">
+      <ul id="filters" class="list-inline">
+        <li><a href="#" data-filter="*" class="is-checked">all</a></li>
+        - <li><a href="#" data-filter=".javascript">javascript</a></li>
+        - <li><a href="#" data-filter=".ruby">ruby</a></li>
+        - <li><a href="#" data-filter=".autre">autre</a></li>
+      </ul>
+    </div>
+    <div class="col-md-6 text-right">
       <input type="text" id="quicksearch" placeholder="Rechercher" />
-    </li>
-  </ul>
+    </div>
+  </div>
 
   <ul class="posts list-unstyled isotope">
     {% for post in site.posts %}
