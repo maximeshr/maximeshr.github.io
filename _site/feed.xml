@@ -6,9 +6,42 @@
 </description>
     <link>http://maximesahroui.be/</link>
     <atom:link href="http://maximesahroui.be/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Tue, 18 Nov 2014 21:18:22 +0100</pubDate>
-    <lastBuildDate>Tue, 18 Nov 2014 21:18:22 +0100</lastBuildDate>
+    <pubDate>Fri, 28 Nov 2014 15:32:52 +0100</pubDate>
+    <lastBuildDate>Fri, 28 Nov 2014 15:32:52 +0100</lastBuildDate>
     <generator>Jekyll v2.4.0</generator>
+    
+      <item>
+        <title>May the Freelance Spirit be with me</title>
+        <description>&lt;p&gt;Et oui, voilà, c’est fait ! Je suis maintenant en phase de passer indépendant #yay !&lt;/p&gt;
+
+&lt;p&gt;La chose la plus difficile a certainement été de présenter ma démission à mon patron, mais c’est fait et, bon dieu, qu’est ce qu’on se sent léger après ça !&lt;/p&gt;
+
+&lt;p&gt;Bon j’ai très vite été ratrappé par la paperasse : inscriptions, achats, rendez-vous divers et pas que le comptable… Mais pour le moment ça se passe plutôt bien ;)&lt;/p&gt;
+
+&lt;p&gt;Pour reprendre un excellent article de &lt;a href=&quot;http://www.miximum.fr/freelance-deux-ans-plus-tard%E2%80%A6.html&quot;&gt;Thibault Jouannic&lt;/a&gt;, voici les différentes étapes clés pour se lancer correctement en tant qu’indépendant :&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Mettre du pognon de côté, histoire de voir venir ;&lt;/li&gt;
+  &lt;li&gt;Trouver un client ;&lt;/li&gt;
+  &lt;li&gt;Prendre son courage à deux mains ;&lt;/li&gt;
+  &lt;li&gt;Démissionner ;&lt;/li&gt;
+  &lt;li&gt;Taffer ;&lt;/li&gt;
+  &lt;li&gt;Facturer ;&lt;/li&gt;
+  &lt;li&gt;Recommencer ;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;La prochaine étape sera certainement ma première facturation ainsi que la prospection, mais j’ai confiance en mes capacités.&lt;/p&gt;
+
+&lt;p&gt;À moi le monde des grands !&lt;/p&gt;
+</description>
+        <pubDate>Fri, 28 Nov 2014 00:00:00 +0100</pubDate>
+        <link>http://maximesahroui.be/freelance/2014/11/28/may-the-freelance-spirit-be-with-me.html</link>
+        <guid isPermaLink="true">http://maximesahroui.be/freelance/2014/11/28/may-the-freelance-spirit-be-with-me.html</guid>
+        
+        
+        <category>freelance</category>
+        
+      </item>
     
       <item>
         <title>Installer Node.js sans les droits administrateur sous Ubuntu</title>
@@ -89,7 +122,7 @@
       </item>
     
       <item>
-        <title>Créer simplement des articles avec Thor et Jekyll</title>
+        <title>Créer des articles avec Thor et Jekyll</title>
         <description>&lt;p&gt;Une simple astuce que j’utilise pour créer mes articles via la console (#ninjaDev).&lt;/p&gt;
 
 &lt;p&gt;&lt;code&gt;$ gem install bundle thor // si ce n&#39;est pas déjà fait !&lt;/code&gt;&lt;/p&gt;

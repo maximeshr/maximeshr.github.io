@@ -5,13 +5,27 @@ layout: default
 
   <header class="post-header">
     <h1 class="post-title">{{ page.title }}</h1>
-    <p class="post-meta">{{ page.date | date: "%b %-d, %Y" }}</p>
+    <p class="post-meta">{{ page.date | date: "%b %-d, %Y" }} </p>
   </header>
 
   <article class="post-content">
     {{ content }}
+    <p class="share"><a href="https://twitter.com/share" class="twitter-share-button" data-via="maximeshr">Tweet</a></p>
   </article>
 
-  <p class="back-link"><a href="{{ '/' | prepend: site.baseurl }}">[]&larr; La sortie c'est par ici !</a> <span class="pull-right"><a href="mailto:hello@maximesahroui.be">Une question ? &rarr;[]</a></span></p>
+  <p class="back-link"><a href="{{ '/' | prepend: site.baseurl }}">Retour (&larr;)</a> <span class="pull-right"><a href="mailto:hello@maximesahroui.be">Une question ?</a></span></p>
 
+</div>
+
+<div class="lastest-posts">
+  <h3>Découvrez mes derniers articles :</h3>
+  <ul class="list-unstyled">
+  {% for post in site.posts offset: 0 limit: 3  %}
+    <li class="element-item {{post.categories}}"
+        data-category="{{post.categories}}">
+      <span class="post-meta">{{ post.date | date: "%-d %b %Y" }}</span>
+      <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+    </li>
+  {% endfor  %}
+  </ul>
 </div>

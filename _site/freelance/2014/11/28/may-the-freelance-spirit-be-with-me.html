@@ -6,7 +6,7 @@
   <meta name="viewport" content="width=device-width initial-scale=1" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
-  <title>Maxime Sahroui - Installer Node.js sans les droits administrateur sous Ubuntu</title>
+  <title>Maxime Sahroui - May the Freelance Spirit be with me</title>
   <meta name="description" content="Bonjour, je m'appelle Maxime Sahroui et je suis un développeur web belge de 25 ans. J'habite la magnifique région couvinoise et je crée des applications web de qualités pour mon entreprise : ranqed.
 ">
 
@@ -24,7 +24,7 @@
   <link rel='stylesheet' type='text/css'
     href='http://fonts.googleapis.com/css?family=Open+Sans:400,600,800'>
 
-  <link rel="canonical" href="http://maximesahroui.be/javascript/2014/11/18/installer-node-dot-js-sans-les-droits-administrateur-sous-ubuntu.html">
+  <link rel="canonical" href="http://maximesahroui.be/freelance/2014/11/28/may-the-freelance-spirit-be-with-me.html">
 
   <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
   <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -69,42 +69,32 @@
           <div class="post">
 
   <header class="post-header">
-    <h1 class="post-title">Installer Node.js sans les droits administrateur sous Ubuntu</h1>
-    <p class="post-meta">Nov 18, 2014 </p>
+    <h1 class="post-title">May the Freelance Spirit be with me</h1>
+    <p class="post-meta">Nov 28, 2014 </p>
   </header>
 
   <article class="post-content">
-    <p>Nous allons installer <a href="http://nodejs.org/">node.js</a> dans le dossier ~/.local à la place de /usr/local (qui requière les droits d’administration). Une version alternative consiste à utiliser <a href="https://github.com/creationix/nvm">NVM</a> mais nous en discuterons une prochaine fois.</p>
+    <p>Et oui, voilà, c’est fait ! Je suis maintenant en phase de passer indépendant #yay !</p>
 
-<p>Ajouter à votre fichier ~/.npmrc (si il n’existe pas créez-le)</p>
+<p>La chose la plus difficile a certainement été de présenter ma démission à mon patron, mais c’est fait et, bon dieu, qu’est ce qu’on se sent léger après ça !</p>
 
-<div class="highlight"><pre><code class="language-bash" data-lang="bash"><span class="nv">root</span>    <span class="o">=</span> /home/YOUR-USERNAME/.local/lib/node_modules
-<span class="nv">binroot</span> <span class="o">=</span> /home/YOUR-USERNAME/.local/bin
-<span class="nv">manroot</span> <span class="o">=</span> /home/YOUR-USERNAME/.local/share/man</code></pre></div>
+<p>Bon j’ai très vite été ratrappé par la paperasse : inscriptions, achats, rendez-vous divers et pas que le comptable… Mais pour le moment ça se passe plutôt bien ;)</p>
 
-<p>Télécharger le code source de node et installer le dans votre fichier <strong>.local</strong>. Attention, il est possible que certaines dépendances soit requises pour une installation propre via make (comme gcc). De plus amples informations sont disponibles <a href="https://help.ubuntu.com/community/CompilingEasyHowTo">ici</a></p>
+<p>Pour reprendre un excellent article de <a href="http://www.miximum.fr/freelance-deux-ans-plus-tard%E2%80%A6.html">Thibault Jouannic</a>, voici les différentes étapes clés pour se lancer correctement en tant qu’indépendant :</p>
 
-<div class="highlight"><pre><code class="language-bash" data-lang="bash"><span class="nv">$ </span>wget http://nodejs.org/dist/v0.10.33/node-v0.10.33-linux-x64.tar.gz
-<span class="nv">$ </span>tar xf node-v0.10.33-linux-x64.tar.gz
-<span class="nv">$ </span><span class="nb">cd </span>node-v0.10.33-linux-x64
-<span class="nv">$ </span>./configure --prefix<span class="o">=</span>~/.local
-<span class="nv">$ </span>make
-<span class="nv">$ </span>make install</code></pre></div>
+<ul>
+  <li>Mettre du pognon de côté, histoire de voir venir ;</li>
+  <li>Trouver un client ;</li>
+  <li>Prendre son courage à deux mains ;</li>
+  <li>Démissionner ;</li>
+  <li>Taffer ;</li>
+  <li>Facturer ;</li>
+  <li>Recommencer ;</li>
+</ul>
 
-<p>Créer maintenant un lien symbolique vers ~/.node_modules</p>
+<p>La prochaine étape sera certainement ma première facturation ainsi que la prospection, mais j’ai confiance en mes capacités.</p>
 
-<div class="highlight"><pre><code class="language-bash" data-lang="bash"><span class="nv">$ </span><span class="nb">cd</span> ~
-<span class="nv">$ </span>ln -s .local/lib/node_modules .node_modules</code></pre></div>
-
-<p>Il ne reste plus qu’à ajouter ~/.local/bin à votre <code>$PATH</code> (via ~/.bashrc ou ~/.zshrc)</p>
-
-<div class="highlight"><pre><code class="language-bash" data-lang="bash"><span class="nb">export </span><span class="nv">PATH</span><span class="o">=</span><span class="nv">$HOME</span>/.local/bin:<span class="nv">$PATH</span></code></pre></div>
-
-<p>Voilà node et npm sont installés et opérationnels</p>
-
-<div class="highlight"><pre><code class="language-bash" data-lang="bash"><span class="nv">$ </span>which npm
-/home/dev/.local/bin/npm</code></pre></div>
-
+<p>À moi le monde des grands !</p>
 
     <p class="share"><a href="https://twitter.com/share" class="twitter-share-button" data-via="maximeshr">Tweet</a></p>
   </article>

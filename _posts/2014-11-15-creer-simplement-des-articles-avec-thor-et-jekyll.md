@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Créer simplement des articles avec Thor et Jekyll"
+title: "Créer des articles avec Thor et Jekyll"
 categories:
   ruby
 ---

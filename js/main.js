@@ -8,6 +8,9 @@ $(document).ready(function () {
     var $container = $('.isotope').isotope({
       itemSelector: '.element-item',
       layoutMode: 'vertical',
+      vertical: {
+        horizontalAlignment: 0,
+      },
       filter: function() {
         var $this = $(this);
         var searchResult = qsRegex ? $this.text().match( qsRegex ) : true;
