@@ -6,9 +6,45 @@
 </description>
     <link>http://maximesahroui.be/</link>
     <atom:link href="http://maximesahroui.be/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Wed, 17 Dec 2014 21:42:55 +0100</pubDate>
-    <lastBuildDate>Wed, 17 Dec 2014 21:42:55 +0100</lastBuildDate>
+    <pubDate>Sat, 27 Dec 2014 16:54:02 +0100</pubDate>
+    <lastBuildDate>Sat, 27 Dec 2014 16:54:02 +0100</lastBuildDate>
     <generator>Jekyll v2.4.0</generator>
+    
+      <item>
+        <title>f.lux, pour le bien de vos yeux</title>
+        <description>&lt;p&gt;Avec l’hiver venu, et la nuit qui tombe à 16h30, la lumière des écrans picote les yeux. Les créateurs du petit logiciel &lt;a href=&quot;https://justgetflux.com/&quot; target=&quot;_blank&quot;&gt;f.lux&lt;/a&gt; ont pensé à vos globes oculaires et proposent un petit software qui va adoucir la lumière de votre moniteur au moment du coucher du soleil.&lt;/p&gt;
+
+&lt;p&gt;Ils proposent sur leur site web &lt;a href=&quot;https://justgetflux.com/research.html&quot; target=&quot;_blank&quot;&gt;une étude&lt;/a&gt; qui explique que la lumière bleue de l’écran trouble le sommeil. L’étude affirme même que deux heures de lecture sur une tablette ou un écran avant d’aller au lit peuvent retarder la prise de sommeil d’une heure.&lt;/p&gt;
+
+&lt;p&gt;C’est pourquoi, après avoir renseigné votre position sur la planète à f.lux, il se synchronisera avec l’heure du coucher de soleil local et jaunira plus ou moins légèrement (en fonction de vos préférences) la lumière de votre écran.&lt;/p&gt;
+
+&lt;p&gt;Pour les sérivores et autre designers, vous pouvez lui dire de se désactiver pendant une heure.&lt;/p&gt;
+
+&lt;p&gt;Testé et approuvé, et ce depuis plusieurs années ;)&lt;/p&gt;
+</description>
+        <pubDate>Sat, 27 Dec 2014 00:00:00 +0100</pubDate>
+        <link>http://maximesahroui.be/autre/2014/12/27/f-dot-lux-pour-le-bien-de-vos-yeux.html</link>
+        <guid isPermaLink="true">http://maximesahroui.be/autre/2014/12/27/f-dot-lux-pour-le-bien-de-vos-yeux.html</guid>
+        
+        
+        <category>autre</category>
+        
+      </item>
+    
+      <item>
+        <title>Joyeux Noël à vous, chers lecteurs !</title>
+        <description>&lt;p&gt;Je profite d’un rapide passage à mon domicile pour vous souhaitez un excellent réveillon de Noël.&lt;/p&gt;
+
+&lt;p&gt;Thanks you &amp;amp; Merry X-mass!&lt;/p&gt;
+</description>
+        <pubDate>Wed, 24 Dec 2014 00:00:00 +0100</pubDate>
+        <link>http://maximesahroui.be/autre/2014/12/24/joyeux-noel-a-vous-chers-lecteurs.html</link>
+        <guid isPermaLink="true">http://maximesahroui.be/autre/2014/12/24/joyeux-noel-a-vous-chers-lecteurs.html</guid>
+        
+        
+        <category>autre</category>
+        
+      </item>
     
       <item>
         <title>Lancement de ranqed pour le 1er janvier 2015</title>
