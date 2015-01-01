@@ -2,7 +2,7 @@
 layout: post
 title: "Installer Node.js sans les droits administrateur sous Ubuntu"
 categories:
- javascript
+  - javascript
 ---
 
 Nous allons installer [node.js](http://nodejs.org/) dans le dossier ~/.local à la place de /usr/local (qui requière les droits d'administration). Une version alternative consiste à utiliser [NVM](https://github.com/creationix/nvm) mais nous en discuterons une prochaine fois.

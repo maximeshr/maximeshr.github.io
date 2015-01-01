@@ -2,7 +2,7 @@
 layout: post
 title: "May the Freelance Spirit be with me"
 categories:
- freelance
+  - freelance
 ---
 
 Et oui, voilà, c'est fait ! Je suis maintenant en phase de passer indépendant #yay !

@@ -21,9 +21,9 @@ layout: default
   <h3>Découvrez mes derniers articles :</h3>
   <ul class="list-unstyled">
   {% for post in site.posts offset: 0 limit: 3  %}
-    <li class="element-item {{post.categories}}"
-        data-category="{{post.categories}}">
-      <span class="post-meta">{{ post.date | date: "%-d %b %Y" }}</span>
+    <li class="element-item {{post.categories | join: ' '}}"
+        data-category="{{post.categories | join: ' '}}">
+      <span class="post-meta">{{ post.date | date: "%d/%m/%Y" }}</span>
       <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
     </li>
   {% endfor  %}

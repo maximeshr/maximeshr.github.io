@@ -2,7 +2,7 @@
 layout: post
 title: "Lancement de ranqed pour le 1er janvier 2015"
 categories:
- freelance
+  - freelance
 ---
 
 Une petite news rapide - tant qu'il me reste un peu de temps se soir - pour vous annoncer le lancement officiel de mon entreprise unipersonnelle de services web : ranqed.

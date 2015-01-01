@@ -23,9 +23,9 @@ layout: default
 
   <ul class="posts list-unstyled isotope">
     {% for post in site.posts %}
-      <li class="element-item {{post.categories}}"
-          data-category="{{post.categories}}">
-        <span class="post-meta">{{ post.date | date: "%-d %b %Y" }}</span>
+      <li class="element-item {{post.categories | join: ' '}}"
+          data-category="{{post.categories | join: ' '}}">
+        <span class="post-meta">{{ post.date | date: "%d/%m/%Y" }}</span>
         <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
       </li>
     {% endfor %}

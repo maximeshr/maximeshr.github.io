@@ -2,7 +2,7 @@
 layout: post
 title: "Passage au Standing Desk"
 categories:
- autre
+  - autre
 ---
 
 Cela fait plusieurs mois que j'entends parler de "Standing Desk". J'ai donc voulu essayer d'améliorer mon bureau pour pouvoir travailler debout et assis lorsque l'envie se fait sentir.

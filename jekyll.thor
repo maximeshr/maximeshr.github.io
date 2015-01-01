@@ -17,7 +17,7 @@ class Jekyll < Thor
       post.puts "layout: post"
       post.puts "title: \"#{title.gsub(/&/,'&amp;')}\""
       post.puts "categories:"
-      post.puts " -"
+      post.puts "  -"
       post.puts "---"
     end
 

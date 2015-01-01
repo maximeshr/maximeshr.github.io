@@ -2,7 +2,7 @@
 layout: post
 title: "f.lux, pour le bien de vos yeux"
 categories:
- autre
+  - autre
 ---
 
 Avec l’hiver venu, et la nuit qui tombe à 16h30, la lumière des écrans picote les yeux. Les créateurs du petit logiciel [f.lux](https://justgetflux.com/){:target="_blank"} ont pensé à vos globes oculaires et proposent un petit software qui va adoucir la lumière de votre moniteur au moment du coucher du soleil.

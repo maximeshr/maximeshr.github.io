@@ -2,7 +2,7 @@
 layout: post
 title: "Lancement de mon carnet, youpi !"
 categories:
- autre
+  - autre
 ---
 Après quelques heures de lecture et un design digne d'un développeur, mon [blog](http://maximesahroui.be) ouvre enfin ses portes. #yay !
 

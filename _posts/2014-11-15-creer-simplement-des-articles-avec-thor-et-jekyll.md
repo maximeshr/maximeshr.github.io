@@ -2,7 +2,7 @@
 layout: post
 title: "Créer des articles avec Thor et Jekyll"
 categories:
-  ruby
+  - ruby
 ---
 
 Une simple astuce que j'utilise pour créer mes articles via la console (#ninjaDev).
@@ -41,7 +41,7 @@ class Jekyll < Thor
       post.puts "layout: post"
       post.puts "title: \"#{title.gsub(/&/,'&amp;')}\""
       post.puts "categories:"
-      post.puts " -"
+      post.puts "  -"
       post.puts "---"
     end
 
