@@ -8,15 +8,15 @@ permalink: /about/
   <div class="wrapper clearfix">
     <section class="page-content clearfix">
       <header class="section-header">
-        <h3 class="section-title">About Me</h3>
-        <span class="section-subtitle">In 304 characters</a></span>
+        <h3 class="section-title">À propos</h3>
+        <span class="section-subtitle">En {{ site.description | size }} caractères</a></span>
       </header>
-      <p>A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart. which was created for the bliss of souls like mine. I am so happy, my dear friend, so absorbed in the exquisite sense of mere tranquil existence, that I neglect my talents.</p>
+      <p>{{ site.description }}</p>
     </section>
     <section class="page-content clearfix">
       <header class="section-header">
-        <h3 class="section-title">My expertise</h3>
-        <span class="section-subtitle">Stuff that i can help with</a></span>
+        <h3 class="section-title">Mon expertise</h3>
+        <span class="section-subtitle">Un projet ? Je peux vous aider !</a></span>
       </header>
       <div class="one-half first">
         <h4>Agile Coffee Making</h4>
@@ -37,10 +37,10 @@ permalink: /about/
     </section>
     <section class="page-content clearfix">
       <header class="section-header">
-        <h3 class="section-title">My Work</h3>
-        <span class="section-subtitle">Things that i am proud with</a></span>
+        <h3 class="section-title">Mes travaux</h3>
+        <span class="section-subtitle">Plaisir et fièreté</a></span>
       </header>
-      <ul class="projects-list clearfix">
+      <!-- <ul class="projects-list clearfix">
         <li>
           <a href="#">
             <img src="http://demo.krownthemes.com/jackman/img/folio_3.jpg" alt="" />
@@ -96,7 +96,9 @@ permalink: /about/
             </div>
           </a>
         </li>
-      </ul>
+      </ul> -->
+      <p>Il n'y a actuellement aucun projet.<br>
+         N'hésitez pas à consulter mon <a href="https://www.github.com/{{ site.github_username }}">GitHub</a> pour plus d'informations.</p>
     </section>
   </div>
 </article>

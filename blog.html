@@ -8,19 +8,19 @@ permalink: /blog/
   <section class="main-content">
     <div class="wrapper">
       <header class="section-header">
-        <h4 class="section-title">Welcome to my blog</h4>
-        <span class="section-subtitle">Random thoughts about life &amp; web development</span>
+        <h4 class="section-title">Bienvenue sur mon carnet</h4>
+        <span class="section-subtitle">Ici, on parle de tout et de rien.</span>
       </header>
       <ul id="posts-list">
         {% for post in site.posts %}
-          <li class="clearfix {{post.categories | join: ' '}}"
-              data-category="{{post.categories | join: ' '}}">
-            <time datetime="{{ post.date }}" pubdate>{{ post.date | date: "%d %b %Y" }}</time>
-            <a href="{{ post.url | prepend: site.baseurl }}"><h3>{{ post.title }}</h3></a>
-          </li>
-        {% endfor %}
-      </ul>
-    </div>
-  </section>
+        <li class="clearfix {{post.categories | join: ' '}}"
+        data-category="{{post.categories | join: ' '}}">
+        <time datetime="{{ post.date }}" pubdate>{{ post.date | date: "%d %b %Y" }}</time>
+        <a href="{{ post.url | prepend: site.baseurl }}"><h3>{{ post.title }}</h3></a>
+      </li>
+      {% endfor %}
+    </ul>
+  </div>
+</section>
 </div>
 
