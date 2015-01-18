@@ -1,51 +1,15 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
   {% include head.html %}
 
   <body>
 
-    <div class="container-fluid">
-      <div class="row">
-        <div class="col-sm-12 col-md-2 col-md-offset-2 sidebar">
-          <div class="hello-world">
-            <a href="{{ '/' | prepend: site.baseurl }}"><img src="{{ "/img/me.png" | prepend: site.baseurl }}" alt="Maxime Sahroui" class="img-responsive circular resized centered"></a>
-            <h1>Bonjour, je m'appelle <a href="{{ '/' | prepend: site.baseurl }}">Maxime</a>.</h1>
-            <hr>
-            <p class="description">Bonjour, je m'appelle <strong>Maxime Sahroui</strong> et je suis un développeur web <strike>belge</strike> de 25 ans habitant la magnifique région couvinoise. Je crée des applications web de <strong>qualités</strong>. Plus d'informations ? (&darr;)</p>
-            <hr>
-            <div class="socials">
-              <ul class="list-inline text-center">
-                <li>
-                  <a target="_blank" href="https://twitter.com/maximeshr"><i class="fa fa-2x fa-twitter-square"></i></a>
-                </li>
-                <li>
-                  <a target="_blank" href="https://linkedin.com/in/maximeshr"><i class="fa fa-2x fa-linkedin-square"></i></a>
-                </li>
-                <li>
-                  <a target="_blank" href="{{ "/feed.xml" | prepend: site.baseurl }}"><i class="fa fa-2x fa-rss-square"></i></a>
-                </li>
-                <li>
-                  <a href="mailto:hello@maximesahroui.be"><i class="fa fa-2x fa-envelope-square"></i></a>
-                </li>
-              </ul>
-            </div>
-            <hr class="visible-sm visible-xs">
-          </div>
-        </div>
-        <div class="col-sm-12 col-md-8 main">
-          {{ content }}
-
-          {% include footer.html %}
-
-        </div>
-      </div>
-    </div>
+    {{ content }}
 
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
-    <script src="{{ "/js/bootstrap.min.js" | prepend: site.baseurl }}"></script>
     <script src="{{ "/js/isotope.min.js" | prepend: site.baseurl }}"></script>
     <script src="{{ "/js/main.js" | prepend: site.baseurl }}"></script>
 
@@ -59,8 +23,5 @@
       ga('send', 'pageview');
     </script>
 
-    <script>
-      !function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');
-    </script>
   </body>
 </html>

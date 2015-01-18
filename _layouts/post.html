@@ -1,31 +1,33 @@
 ---
 layout: default
 ---
-<div class="post">
 
-  <header class="post-header">
-    <h1 class="post-title">{{ page.title }}</h1>
-    <p class="post-meta">{{ page.date | date: "%b %-d, %Y" }} </p>
-  </header>
+<div class="page-wrap">
 
-  <article class="post-content">
-    {{ content }}
-    <p class="share"><a href="https://twitter.com/share" class="twitter-share-button" data-via="maximeshr">Tweet</a></p>
+  {% include header.html %}
+
+  <article class="main-content">
+    <div class="wrapper">
+      <header class="section-header">
+        <h1 class="section-title">{{ page.title }}</h1>
+        <span class="section-subtitle"><time datetime="{{ page.date }}" pubdate>{{ page.date | date: "%d %b %Y" }}</time> &mdash; <span class="tag_list_link">{{page.categories | join: ', '}}</span></span>
+      </header>
+      <section class="post-content">
+        {{ content }}
+        <div class="post-nav">
+          <span class="section-subtitle">Partager sur <a href="https://twitter.com/home?status={{ page.title }}+{{ page.url | prepend: site.url }}" target="_blank">Twitter</a>, <a href="https://www.facebook.com/share.php?u={{ page.url | prepend: site.url }}&amp;title={{ page.title }}" target="_blank">Facebook</a>, <a href="https://plus.google.com/share?url={{ page.url | prepend: site.url }}" target="_blank">Google+</a></span><br>
+
+          {% if page.previous.url %}
+            <a class="button prev" href="{{ page.previous.url }}">&laquo; {{ page.previous.title }}</a>
+          {% endif %}
+          {% if page.next.url %}
+            <a class="button next" href="{{ page.next.url }}">{{ page.next.title }} &raquo;</a>
+          {% endif %}
+
+        </div>
+      </section>
+    </div>
   </article>
-
-  <p class="back-link"><a href="{{ '/' | prepend: site.baseurl }}">Retour (&larr;)</a> <span class="pull-right"><a href="mailto:hello@maximesahroui.be">Une question ?</a></span></p>
-
 </div>
 
-<div class="lastest-posts">
-  <h3>Découvrez mes derniers articles :</h3>
-  <ul class="list-unstyled">
-  {% for post in site.posts offset: 0 limit: 3  %}
-    <li class="element-item {{post.categories | join: ' '}}"
-        data-category="{{post.categories | join: ' '}}">
-      <span class="post-meta">{{ post.date | date: "%d/%m/%Y" }}</span>
-      <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-    </li>
-  {% endfor  %}
-  </ul>
-</div>
+{% include footer.html %}

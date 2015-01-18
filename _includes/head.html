@@ -3,22 +3,16 @@
   <meta name="viewport" content="width=device-width initial-scale=1" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
-  <title>{% if page.title %}{{ site.title }} - {{ page.title }}{% else %}{{ site.title }} - Carnet sur la vie d'un jeune développeur{% endif %}</title>
+  <title>{% if page.title %}{{ site.title }} - {{ page.title }}{% else %}{{ site.title }} - {{ site.subtitle }}{% endif %}</title>
   <meta name="description" content="{{ site.description }}">
 
+
   <link rel="stylesheet" type='text/css'
-    href="{{ "/css/bootstrap.min.css" | prepend: site.baseurl }}">
-  <link rel="stylesheet" type='text/css'
-    href="{{ "/css/bootstrap-theme.min.css" | prepend: site.baseurl }}">
-  <link rel="stylesheet" type='text/css'
-    href="{{ "/css/font-awesome.min.css" | prepend: site.baseurl }}">
+    href="{{ "/css/style.css" | prepend: site.baseurl }}">
   <link rel="stylesheet" type='text/css'
     href="{{ "/css/code.min.css" | prepend: site.baseurl }}">
-  <link rel="stylesheet" type='text/css'
-    href="{{ "/css/main.css" | prepend: site.baseurl }}">
 
-  <link rel='stylesheet' type='text/css'
-    href='http://fonts.googleapis.com/css?family=Open+Sans:400,600,800'>
+  <link href='http://fonts.googleapis.com/css?family=Fenix|Montserrat|Playfair+Display:700italic,400italic' rel='stylesheet' type='text/css'>
 
   <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
 
