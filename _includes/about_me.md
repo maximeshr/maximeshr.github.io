@@ -1,4 +1,4 @@
-Titulaire d'un Bachelier en Informatique de Gestion, j'ai passé plus de deux années intensives a travailler au sein de diverses entreprises me permettant d'obtenir une expérience solide et concrète dans le milieu du développement d'applications web de qualités.
+Titulaire d'un Bachelier en Informatique de Gestion depuis 2013, j'ai passé plus de deux années intensives a travailler au sein de diverses entreprises me permettant d'obtenir une expérience solide et concrète dans le milieu du développement d'applications web de qualités.
 
 C'est avec ferveur et passion que j'ai amélioré mes compétences professionnelles et techniques dans le but d'obtenir l'expertise nécessaire à la création d'une activité freelance. C'est donc naturellement que [ranqed](http://ranqed.io){:target="_blank"} vit le jour, le 1er janvier 2015.
 
