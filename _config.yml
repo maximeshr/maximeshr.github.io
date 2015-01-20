@@ -4,6 +4,14 @@ subtitle: Chronique d'un développeur passionné
 email: hello@maximesahroui.be
 description: > # this means to ignore newlines until "baseurl:"
   Bonjour, je m'appelle Maxime Sahroui et je suis un développeur web belge de 25 ans. J'habite la magnifique région couvinoise et je crée des applications web de qualités pour mon entreprise : ranqed.
+about_me:
+  J'intègre rapidement et efficacement de nouvelles équipes de développeurs.
+  J'aime prendre des initiatives tant au niveau technique que développement.
+  J'aime également apprendre de nouvelles choses.
+  J'apprécie grandement le télétravail et je possède de très bonne compétences en communication.
+  J'ai également une préférence pour les méthodes agiles. Cependant, si vous n'aimez pas travailler avec des développeurs distants, je peux également me rendre sur place à l'aide de mon véhicule.
+  N'hésitez pas à me contacter pour de plus amples informations.
+PS: Je n'aime pas Java.
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://maximesahroui.be" # the base hostname & protocol for your site
 twitter_username: maximeshr
