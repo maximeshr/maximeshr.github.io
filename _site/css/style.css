@@ -274,7 +274,7 @@ h4 + p {
   height: 100%;
 }
 .vertical-container {
-  background: rgba(34, 34, 34, 0.6);
+  background: rgba(34, 34, 34, 0.3);
   position: relative;
   top: 0;
   left: 0;
