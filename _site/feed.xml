@@ -6,9 +6,128 @@
 </description>
     <link>http://maximesahroui.be/</link>
     <atom:link href="http://maximesahroui.be/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Sun, 25 Jan 2015 09:01:20 +0100</pubDate>
-    <lastBuildDate>Sun, 25 Jan 2015 09:01:20 +0100</lastBuildDate>
+    <pubDate>Thu, 29 Jan 2015 10:34:14 +0100</pubDate>
+    <lastBuildDate>Thu, 29 Jan 2015 10:34:14 +0100</lastBuildDate>
     <generator>Jekyll v2.4.0</generator>
+    
+      <item>
+        <title>Installer un stack Rails complet sous Linux</title>
+        <description>&lt;p&gt;Je croise de plus en plus d’utilisateurs sur internet qui n’arrivent pas à configurer correctement Ruby et Rails sur leurs machines virtuelles… Voici un petit guide rapide et sympathique que j’utilise pour travailler. Ce guide comprend l’installation de :&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Ruby (avec RVM ou RBENV)&lt;/li&gt;
+  &lt;li&gt;Git&lt;/li&gt;
+  &lt;li&gt;Rails&lt;/li&gt;
+  &lt;li&gt;MySQL&lt;/li&gt;
+  &lt;li&gt;PostgreSQL&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;installation-de-ruby&quot;&gt;Installation de Ruby&lt;/h2&gt;
+
+&lt;p&gt;Nous allons installer la dernière version stable de Ruby : &lt;strong&gt;2.2.0&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;La première étape consiste en l’installation des dépendances :&lt;/p&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;&lt;span class=&quot;nv&quot;&gt;$ &lt;/span&gt;sudo apt-get update
+&lt;span class=&quot;nv&quot;&gt;$ &lt;/span&gt;sudo apt-get install git-core curl zlib1g-dev build-essential libssl-dev libreadline-dev libyaml-dev libsqlite3-dev sqlite3 libxml2-dev libxslt1-dev libcurl4-openssl-dev python-software-properties&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;Maintenant deux choix s’offrent à vous : utiliser &lt;a href=&quot;https://rvm.io/&quot;&gt;RVM&lt;/a&gt; ou &lt;a href=&quot;http://rbenv.org/&quot;&gt;RBENV&lt;/a&gt; (voir compiler vous même les sources, c’est possible et fonctionnel). Pour ce qui est de mon choix personnel, je préfère utiliser RVM que je trouve plus simple d’utilisation surtout au niveau de la gestion des gemsets (principalement la syntaxe de création). Je vous conseil la lecture de ce &lt;a href=&quot;http://jonathan-jackson.net/rvm-and-rbenv&quot;&gt;post&lt;/a&gt; pour un avis plutôt objectif.&lt;/p&gt;
+
+&lt;p&gt;Attention, si comme moi, vous n’utiliser pas le bash (pour moi : &lt;a href=&quot;http://www.zsh.org/&quot;&gt;zsh&lt;/a&gt; avec &lt;a href=&quot;https://github.com/robbyrussell/oh-my-zsh&quot;&gt;oh-my-zsh&lt;/a&gt;), modifiez le fichier suivant &lt;strong&gt;.bashrc&lt;/strong&gt; par votre fichier de configuration !&lt;/p&gt;
+
+&lt;h4 id=&quot;installation-via-rvm&quot;&gt;Installation via RVM&lt;/h4&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;&lt;span class=&quot;nv&quot;&gt;$ &lt;/span&gt;sudo apt-get install libgdbm-dev libncurses5-dev automake libtool bison libffi-dev
+&lt;span class=&quot;nv&quot;&gt;$ &lt;/span&gt;curl -L https://get.rvm.io &lt;span class=&quot;p&quot;&gt;|&lt;/span&gt; bash -s stable
+&lt;span class=&quot;nv&quot;&gt;$ &lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;source&lt;/span&gt; ~/.rvm/scripts/rvm
+&lt;span class=&quot;nv&quot;&gt;$ &lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;echo&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&amp;quot;source ~/.rvm/scripts/rvm&amp;quot;&lt;/span&gt; &amp;gt;&amp;gt; ~/.bashrc
+&lt;span class=&quot;nv&quot;&gt;$ &lt;/span&gt;rvm install 2.2.0
+&lt;span class=&quot;nv&quot;&gt;$ &lt;/span&gt;rvm use 2.2.0 --default
+&lt;span class=&quot;nv&quot;&gt;$ &lt;/span&gt;ruby -v&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;h4 id=&quot;installation-via-rbenv&quot;&gt;Installation via RBENV&lt;/h4&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;&lt;span class=&quot;nv&quot;&gt;$ &lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;cd&lt;/span&gt;
+&lt;span class=&quot;nv&quot;&gt;$ &lt;/span&gt;git clone git://github.com/sstephenson/rbenv.git .rbenv
+&lt;span class=&quot;nv&quot;&gt;$ &lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;echo&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;&amp;#39;export PATH=&amp;quot;$HOME/.rbenv/bin:$PATH&amp;quot;&amp;#39;&lt;/span&gt; &amp;gt;&amp;gt; ~/.bashrc
+&lt;span class=&quot;nv&quot;&gt;$ &lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;echo&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;&amp;#39;eval &amp;quot;$(rbenv init -)&amp;quot;&amp;#39;&lt;/span&gt; &amp;gt;&amp;gt; ~/.bashrc
+&lt;span class=&quot;nv&quot;&gt;$ &lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;exec&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;$SHELL&lt;/span&gt;
+
+&lt;span class=&quot;nv&quot;&gt;$ &lt;/span&gt;git clone git://github.com/sstephenson/ruby-build.git ~/.rbenv/plugins/ruby-build
+&lt;span class=&quot;nv&quot;&gt;$ &lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;echo&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;&amp;#39;export PATH=&amp;quot;$HOME/.rbenv/plugins/ruby-build/bin:$PATH&amp;quot;&amp;#39;&lt;/span&gt; &amp;gt;&amp;gt; ~/.bashrc
+&lt;span class=&quot;nv&quot;&gt;$ &lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;exec&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;$SHELL&lt;/span&gt;
+
+&lt;span class=&quot;nv&quot;&gt;$ &lt;/span&gt;rbenv install 2.2.0
+&lt;span class=&quot;nv&quot;&gt;$ &lt;/span&gt;rbenv global 2.2.0
+&lt;span class=&quot;nv&quot;&gt;$ &lt;/span&gt;ruby -v&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;Dernière petite astuce concernant la non-installation de la documentation de vos packages localement (pour une installation plus rapide) :&lt;/p&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;&lt;span class=&quot;nv&quot;&gt;$ &lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;echo&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&amp;quot;gem: --no-ri --no-rdoc&amp;quot;&lt;/span&gt; &amp;gt; ~/.gemrc&lt;span class=&quot;sb&quot;&gt;`&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;Rien de bien complexe n’est-ce pas ? :D&lt;/p&gt;
+
+&lt;h2 id=&quot;configuration-de-git&quot;&gt;Configuration de Git&lt;/h2&gt;
+
+&lt;p&gt;Je ne vais pas vous expliquer ce qu’est git, certains &lt;a href=&quot;http://git-scm.com/&quot;&gt;sites&lt;/a&gt; le font mieux que moi. Pour les plus débutants, je conseil un petit tour du coté de &lt;a href=&quot;https://try.github.io/levels/1/challenges/1&quot;&gt;trygit&lt;/a&gt; pour se faire une idée de l’outil. Sachez qu’il s’agit, actuellement, du meilleur outil de versioning au monde. Et ceux qui me diront que SVN c’est de la bombe… et bah c’est faux !&lt;/p&gt;
+
+&lt;p&gt;Pour la configuration :&lt;/p&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;&lt;span class=&quot;nv&quot;&gt;$ &lt;/span&gt;git config --global color.ui &lt;span class=&quot;nb&quot;&gt;true&lt;/span&gt;
+&lt;span class=&quot;nv&quot;&gt;$ &lt;/span&gt;git config --global user.name &lt;span class=&quot;s2&quot;&gt;&amp;quot;VOTRE NOM&amp;quot;&lt;/span&gt;
+&lt;span class=&quot;nv&quot;&gt;$ &lt;/span&gt;git config --global user.email &lt;span class=&quot;s2&quot;&gt;&amp;quot;VOTRE@EMAIL.com&amp;quot;&lt;/span&gt;
+&lt;span class=&quot;nv&quot;&gt;$ &lt;/span&gt;ssh-keygen -t rsa -C &lt;span class=&quot;s2&quot;&gt;&amp;quot;VOTRE@EMAIL.com&amp;quot;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;La dernière ligne n’est utile que si vous souhaitez lier votre compte &lt;a href=&quot;https://github.com/&quot;&gt;GitHub&lt;/a&gt; pour éviter de vous authentifier à chaque fois. Je vous laisse lire la &lt;a href=&quot;https://help.github.com/articles/generating-ssh-keys/&quot;&gt;documentation&lt;/a&gt; à ce propos.&lt;/p&gt;
+
+&lt;h2 id=&quot;installation-de-rails&quot;&gt;Installation de Rails&lt;/h2&gt;
+
+&lt;p&gt;Premièrement, vous devez installer nodejs pour permettre à coffeescript de fonctionner correctement. Pour cela, je vous invite à consulter &lt;a href=&quot;http://maximesahroui.be/javascript/2014/11/18/installer-node-dot-js-sans-les-droits-administrateur-sous-ubuntu.html&quot;&gt;mon article&lt;/a&gt; sur ce sujet.&lt;/p&gt;
+
+&lt;p&gt;Pour la suite, rien de difficile :&lt;/p&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;&lt;span class=&quot;nv&quot;&gt;$ &lt;/span&gt;gem install rails
+&lt;span class=&quot;nv&quot;&gt;$ &lt;/span&gt;rails -v&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;Si vous utilisez RBENV, n’oubliez pas de faire un coup de &lt;code&gt;$ rbenv rehash&lt;/code&gt; après l’installation d’une gem !&lt;/p&gt;
+
+&lt;h2 id=&quot;installation-de-mysql&quot;&gt;Installation de MySQL&lt;/h2&gt;
+
+&lt;p&gt;Par défault, Rails utilise sqlite3, mais souvent, vous aurez besoin d’un DBMS moins versatile ! Pour cela, installez MySQL simplement :&lt;/p&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;&lt;span class=&quot;nv&quot;&gt;$ &lt;/span&gt;sudo apt-get install mysql-server mysql-client libmysqlclient-dev&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;Voilà pour la configuration du stack.&lt;/p&gt;
+
+&lt;h2 id=&quot;crer-une-application-rails&quot;&gt;Créer une application Rails&lt;/h2&gt;
+
+&lt;p&gt;Créons maintenant notre application Ruby on Rails :&lt;/p&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;&lt;span class=&quot;c&quot;&gt;# &amp;#39;rails new myapp&amp;#39; va créer une application avec sqlite3&lt;/span&gt;
+&lt;span class=&quot;c&quot;&gt;# ici nous souhaitons utiliser mysql&lt;/span&gt;
+rails new myapp -d mysql
+
+&lt;span class=&quot;c&quot;&gt;# changement de répertoire&lt;/span&gt;
+&lt;span class=&quot;nb&quot;&gt;cd &lt;/span&gt;myapp
+
+&lt;span class=&quot;c&quot;&gt;# modifiez le fichier config/database.yml avec&lt;/span&gt;
+&lt;span class=&quot;c&quot;&gt;# les informations de votre base de données avant&lt;/span&gt;
+&lt;span class=&quot;c&quot;&gt;# de lancer cette commande qui créera votre base de données&lt;/span&gt;
+rake db:create
+
+&lt;span class=&quot;c&quot;&gt;# lancez votre serveur sur localhost:3000 (par défaut)&lt;/span&gt;
+rails server&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;Votre application est disponible via l’url : &lt;a href=&quot;http://localhost:3000&quot;&gt;http://localhost:3000&lt;/a&gt;&lt;/p&gt;
+</description>
+        <pubDate>Thu, 29 Jan 2015 00:00:00 +0100</pubDate>
+        <link>http://maximesahroui.be/ruby/2015/01/29/installer-un-stack-rails-complet-sous-linux.html</link>
+        <guid isPermaLink="true">http://maximesahroui.be/ruby/2015/01/29/installer-un-stack-rails-complet-sous-linux.html</guid>
+        
+        
+        <category>ruby</category>
+        
+      </item>
     
       <item>
         <title>BetaGroup Event, où comment passer une bonne soirée</title>
@@ -334,29 +453,6 @@
         
         
         <category>ruby</category>
-        
-      </item>
-    
-      <item>
-        <title>Lancement de mon carnet, youpi !</title>
-        <description>&lt;p&gt;Après quelques heures de lecture et un design digne d’un développeur, mon &lt;a href=&quot;http://maximesahroui.be&quot;&gt;blog&lt;/a&gt; ouvre enfin ses portes. #yay !&lt;/p&gt;
-
-&lt;p&gt;L’objectif principal sera d’échanger avec la communauté (principalement francophone) par le biais d’articles courts et précis. Les thématiques abordées seront diverses et variées : du lancement de carrière aux tips and tricks de développeur.&lt;/p&gt;
-
-&lt;p&gt;Me concernant, je m’appelle Maxime, j’ai 25 ans, je suis belge (mais attention, il parait que c’est moyen de se présenter comme belge à la communauté francophone !) et développeur (oui, c’est pas toujours facile…). Je travaille principalement en JavaScript et en Ruby par le biais de méthodes agiles diverses : &lt;a href=&quot;http://fr.wikipedia.org/wiki/Technique_Pomodoro&quot; target=&quot;_blank&quot;&gt;Pomodoro&lt;/a&gt;, &lt;a href=&quot;http://fr.wikipedia.org/wiki/Kanban&quot; target=&quot;_blank&quot;&gt;Kanban&lt;/a&gt; et &lt;a href=&quot;http://fr.wikipedia.org/wiki/Scrum_(m%C3%A9thode)&quot; target=&quot;_blank&quot;&gt;SCRUM&lt;/a&gt;. J’aime le code propre, bien pensé et correctement testé !&lt;/p&gt;
-
-&lt;p&gt;Voilà, je pense que j’ai fait le tour pour ce premier article :D&lt;/p&gt;
-
-&lt;p&gt;À très vite !&lt;/p&gt;
-
-&lt;p&gt;PS: Le chien s’appelle &lt;strong&gt;Moshi&lt;/strong&gt; et non, ce n’est pas un caniche…&lt;/p&gt;
-</description>
-        <pubDate>Fri, 14 Nov 2014 00:00:00 +0100</pubDate>
-        <link>http://maximesahroui.be/autre/2014/11/14/lancement-de-mon-carnet-youpi.html</link>
-        <guid isPermaLink="true">http://maximesahroui.be/autre/2014/11/14/lancement-de-mon-carnet-youpi.html</guid>
-        
-        
-        <category>autre</category>
         
       </item>
     
