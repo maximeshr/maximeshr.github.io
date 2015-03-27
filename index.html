@@ -2,18 +2,44 @@
 layout: default
 ---
 
-<section class="main-header home">
-  <div class="vertical-container">
-    <div class="wrapper clearfix">
-      <header>
-        <h1 id="main-title">{{ site.title }}</h1>
-        <h2 id="main-subtitle">{{ site.subtitle }}</h2>
-      </header>
-      <nav id="main-nav" role="navigation">
-        <a href="{{ '/a-propos/' | prepend: site.baseurl }}" class="">À propos</a>
-        <a href="{{ '/mon-carnet/' | prepend: site.baseurl }}" class="">Mon Carnet</a>
-        <a href="mailto:me@maximesahroui.be">Me Contacter</a>
-      </nav>
+<div class="home">
+
+  <h1 class="page-heading">Hi, I'm Maxime<br />
+  A freelance JavaScript developer based in Belgium</h1>
+
+  <p>Email me <a href="mailto:me@maximesahroui.be">me@maximesahroui.be</a><br />
+  Tweet me <a href="https://twitter.com/maximeshr" target="_blank">twitter.com/maximeshr</a><br />
+  Find out more <a href="https://github.com/maximeshr" target="_blank">github.com/maximeshr</a><br />
+  I play well with others <a href="http://befreelance.be" target="_blank">www.befreelance.be</a></p>
+
+  <p>I specialise in JavaScript application, startup project, growth hacking and creative coding.</p>
+
+  <p>I have experience with contemporary frontend technologies such as AngularJS, Browserify and Bash/NPM/Gulp/Grunt for project automation. Also experienced with Node.js-based web apps, REST API development and MVPs creation with Meteor.</p>
+
+  <p>I have Agile experience and I'm comfortable working in teams of all sizes at all stages of the project lifecycle from planning through to delivery.</p>
+
+  <div class="col-wrapper">
+    <div class="col col-6">
+      <h2>Mon carnet (in <b>French</b>)</h2>
+      <ul class="list-unstyled">
+      {% for post in site.posts limit:3 %}
+        <li>
+          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>&nbsp;&mdash; <span class="post-meta">{{ post.date | date: "%B %Y" }}</span>
+        </li>
+      {% endfor %}
+      </ul>
+      <p class="text"><a href="{{ '/archives/' | prepend: site.baseurl }}">Plus d'articles...</a></p>
+    </div>
+    <div class="col col-6">
+      <h2>About me</h2>
+      <p class="text">I'm a 25 year old web developer living in Belgium (near Couvin). I create web applications for my company: <a href="http://ranqed.io" target="_blank">ranqed</a>. I like blogging, sushi, beer, kendo and doing crafting good stuff.</p>
+      {% if site.available %}
+        <p class="text">I'm currently <span class="label label-available">available</span> for any kind of project.</p>
+      {% else %}
+        <p class="text">I'm <span class="label label-unavailable">not available</span> for other projects.</p>
+      {% endif %}
     </div>
   </div>
-</section>
+
+
+</div>

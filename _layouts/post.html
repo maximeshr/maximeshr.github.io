@@ -1,34 +1,29 @@
 ---
 layout: default
 ---
+<div class="post">
 
-<div class="page-wrap">
-
-  {% include header.html %}
-
-  <article class="main-content">
-    <div class="wrapper">
-      <header class="section-header">
-        <h1 class="section-title">{{ page.title }}</h1>
-        <span class="section-subtitle"><time datetime="{{ page.date }}" pubdate>{{ page.date | date: "%d %b %Y" }}</time> &mdash; <span class="tag_list_link">{{page.categories | join: ', '}}</span></span>
-      </header>
-      <section class="post-content">
-        {{ content }}
-        <div class="post-nav">
-          <span class="section-subtitle">Partager sur <a href="https://twitter.com/home?status={{ page.title }}+{{ page.url | prepend: site.url }}" target="_blank">Twitter</a>, <a href="https://www.facebook.com/share.php?u={{ page.url | prepend: site.url }}&amp;title={{ page.title }}" target="_blank">Facebook</a>, <a href="https://plus.google.com/share?url={{ page.url | prepend: site.url }}" target="_blank">Google+</a></span><br>
-
-          {% if page.previous.url %}
-            <a class="button prev" href="{{ page.previous.url }}">&larr; Précédent</a>
-          {% endif %}
-          <a class="button top" href="{{ "/mon-carnet/" | prepend: site.baseurl }}">Mon carnet</a>
-          {% if page.next.url %}
-            <a class="button next" href="{{ page.next.url }}">Suivant &rarr;</a>
-          {% endif %}
-
-        </div>
-      </section>
+  <header class="post-header">
+    <h1 class="post-title">
+      <a href="{{ site.baseurl }}/">Accueil</a> / {{ page.title }}
+    </h1>
+    <div class="col-wrapper">
+      <div class="col col-6">
+        <span class="inverse">Date:</span> {{ page.date | date: "%b %-d, %Y" }}
+      </div>
+      <div class="col col-6">
+        <span class="inverse">Tags:</span> {{ page.categories | join: ', ' }}
+      </div>
     </div>
-  </article>
-</div>
+  </header>
 
-{% include footer.html %}
+  <article class="post-content">
+    {{ content }}
+  </article>
+
+  <div class="share text-right">
+    <a href="https://twitter.com/share" class="twitter-share-button" data-via="maximeshr">Tweet</a>
+    <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+  </div>
+
+</div>

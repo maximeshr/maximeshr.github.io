@@ -1,16 +1,10 @@
 # Site settings
-title: Maxime Sahroui
-author: Maxime Sahroui
-keywords: Web development, JavaScript, Freelance, Belgique, Couvin
-subtitle: Chronique d'un développeur passionné
-email: hello@maximesahroui.be
+title: Maxime Sahroui - Freelance JavaScript Developer
 description: > # this means to ignore newlines until "baseurl:"
-  Bonjour, je m'appelle Maxime Sahroui et je suis un développeur web belge de 25 ans. J'habite la magnifique région couvinoise et je crée des applications web pour mon entreprise : ranqed.
+  I'm a freelance JavaScript developer from Belgium. I like : JavaScript, Node.js, AngularJS, Meteor, startup world, growth hacking and agile methodologies.
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://maximesahroui.be" # the base hostname & protocol for your site
-twitter_username: maximeshr
-github_username:  maximeshr
-linkedin_username:  maximeshr
+available: true
 
 # Build settings
 markdown: kramdown
