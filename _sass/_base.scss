@@ -69,6 +69,10 @@ ul, ol {
     margin-left: $spacing-unit;
 }
 
+ul {
+  list-style: square;
+}
+
 li {
     > ul,
     > ol {
@@ -97,14 +101,14 @@ h1, h2, h3, h4, h5, h6 {
  * Links
  */
 a {
-    font-weight: 500;
+    font-weight: 800;
     color: $brand-color;
     text-decoration: none;
 
     &:hover,
     &:focus {
         color: $brand-color-dark;
-        border-bottom: 1px solid $brand-color-dark;
+        border-bottom: 2px solid $brand-color-dark;
     }
 }
 
@@ -216,3 +220,5 @@ pre {
  .text-center  { text-align: center;  }
  .text-left    { text-align: left;    }
  .text-justify { text-align: justify; }
+
+ .text-underline { border-bottom: 1px solid $text-color; }

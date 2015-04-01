@@ -52,6 +52,9 @@ figcaption {
 ul, ol {
   margin-left: 30px; }
 
+ul {
+  list-style: square; }
+
 li > ul,
 li > ol {
   margin-bottom: 0; }
@@ -73,12 +76,12 @@ h1, h2, h3, h4, h5, h6 {
  * Links
  */
 a {
-  font-weight: 500;
-  color: #1ab4e2;
+  font-weight: 800;
+  color: #FF4987;
   text-decoration: none; }
   a:hover, a:focus {
-    color: #0d5970;
-    border-bottom: 1px solid #0d5970; }
+    color: #c90044;
+    border-bottom: 2px solid #c90044; }
 
 /**
  * Blockquotes
@@ -164,6 +167,9 @@ pre {
 
 .text-justify {
   text-align: justify; }
+
+.text-underline {
+  border-bottom: 1px solid #D2D2D2; }
 
 .site-header {
   margin: 2em 0 1em;
