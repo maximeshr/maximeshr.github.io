@@ -17,10 +17,12 @@ body {
     font-family: $base-font-family;
     font-size: $base-font-size;
     line-height: $base-line-height;
-    font-weight: 300;
+    font-weight: 400;
     color: $text-color;
     background-color: $background-color;
+    background-image: url('/img/space.png');
     -webkit-text-size-adjust: 100%;
+    text-shadow: 1px 1px 0 rgba(0,0,0,0.3);
 }
 
 
@@ -86,6 +88,7 @@ strong, b {
  */
 h1, h2, h3, h4, h5, h6 {
     font-weight: 500;
+    color: $text-color-alternative;
 }
 
 
@@ -205,3 +208,11 @@ pre {
         }
     }
 }
+
+/**
+ * Helpers
+ */
+ .text-right   { text-align: right;   }
+ .text-center  { text-align: center;  }
+ .text-left    { text-align: left;    }
+ .text-justify { text-align: justify; }

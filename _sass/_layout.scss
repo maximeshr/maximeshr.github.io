@@ -1,4 +1,23 @@
-.page-heading,
+.site-header {
+  margin: 2em 0 1em;
+  font-size: 1em;
+}
+
+.site-header .page-heading {
+  font-size: 1em;
+  margin-top: 1.25em;
+}
+
+.site-header .picture {
+  width: 100px;
+  border-radius: 100px;
+}
+
+.page-content {
+  background: rgba(0,0,0,0.5);
+  padding: 2em 0;
+}
+
 .post-title {
   margin: 2em 0;
   font-size: 1em;
@@ -10,8 +29,13 @@
 
 h2 {
   font-size: 1em;
-  font-weight: 500;
+  font-weight: 800;
   margin: 1em 0;
+
+  &::before {
+    content: '# ';
+    margin-left: -21px;
+  }
 }
 
 .list-unstyled {
@@ -27,7 +51,7 @@ h2 {
 .site-footer {
   margin: 2em 0;
   text-align: center;
-  color: $grey-color;
+  color: $text-color-alternative;
 }
 
 .label {
@@ -40,7 +64,6 @@ h2 {
   text-align: center;
   white-space: nowrap;
   vertical-align: baseline;
-  border-radius: .25em;
 }
 
 .label-available {
@@ -66,16 +89,49 @@ h2 {
     padding-left: $spacing-unit / 2;
 }
 
+.col-3 {
+    width: -webkit-calc(25% - (#{$spacing-unit} / 2));
+    width:         calc(25% - (#{$spacing-unit} / 2));
+}
+
 .col-6 {
     width: -webkit-calc(50% - (#{$spacing-unit} / 2));
     width:         calc(50% - (#{$spacing-unit} / 2));
 }
 
+.col-9 {
+    width: -webkit-calc(75% - (#{$spacing-unit} / 2));
+    width:         calc(75% - (#{$spacing-unit} / 2));
+}
+
+.col-12 {
+    width: -webkit-calc(100% - (#{$spacing-unit} / 2));
+    width:         calc(100% - (#{$spacing-unit} / 2));
+}
+
+
 @include media-query($on-laptop) {
 
-    .col-6 {
+    .col-3 {
         width: -webkit-calc(100% - (#{$spacing-unit} / 2));
         width:         calc(100% - (#{$spacing-unit} / 2));
+    }
+
+    .col-10 {
+        width: -webkit-calc(100% - (#{$spacing-unit} / 2));
+        width:         calc(100% - (#{$spacing-unit} / 2));
+    }
+
+    .col-9 {
+        width: -webkit-calc(100% - (#{$spacing-unit} / 2));
+        width:         calc(100% - (#{$spacing-unit} / 2));
+    }
+
+    h2 {
+      &::before {
+        content: none;
+        margin-left: 0px;
+      }
     }
 }
 
@@ -84,5 +140,12 @@ h2 {
         float: none;
         width: -webkit-calc(100% - (#{$spacing-unit} / 2));
         width:         calc(100% - (#{$spacing-unit} / 2));
+    }
+
+    h2 {
+      &::before {
+        content: none;
+        margin-left: 0px;
+      }
     }
 }
