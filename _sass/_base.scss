@@ -216,9 +216,10 @@ pre {
 /**
  * Helpers
  */
- .text-right   { text-align: right;   }
- .text-center  { text-align: center;  }
- .text-left    { text-align: left;    }
- .text-justify { text-align: justify; }
-
+ .text-right     { text-align: right;   }
+ .text-center    { text-align: center;  }
+ .text-left      { text-align: left;    }
+ .text-justify   { text-align: justify; }
+ .text-inverse   { color: $text-color-alternative; }
+ .text-important { font-weight: 800; }
  .text-underline { border-bottom: 1px solid $text-color; }

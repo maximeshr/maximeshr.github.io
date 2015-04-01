@@ -21,6 +21,12 @@
 .post-title {
   margin: 2em 0;
   font-size: 1em;
+  font-weight: 800;
+
+  &::before {
+    content: '# ';
+    margin-left: -21px;
+  }
 }
 
 .share {
@@ -127,7 +133,8 @@ h2 {
         width:         calc(100% - (#{$spacing-unit} / 2));
     }
 
-    h2 {
+    h2,
+    .post-title {
       &::before {
         content: none;
         margin-left: 0px;
@@ -142,7 +149,8 @@ h2 {
         width:         calc(100% - (#{$spacing-unit} / 2));
     }
 
-    h2 {
+    h2,
+    .post-title {
       &::before {
         content: none;
         margin-left: 0px;
