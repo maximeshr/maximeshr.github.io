@@ -184,6 +184,9 @@ pre {
 .text-underline {
   border-bottom: 1px solid #D2D2D2; }
 
+.text-line-through {
+  text-decoration: line-through; }
+
 .site-header {
   margin: 2em 0 1em;
   font-size: 1em; }
