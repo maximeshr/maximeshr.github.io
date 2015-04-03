@@ -70,7 +70,7 @@
 
 <span class="k">class</span> <span class="nc">Jekyll</span> <span class="o">&lt;</span> <span class="no">Thor</span>
   <span class="n">desc</span> <span class="s2">&quot;new&quot;</span><span class="p">,</span> <span class="s2">&quot;create a new post&quot;</span>
-  <span class="n">method_option</span> <span class="ss">:editor</span><span class="p">,</span> <span class="ss">:default</span> <span class="o">=&gt;</span> <span class="s2">&quot;subl&quot;</span> <span class="sr">//</span> <span class="no">HERE</span> <span class="n">text</span> <span class="n">editor</span>
+  <span class="n">method_option</span> <span class="ss">:editor</span><span class="p">,</span> <span class="ss">:default</span> <span class="o">=&gt;</span> <span class="s2">&quot;subl&quot;</span> <span class="c1"># HERE text editor</span>
   <span class="k">def</span> <span class="nf">new</span><span class="p">(</span><span class="o">*</span><span class="n">title</span><span class="p">)</span>
     <span class="n">title</span> <span class="o">=</span> <span class="n">title</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="s2">&quot; &quot;</span><span class="p">)</span>
     <span class="n">date</span> <span class="o">=</span> <span class="no">Time</span><span class="o">.</span><span class="n">now</span><span class="o">.</span><span class="n">strftime</span><span class="p">(</span><span class="s1">&#39;%Y-%m-%d&#39;</span><span class="p">)</span>
