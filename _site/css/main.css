@@ -202,6 +202,8 @@ pre {
 .page-content {
   background: rgba(0, 0, 0, 0.7);
   padding: 2em 0; }
+  .page-content p {
+    text-align: justify; }
 
 .post-title {
   margin: 2em 0;

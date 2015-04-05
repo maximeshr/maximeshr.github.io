@@ -6,9 +6,44 @@
 </description>
     <link>http://maximesahroui.be/</link>
     <atom:link href="http://maximesahroui.be/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Fri, 03 Apr 2015 13:49:18 +0200</pubDate>
-    <lastBuildDate>Fri, 03 Apr 2015 13:49:18 +0200</lastBuildDate>
+    <pubDate>Sun, 05 Apr 2015 21:26:30 +0200</pubDate>
+    <lastBuildDate>Sun, 05 Apr 2015 21:26:30 +0200</lastBuildDate>
     <generator>Jekyll v2.5.3</generator>
+    
+      <item>
+        <title>Challenge your limits</title>
+        <description>&lt;p&gt;Un petit article rapide sur les prochains événéments à suivre concernant ma super stratégie de marketing ! Bah oui, car sans marketing -&amp;gt; pas de clients -&amp;gt; pas de missions -&amp;gt; pas de cashflow -&amp;gt; fin de l’aventure, retour à la vie au bureau… Pas cool comme perspective !&lt;/p&gt;
+
+&lt;p&gt;Bon la première chose est de gagner &lt;strong&gt;en visibilité&lt;/strong&gt;, c’est à dire avoir plus de visites sur mon blog et/ou sur le site de mon entreprise (say hi @ &lt;a href=&quot;http://ranqed.io&quot; target=&quot;_blank&quot;&gt;ranqed.io&lt;/a&gt;). Pour cela, je dois attirer mes &lt;strong&gt;prospects&lt;/strong&gt; par des articles intéressants traitants de sujets &lt;strong&gt;actuels&lt;/strong&gt; et &lt;strong&gt;intéressants&lt;/strong&gt;. Pour cela je vous propose les thématiques suivantes :&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Meteor.js ;&lt;/li&gt;
+  &lt;li&gt;Pomodoro &amp;amp; Kanban ;&lt;/li&gt;
+  &lt;li&gt;La vie d’un jeune freelance ;&lt;/li&gt;
+  &lt;li&gt;Growth Hacking ;&lt;/li&gt;
+  &lt;li&gt;Mes aventures au NEST’up (incubateur de startups).&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Je crois sincèrement que ces thématiques peuvent vous intéresser, car moi c’est le cas et j’aimerai vraiment &lt;strong&gt;partager tout ça avec vous !&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Je vais également réfléchir à l’ajout d’un module de commentaires, ce qui pourrait faciliter les échanges, même si vous avez toujours la possibilité m’envoyer un email @ &lt;a href=&quot;&amp;#109;&amp;#097;&amp;#105;&amp;#108;&amp;#116;&amp;#111;:&amp;#109;&amp;#101;&amp;#064;&amp;#109;&amp;#097;&amp;#120;&amp;#105;&amp;#109;&amp;#101;&amp;#115;&amp;#097;&amp;#104;&amp;#114;&amp;#111;&amp;#117;&amp;#105;&amp;#046;&amp;#098;&amp;#101;&quot;&gt;&amp;#109;&amp;#101;&amp;#064;&amp;#109;&amp;#097;&amp;#120;&amp;#105;&amp;#109;&amp;#101;&amp;#115;&amp;#097;&amp;#104;&amp;#114;&amp;#111;&amp;#117;&amp;#105;&amp;#046;&amp;#098;&amp;#101;&lt;/a&gt; ! (PS: J’aime les feedbacks &lt;s&gt;constructifs&lt;/s&gt; :D)&lt;/p&gt;
+
+&lt;p&gt;Voilà c’est tout pour aujourd’hui, à très vite !&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/img/challenge-your-limits/challenge.jpg&quot; alt=&quot;Challenge your limits&quot; /&gt;&lt;/p&gt;
+</description>
+        <pubDate>Sun, 05 Apr 2015 00:00:00 +0200</pubDate>
+        <link>http://maximesahroui.be/freelance/r%C3%A9flexion/objectifs/2015/04/05/challenge-your-limits.html</link>
+        <guid isPermaLink="true">http://maximesahroui.be/freelance/r%C3%A9flexion/objectifs/2015/04/05/challenge-your-limits.html</guid>
+        
+        
+        <category>freelance</category>
+        
+        <category>réflexion</category>
+        
+        <category>objectifs</category>
+        
+      </item>
     
       <item>
         <title>Mes aventures au NEST #1</title>
@@ -386,49 +421,6 @@ rails server&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
         
         
         <category>freelance</category>
-        
-      </item>
-    
-      <item>
-        <title>Installer Node.js sans les droits administrateur sous Ubuntu</title>
-        <description>&lt;p&gt;Nous allons installer &lt;a href=&quot;http://nodejs.org/&quot;&gt;node.js&lt;/a&gt; dans le dossier ~/.local à la place de /usr/local (qui requière les droits d’administration). Une version alternative consiste à utiliser &lt;a href=&quot;https://github.com/creationix/nvm&quot;&gt;NVM&lt;/a&gt; mais nous en discuterons une prochaine fois.&lt;/p&gt;
-
-&lt;p&gt;Ajouter à votre fichier ~/.npmrc (si il n’existe pas créez-le)&lt;/p&gt;
-
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;&lt;span class=&quot;nv&quot;&gt;root&lt;/span&gt;    &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; /home/YOUR-USERNAME/.local/lib/node_modules
-&lt;span class=&quot;nv&quot;&gt;binroot&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; /home/YOUR-USERNAME/.local/bin
-&lt;span class=&quot;nv&quot;&gt;manroot&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; /home/YOUR-USERNAME/.local/share/man&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-
-&lt;p&gt;Télécharger le code source de node et installer le dans votre fichier &lt;strong&gt;.local&lt;/strong&gt;. Attention, il est possible que certaines dépendances soit requises pour une installation propre via make (comme gcc). De plus amples informations sont disponibles &lt;a href=&quot;https://help.ubuntu.com/community/CompilingEasyHowTo&quot;&gt;ici&lt;/a&gt;&lt;/p&gt;
-
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;&lt;span class=&quot;nv&quot;&gt;$ &lt;/span&gt;wget http://nodejs.org/dist/v0.10.33/node-v0.10.33-linux-x64.tar.gz
-&lt;span class=&quot;nv&quot;&gt;$ &lt;/span&gt;tar xf node-v0.10.33-linux-x64.tar.gz
-&lt;span class=&quot;nv&quot;&gt;$ &lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;cd &lt;/span&gt;node-v0.10.33-linux-x64
-&lt;span class=&quot;nv&quot;&gt;$ &lt;/span&gt;./configure --prefix&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;~/.local
-&lt;span class=&quot;nv&quot;&gt;$ &lt;/span&gt;make
-&lt;span class=&quot;nv&quot;&gt;$ &lt;/span&gt;make install&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-
-&lt;p&gt;Créer maintenant un lien symbolique vers ~/.node_modules&lt;/p&gt;
-
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;&lt;span class=&quot;nv&quot;&gt;$ &lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;cd&lt;/span&gt; ~
-&lt;span class=&quot;nv&quot;&gt;$ &lt;/span&gt;ln -s .local/lib/node_modules .node_modules&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-
-&lt;p&gt;Il ne reste plus qu’à ajouter ~/.local/bin à votre &lt;code&gt;$PATH&lt;/code&gt; (via ~/.bashrc ou ~/.zshrc)&lt;/p&gt;
-
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;&lt;span class=&quot;nb&quot;&gt;export &lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;PATH&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;$HOME&lt;/span&gt;/.local/bin:&lt;span class=&quot;nv&quot;&gt;$PATH&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-
-&lt;p&gt;Voilà node et npm sont installés et opérationnels&lt;/p&gt;
-
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;&lt;span class=&quot;nv&quot;&gt;$ &lt;/span&gt;which npm
-/home/dev/.local/bin/npm&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-
-</description>
-        <pubDate>Tue, 18 Nov 2014 00:00:00 +0100</pubDate>
-        <link>http://maximesahroui.be/javascript/2014/11/18/installer-node-dot-js-sans-les-droits-administrateur-sous-ubuntu.html</link>
-        <guid isPermaLink="true">http://maximesahroui.be/javascript/2014/11/18/installer-node-dot-js-sans-les-droits-administrateur-sous-ubuntu.html</guid>
-        
-        
-        <category>javascript</category>
         
       </item>
     
