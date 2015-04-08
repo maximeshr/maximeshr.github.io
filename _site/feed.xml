@@ -6,9 +6,48 @@
 </description>
     <link>http://maximesahroui.be/</link>
     <atom:link href="http://maximesahroui.be/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sun, 05 Apr 2015 21:27:25 +0200</pubDate>
-    <lastBuildDate>Sun, 05 Apr 2015 21:27:25 +0200</lastBuildDate>
+    <pubDate>Wed, 08 Apr 2015 09:26:41 +0200</pubDate>
+    <lastBuildDate>Wed, 08 Apr 2015 09:26:41 +0200</lastBuildDate>
     <generator>Jekyll v2.5.3</generator>
+    
+      <item>
+        <title>Mes aventures au NEST #2</title>
+        <description>&lt;p&gt;Cette deuxième journée au NEST s’est bien déroulée. J’ai pu découvrir le quatrième et dernier membre de l’équipe de développement : &lt;a href=&quot;http://valentin.escoyez.be/&quot;&gt;Valentin&lt;/a&gt;. Je pense sincèrement que l’on peut faire du bon boulot ensemble, en tout cas c’est ce que l’on attend de nous !&lt;/p&gt;
+
+&lt;p&gt;Le début de la journée était consacré à la conception d’un bon MVP dans le cadre du lean development :&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/img/nest-up-adventures/mvp-map.png&quot; alt=&quot;mvp map&quot; class=&quot;img-responsive&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Tous les MVP ne servent pas à valider la même chose, ce sont des outils que l’on va utiliser dans des situations bien particulières. Les encadrés de couleur signifient donc si le MVP sert à valider une hypothèse problème alias un besoin, un concept ou une mécanique de fonctionnement, une proposition de valeur unique, ou tester cette valeur délivrée au client.&lt;/p&gt;
+
+&lt;p&gt;Le lean development, c’est avant tout de la priorisation d’hypothèses, avant d’être de la validation. C’est pourquoi on va chercher à valider un problème client avant de s’intéresser à une solution. Les MVP sont donc plus ou moins foncés selon leur priorité d’intervention dans votre projet.&lt;/p&gt;
+
+&lt;p&gt;Il existe encore d’autres types de MVP tels que :&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Le &lt;strong&gt;Sondage&lt;/strong&gt; : permet de valider un problème de manière quantitative ;&lt;/li&gt;
+  &lt;li&gt;Le &lt;strong&gt;Crowdfunding&lt;/strong&gt; : permet de vérifier si les gens sont prêts à payer pour votre concept/produit ;&lt;/li&gt;
+  &lt;li&gt;Le &lt;strong&gt;Magicien d’Oz&lt;/strong&gt; : c’est un concierge, où le client ne vous voit pas ;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Si vous souhaitez plus d’informations la dessus, je vous renvois &lt;a href=&quot;https://stefanroock.wordpress.com/2012/08/05/lean-startup-a-classification-of-mvps/&quot;&gt;ici&lt;/a&gt; et &lt;a href=&quot;http://www.sebastiensacard.fr/articles/2012/les-differents-types-de-mvp/&quot;&gt;là&lt;/a&gt; dans un premier temps.&lt;/p&gt;
+
+&lt;p&gt;Pour le reste de la journée, nous nous sommes pencher sur le partage de connaissances : &lt;a href=&quot;https://www.nativescript.org/&quot;&gt;Nativescript&lt;/a&gt;, &lt;a href=&quot;http://ionicframework.com/&quot;&gt;Ionic&lt;/a&gt;, &lt;a href=&quot;https://www.meteor.com/&quot;&gt;Meteor&lt;/a&gt; et &lt;a href=&quot;http://www.meteorkitchen.com/&quot;&gt;Meteor Kitchen&lt;/a&gt;. Beaucoup de partages et de choses intéressantes en somme. J’ai hâte de débuter le développement ;)&lt;/p&gt;
+
+&lt;p&gt;À demain pour la troisième journée !&lt;/p&gt;
+</description>
+        <pubDate>Wed, 08 Apr 2015 00:00:00 +0200</pubDate>
+        <link>http://maximesahroui.be/freelance/nest'up/mvp/2015/04/08/mes-aventures-au-nest-number-2.html</link>
+        <guid isPermaLink="true">http://maximesahroui.be/freelance/nest'up/mvp/2015/04/08/mes-aventures-au-nest-number-2.html</guid>
+        
+        
+        <category>freelance</category>
+        
+        <category>nest&#39;up</category>
+        
+        <category>mvp</category>
+        
+      </item>
     
       <item>
         <title>Challenge your limits</title>
@@ -385,39 +424,6 @@ rails server&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
         <pubDate>Wed, 17 Dec 2014 00:00:00 +0100</pubDate>
         <link>http://maximesahroui.be/freelance/2014/12/17/lancement-de-ranqed-pour-le-1er-janvier-2015.html</link>
         <guid isPermaLink="true">http://maximesahroui.be/freelance/2014/12/17/lancement-de-ranqed-pour-le-1er-janvier-2015.html</guid>
-        
-        
-        <category>freelance</category>
-        
-      </item>
-    
-      <item>
-        <title>May the Freelance Spirit be with me</title>
-        <description>&lt;p&gt;Et oui, voilà, c’est fait ! Je suis maintenant en phase de passer indépendant #yay !&lt;/p&gt;
-
-&lt;p&gt;La chose la plus difficile a certainement été de présenter ma démission à mon patron, mais c’est fait et, bon dieu, qu’est ce qu’on se sent léger après ça !&lt;/p&gt;
-
-&lt;p&gt;Bon j’ai très vite été ratrappé par la paperasse : inscriptions, achats, rendez-vous divers et pas que le comptable… Mais pour le moment ça se passe plutôt bien ;)&lt;/p&gt;
-
-&lt;p&gt;Pour reprendre un excellent article de &lt;a href=&quot;http://www.miximum.fr/freelance-deux-ans-plus-tard%E2%80%A6.html&quot;&gt;Thibault Jouannic&lt;/a&gt;, voici les différentes étapes clés pour se lancer correctement en tant qu’indépendant :&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Mettre du pognon de côté, histoire de voir venir ;&lt;/li&gt;
-  &lt;li&gt;Trouver un client ;&lt;/li&gt;
-  &lt;li&gt;Prendre son courage à deux mains ;&lt;/li&gt;
-  &lt;li&gt;Démissionner ;&lt;/li&gt;
-  &lt;li&gt;Taffer ;&lt;/li&gt;
-  &lt;li&gt;Facturer ;&lt;/li&gt;
-  &lt;li&gt;Recommencer ;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;La prochaine étape sera certainement ma première facturation ainsi que la prospection, mais j’ai confiance en mes capacités.&lt;/p&gt;
-
-&lt;p&gt;À moi le monde des grands !&lt;/p&gt;
-</description>
-        <pubDate>Fri, 28 Nov 2014 00:00:00 +0100</pubDate>
-        <link>http://maximesahroui.be/freelance/2014/11/28/may-the-freelance-spirit-be-with-me.html</link>
-        <guid isPermaLink="true">http://maximesahroui.be/freelance/2014/11/28/may-the-freelance-spirit-be-with-me.html</guid>
         
         
         <category>freelance</category>
