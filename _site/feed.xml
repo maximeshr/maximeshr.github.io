@@ -6,9 +6,99 @@
 </description>
     <link>http://maximesahroui.be/</link>
     <atom:link href="http://maximesahroui.be/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Fri, 10 Apr 2015 23:10:38 +0200</pubDate>
-    <lastBuildDate>Fri, 10 Apr 2015 23:10:38 +0200</lastBuildDate>
+    <pubDate>Fri, 10 Apr 2015 23:44:51 +0200</pubDate>
+    <lastBuildDate>Fri, 10 Apr 2015 23:44:51 +0200</lastBuildDate>
     <generator>Jekyll v2.5.3</generator>
+    
+      <item>
+        <title>Mes aventures au NEST #3</title>
+        <description>&lt;p&gt;Un petit article pour relater les différents points que nous avons abordé lors de cette troisième matinée au sein du NEST : les metrics.&lt;/p&gt;
+
+&lt;p&gt;Pour ceux qui ne savent pas ce que c’est, je vous invite à faire un petit tour du coté de &lt;a href=&quot;http://www.google.com/analytics/&quot;&gt;Google Analytics&lt;/a&gt; ou de &lt;a href=&quot;https://www.kissmetrics.com&quot;&gt;KISSmetrics&lt;/a&gt; pour de plus amples informations.&lt;/p&gt;
+
+&lt;p&gt;Après plusieurs recherches, voici un listing des six métriques les plus importantes à traquer :&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;h4 id=&quot;visites-qualifies&quot;&gt;Visites qualifiées&lt;/h4&gt;
+  &lt;p&gt;Cette métrique est vivement recommandée pour tous les marketeurs. En effet, elle capte deux dimensions importantes qu’aucun autre système métrique simple ne fait : elle associe à la fois le quantitatif (nombre d’individus) et le qualitatif (les interactions des utilisateurs, ce qui suggère un degré d’intérêt de la part des consommateurs). Selon le canal utilisé, les métriques du marketeur varient, néanmoins l’accent est toujours mis sur le comportement – une démarche bien différente que les autres mesures de performance classiques.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;h4 id=&quot;le-taux-de-clics&quot;&gt;Le taux de clics&lt;/h4&gt;
+  &lt;p&gt;Le taux de clic est la métrique la plus utilisée par les annonceurs en ligne. Cela correspond au pourcentage d’internautes exposés à un contenu publicitaire qui ont cliqué sur celui-ci afin de se rendre sur le site de l’annonceur ou de répondre à la sollicitation du message. Bien que son importance décroit et que cette métrique n’est pas toujours représentative, le taux de clic reste une des mesures les plus utilisées par les entreprises pour mesurer la performance de leurs actions marketing. Par exemple, un taux de clic supérieur à 1% peut-être considéré comme bon mais certains scores peuvent dépasser les 10%, difficile d’émettre un jugement. Certains supports se font rémunérer sur la base de ce taux de clic : on parle de rémunération au clic.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;h4 id=&quot;image-de-marque-perue&quot;&gt;Image de marque perçue&lt;/h4&gt;
+  &lt;p&gt;Cette métrique est calculée en déterminant le changement de perception de la marque auprès d’un public bien défini, en comparant les résultats à ceux d’un groupe témoin qui n’a pas été exposé à l’image de cette même entreprise (ou au message).&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;h4 id=&quot;le-taux-dengagement&quot;&gt;Le taux d’engagement&lt;/h4&gt;
+  &lt;p&gt;L’engagement fait référence à la création d’un intérêt ou d’une attention favorable de l’internaute envers votre site. Il s’agit d’un ensemble spécial de mesures intégrées qui saisit le degré de l’influence d’un contenu ou d’une annonce. Vous pouvez mesurer le degré d’engagement d’un internaute sur votre site à l’aide, par exemple, du temps passé sur le site, l’inscription à une newletter, l’abonnement au fil RSS, la soumission d’un commentaire, l’intervalle entre les visites d’un même internaute, etc. Basé sur un système de points de valeur flexible, le taux d’engagement fonctionne sur tous les médias digitaux, que ce soit des vidéos, des applications mobiles,  jusqu’aux réseaux sociaux.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;h4 id=&quot;le-taux-de-conversion&quot;&gt;Le taux de conversion&lt;/h4&gt;
+  &lt;p&gt;Le taux de conversion correspond au rapport entre les internautes ayant réalisé l’action recherchée dans le cadre de votre action marketing par rapport au nombre total d’utilisateurs touchés par l’action. Bien souvent, un internaute « convertit » au moment où il achète un produit, s’inscrit à une Newsletter, s’abonne à un flux RSS ou télécharge un fichier. Cependant, une action de fin peut être aussi un « like », une « vue » d’une vidéo, un « follower » sur Twitter, etc. C’est le but ultime d’une page Web ou d’une publicité.
+Vous devez vérifier la façon dont vous calculez votre taux de conversion. Par exemple, est-ce que le dénominateur sera les visiteurs uniques ou le nombre de visites? Cela peut avoir un impact conséquent sur votre organisation et pourra influencer la stratégie que vous mettrez en place. C’est donc une métrique essentielle pour déterminer l’efficacité de la campagne marketing mise en œuvre.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Ces différentes métriques représentent l’efficacité d’une stratégie de webmarketing qui va générer de l’engagement, une action, favoriser l’image de marque, etc. Mais les buts atteints sont-ils finalement rentables pour l’entreprise ?&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;h4 id=&quot;retour-sur-investissement-roi&quot;&gt;Retour sur investissement (ROI)&lt;/h4&gt;
+  &lt;p&gt;Le ROI est une mesure financière qui représente la valeur créée par votre campagne marketing. Les entreprises ont besoin de déterminer si oui ou non un programme social média est efficace. Cela dépend en grande partie des objectifs de l’entreprise sur les médias sociaux et l’organisation de celle-ci.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Si l’objectif est de mesurer le trafic, la vente ou le référencement, il est possible d’avoir une approche plus quantitative.  Il y a quelques outils gratuits qui peuvent vous aider avec ce type de mesure, y compris Google Analytics et Feedburner qui sont essentiels. Ce sont des outils gratuits qui aident à analyser le trafic de ​​votre entreprise, nombre d’abonnés, optimisation des mots clés et autres tendances.&lt;/p&gt;
+
+&lt;p&gt;Si vous avez envie de creuser le sujet, je vous invite à lire cet &lt;a href=&quot;http://articles.bplans.com/the-6-most-important-web-metrics-to-track-for-your-business-website/&quot;&gt;article&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;En ce qui concerne l’après-midi, nous avons passé en revue les besoins de quatre startups. Ce qui est revenu constamment était une landing page composée d’une description de leur “value proposition” ainsi qu’un champs email. Pour les plus avancés nous avons également eu une demande de mise en place de scripts permettant de sortir une liste d’utilisateurs twitter belges parlant de cuisine.&lt;/p&gt;
+
+&lt;p&gt;La solution fût rapidement implémentée à l’aide de l’&lt;a href=&quot;https://dev.twitter.com/overview/documentation&quot;&gt;api twitter&lt;/a&gt; :&lt;/p&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-javascript&quot; data-lang=&quot;javascript&quot;&gt;&lt;span class=&quot;c1&quot;&gt;// twitter.api.js&lt;/span&gt;
+
+&lt;span class=&quot;kd&quot;&gt;var&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;Twitter&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;require&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;&amp;#39;twitter&amp;#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+ 
+&lt;span class=&quot;kd&quot;&gt;var&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;client&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;new&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;Twitter&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;({&lt;/span&gt;
+  &lt;span class=&quot;nx&quot;&gt;consumer_key&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;process&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;env&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;TWITTER_CONSUMER_KEY&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
+  &lt;span class=&quot;nx&quot;&gt;consumer_secret&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;process&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;env&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;TWITTER_CONSUMER_SECRET&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
+  &lt;span class=&quot;nx&quot;&gt;access_token_key&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;process&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;env&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;TWITTER_ACCESS_TOKEN_KEY&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
+  &lt;span class=&quot;nx&quot;&gt;access_token_secret&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;process&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;env&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;TWITTER_ACCESS_TOKEN_SECRET&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;});&lt;/span&gt;
+ 
+&lt;span class=&quot;kd&quot;&gt;var&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;params&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;q&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;&amp;#39;cuisine&amp;#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;lang&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;&amp;#39;fr&amp;#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;count&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;&amp;#39;100&amp;#39;&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;};&lt;/span&gt;
+&lt;span class=&quot;nx&quot;&gt;client&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;get&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;&amp;#39;search/tweets&amp;#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;params&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;kd&quot;&gt;function&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;err&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;tweets&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;res&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+  &lt;span class=&quot;k&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;err&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;throw&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;err&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+  &lt;span class=&quot;nx&quot;&gt;console&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;log&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;tweets&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;// or save it in database !&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;});&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;Voilà c’est tout pour cette troisième journée. Pour ce weekend, je vais écrire mon premier article en anglais sur la création d’un petit tools avec Meteor et l’api twitter pour la récupération d’offres d’emplois mais je dois encore améliorer le système. La version beta est disponible &lt;a href=&quot;http://needrr.meteor.com/&quot;&gt;ici&lt;/a&gt; ainsi que son &lt;a href=&quot;https://github.com/maximeshr/needrr&quot;&gt;code source&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;À la semaine prochaine !&lt;/p&gt;
+
+</description>
+        <pubDate>Fri, 10 Apr 2015 00:00:00 +0200</pubDate>
+        <link>http://maximesahroui.be/freelance/nest'up/metrics/hacking/twitter/api/2015/04/10/mes-aventures-au-nest-number-3.html</link>
+        <guid isPermaLink="true">http://maximesahroui.be/freelance/nest'up/metrics/hacking/twitter/api/2015/04/10/mes-aventures-au-nest-number-3.html</guid>
+        
+        
+        <category>freelance</category>
+        
+        <category>nest&#39;up</category>
+        
+        <category>metrics</category>
+        
+        <category>hacking</category>
+        
+        <category>twitter</category>
+        
+        <category>api</category>
+        
+      </item>
     
       <item>
         <title>Mes aventures au NEST #2</title>
@@ -402,31 +492,6 @@ rails server&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
         
         
         <category>autre</category>
-        
-      </item>
-    
-      <item>
-        <title>Lancement de ranqed pour le 1er janvier 2015</title>
-        <description>&lt;p&gt;Une petite news rapide - tant qu’il me reste un peu de temps se soir - pour vous annoncer le lancement officiel de mon entreprise unipersonnelle de services web : ranqed.&lt;/p&gt;
-
-&lt;p&gt;Mon objectif est d’obtenir une expérience probante sur la scène ruby belge rapidement tout en proposant des services de qualités. C’est aussi l’opportunité idéale pour améliorer mes compétences tant sur le plan informatique et technique que social.&lt;/p&gt;
-
-&lt;p&gt;J’apréhende énormément ma première mission, principalement à cause des informations diffusées par les médias sur le statut des indépendant. Franchement, si on les écoutait, personne ne devrait troquer sa vie de “debout, métro, dodo” pour la liberté du freelance : Trop risqué, trop difficile, trop à payer (bon ça c’est vrai!).&lt;/p&gt;
-
-&lt;p&gt;Je reste évidemment conscient des risques mais après tout, qui ne tente rien n’a rien ! De toute manière ma situation salariale ne me permettait plus de vivre sereinement à cause de mon déménagement. Donc c’est parti, on retrousse ses manches et on bosse tard le soir.&lt;/p&gt;
-
-&lt;p&gt;Je posterai un article d’ici quelques jours sur les différentes démarches et choix que j’ai effectué lors de la création de mon activité indépendante. Certes compliqués (les choix) aux premiers abords, mais rapidement éclairés par les personnes compétentes.&lt;/p&gt;
-
-&lt;p&gt;A très vite ;)&lt;/p&gt;
-
-&lt;p&gt;PS: Si vous avez des clients potentiels, n’hésitez pas à me contacter !&lt;/p&gt;
-</description>
-        <pubDate>Wed, 17 Dec 2014 00:00:00 +0100</pubDate>
-        <link>http://maximesahroui.be/freelance/2014/12/17/lancement-de-ranqed-pour-le-1er-janvier-2015.html</link>
-        <guid isPermaLink="true">http://maximesahroui.be/freelance/2014/12/17/lancement-de-ranqed-pour-le-1er-janvier-2015.html</guid>
-        
-        
-        <category>freelance</category>
         
       </item>
     
