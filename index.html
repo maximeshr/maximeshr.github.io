@@ -31,11 +31,15 @@ layout: default
       <ul class="list-unstyled">
       {% for post in site.posts limit:3 %}
         <li>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>&nbsp;&mdash; <span class="post-meta">{{ post.date | date: "%B %Y" }}</span>
+          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
         </li>
       {% endfor %}
       </ul>
       <p class="text"><a href="{{ '/archives/' | prepend: site.baseurl }}">Plus d'articles...</a></p>
+      <h2>Current projects</h2>
+      <ul class="projects list-unstyled">
+        <li>NEST'up Spring 2015 <strong>(2/w)</strong></li>
+      </ul>
     </div>
     <div class="col col-6">
       <h2>About me</h2>
