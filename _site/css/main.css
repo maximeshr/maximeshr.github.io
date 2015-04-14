@@ -37,6 +37,9 @@ img {
   max-width: 100%;
   vertical-align: middle; }
 
+.post img {
+  margin: 1em 0; }
+
 /**
  * Figures
  */
@@ -218,6 +221,9 @@ pre {
   .post-title::before {
     content: '# ';
     margin-left: -21px; }
+
+.post-header {
+  margin-bottom: 1em; }
 
 .share {
   margin-top: 2em; }

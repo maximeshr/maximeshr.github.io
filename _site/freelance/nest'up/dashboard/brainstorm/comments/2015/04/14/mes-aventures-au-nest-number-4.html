@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Maxime Sahroui - Freelance JavaScript Developer - Mes aventures au NEST #4</title>
+  <meta name="description" content="Pour les plus observateurs d’entre-vous qui l’ont déjà remarqué, j’ai ajouté un petit module de commentaire. Rien de très complexe, simplement un petit scrip...">
+
+  <link href='http://fonts.googleapis.com/css?family=Source+Code+Pro:300,500,700' rel='stylesheet' type='text/css'>
+
+  <link rel="stylesheet" href="/css/main.css">
+  <link rel="canonical" href="http://maximesahroui.be/freelance/nest'up/dashboard/brainstorm/comments/2015/04/14/mes-aventures-au-nest-number-4.html">
+  <link rel="alternate" type="application/rss+xml" title="Maxime Sahroui - Freelance JavaScript Developer" href="http://maximesahroui.be/feed.xml" />
+</head>
+
+
+  <body>
+
+    <header class="site-header">
+  <div class="wrapper">
+    <div class="col-wrapper">
+      <div class="col col-12">
+        <h1 class="page-heading">Hi, I'm Maxime<br />
+        A freelance JavaScript developer based in Belgium</h1>
+      </div>
+    </div>
+  </div>
+</header>
+
+
+    <div class="page-content">
+      <div class="wrapper">
+        <div class="post">
+
+  <header class="post-header">
+    <h1 class="post-title">
+      <a href="/">Accueil</a> / Mes aventures au NEST #4
+    </h1>
+    <div class="col-wrapper">
+      <div class="col col-6">
+        <span class="text-inverse text-important text-underline">Date</span>: Apr 14, 2015
+      </div>
+      <div class="col col-6">
+        <span class="text-inverse text-important text-underline">Tags</span>: freelance, nest'up, dashboard, brainstorm, comments
+      </div>
+    </div>
+  </header>
+
+  <article class="post-content">
+    <p>Pour les plus observateurs d’entre-vous qui l’ont déjà remarqué, j’ai ajouté un petit module de commentaire. Rien de très complexe, simplement un petit script JavaScript qui relie l’API de <a href="https://disqus.com">disqus</a> avec mon site. C’est vraiment à la portée de tous ! N’hésitez pas si vous souhaitez ajouter cette fonctionnalité à votre site. De plus, <strong>disqus</strong> propose plusieurs modules d’intégration à des plateforme de blog existantes tels que : Wordpress, Blogger, Drupal et quelques autres.</p>
+
+<p><img src="/img/disqus.png" alt="disqus intégration" class="img-responsive" /></p>
+
+<p>Au niveau du NEST’up pas mal de choses intéressantes, dont une première participation à un brainstorming pour aider une startup. L’objectif : <em>trouver un nom</em> ! Et bon sang, qu’est-ce que c’est complexe… Probablemnt l’un des exercice les plus difficile à accomplir lors de la création d’une entreprise ou d’un produit. Car il ne faut pas oublier qu’un nom est une image de marque, non seulement il doit plaire mais également refléter les valeurs qu’il incarne. Pour cela, nous avons effectué un brainstorming légèrement spécial.</p>
+
+<p>Après un petit <strong>“bang”</strong> - non ce n’est pas ce que vous croyez, mais bien un jeu permettant aux différents membres de faire connaissance rapidement - nous avons composé trois équipes (3 - 3 - 2).</p>
+
+<ul>
+  <li>Objectif 1 : Trouver les deux meilleurs noms possibles en moins de deux minutes ;</li>
+  <li>Objectif 2 : Trouver les deux pires noms possibles en moins de deux minutes ;</li>
+</ul>
+
+<p>Les deux meilleurs noms de chaque équipe sont jetés à la poubelle tandis que les deux pires noms sont transmis au groupe à sa gauche.</p>
+
+<ul>
+  <li>Objectif 3 : Transformer les deux pires noms de son voisin en deux noms en moins de deux minutes ;</li>
+</ul>
+
+<p>Ces six noms (deux par groupes) sont conservés pour la dernière phase. En parlant de phase, ce workshop est composé de six phases. Prévoyez entre une et deux heures pour le faire.</p>
+
+<p>Nous enchainons avec la présentation de plusieurs images spécifiquement sélectionnées par le WM (workshop master, c’est cool comme nom non ?).</p>
+
+<ul>
+  <li>Objectif 4 : Donner un maximum d’adjectifs et/ou de verbes en rapport avec une image donnée.</li>
+</ul>
+
+<p>Ces “mots” sont sauvegardés, au même titre que les six noms précédents. Nous effectons le même exercice, non plus avec des images mais cinq mots représentants les valeurs que le WM souhaite transmettre. De plus la contrainte adjectifs et/ou verbes n’est plus obligatoire.</p>
+
+<ul>
+  <li>Objectif 5 : Trouver des mots en rapport avec les valeurs du WM.</li>
+</ul>
+
+<p>Une fois tous ces éléments à notre disposition, chaque membre dispose <strong>uniquement</strong> de dix points à répartir entre les différents éléments : noms, valeurs et mots. Il est également possible de voter dix fois pour le même élément. Aucune restriction à ce niveau.</p>
+
+<p>Une fois les éléments sélectionnés, nous éliminons le reste pour se concentrer sur la dernière phase de l’exercice : </p>
+
+<ul>
+  <li>Objectif 6 : Trouver un nom, un logo et une histoire à l’aide de tous les éléments restants.</li>
+</ul>
+
+<p>And… voilà ! :D</p>
+
+<p>De mon coté, niveau développement, j’ai commencé à mettre au point un dashboard qui sera disponible en live sur l’écran principal. Plusieurs informations importantes doivent y apparaitre :</p>
+
+<ul>
+  <li>Un compte à rebours par rapport à la date de présentation des MVPs : fin mai ;</li>
+  <li>Les derniers tweets possédants le hashtag #nestup ;</li>
+  <li>Pour chaque startup afficher une métrique en particulier qui sera updatée tous les matins ;</li>
+</ul>
+
+<p>Pour cela, nous avons décidé d’utiliser <a href="dashing.io">Dashing</a> et principalement sont fork basé sur node.js : <a href="https://github.com/fabiocaseri/dashing-js">dashing-js</a>. L’utilisation est relativement simple : une configuration de modules et du css/js pour personnaliser la board. Voici un screenshot de la V.0.1 (nous sommes toujours en attente des métrics des startups) :</p>
+
+<p><img src="/img/nest-up-adventures/dashing-v-0-1.png" alt="dashing v.0.1" class="img-responsive" /></p>
+
+<p>L’url suivera dès qu’il y aura plus d’informations. Certainement mercredi ;)
+D’ici là, portez-vous bien !</p>
+
+  </article>
+
+  <div class="share text-right">
+    <a href="https://twitter.com/share" class="twitter-share-button" data-via="maximeshr">Tweet</a>
+    <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+  </div>
+
+  <div id="disqus_thread"></div>
+
+  <script type="text/javascript">
+    var disqus_shortname = 'maximesahrouibe';
+    (function() {
+      var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+      dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+      (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+  </script>
+
+</div>
+
+      </div>
+    </div>
+
+    <footer class="site-footer">
+  <div class="wrapper">
+    Copyright &copy; 2015 Maxime Sahroui, www.maximesahroui.be
+  </div>
+</footer>
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <script>
+      var $links = $('article.post-content').find('a')
+        , a = new RegExp('/' + window.location.host + '/');
+      $links.each(function () {
+        if (!a.test(this.href)) {
+          $(this).attr("target","_blank");
+        }
+      });
+    </script>
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+      ga('create', 'UA-56769084-1', 'auto');
+      ga('send', 'pageview');
+    </script>
+
+  </body>
+
+</html>

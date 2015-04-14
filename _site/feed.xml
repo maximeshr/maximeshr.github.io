@@ -6,9 +6,86 @@
 </description>
     <link>http://maximesahroui.be/</link>
     <atom:link href="http://maximesahroui.be/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 14 Apr 2015 10:16:01 +0200</pubDate>
-    <lastBuildDate>Tue, 14 Apr 2015 10:16:01 +0200</lastBuildDate>
+    <pubDate>Tue, 14 Apr 2015 11:23:59 +0200</pubDate>
+    <lastBuildDate>Tue, 14 Apr 2015 11:23:59 +0200</lastBuildDate>
     <generator>Jekyll v2.5.3</generator>
+    
+      <item>
+        <title>Mes aventures au NEST #4</title>
+        <description>&lt;p&gt;Pour les plus observateurs d’entre-vous qui l’ont déjà remarqué, j’ai ajouté un petit module de commentaire. Rien de très complexe, simplement un petit script JavaScript qui relie l’API de &lt;a href=&quot;https://disqus.com&quot;&gt;disqus&lt;/a&gt; avec mon site. C’est vraiment à la portée de tous ! N’hésitez pas si vous souhaitez ajouter cette fonctionnalité à votre site. De plus, &lt;strong&gt;disqus&lt;/strong&gt; propose plusieurs modules d’intégration à des plateforme de blog existantes tels que : Wordpress, Blogger, Drupal et quelques autres.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/img/disqus.png&quot; alt=&quot;disqus intégration&quot; class=&quot;img-responsive&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Au niveau du NEST’up pas mal de choses intéressantes, dont une première participation à un brainstorming pour aider une startup. L’objectif : &lt;em&gt;trouver un nom&lt;/em&gt; ! Et bon sang, qu’est-ce que c’est complexe… Probablemnt l’un des exercice les plus difficile à accomplir lors de la création d’une entreprise ou d’un produit. Car il ne faut pas oublier qu’un nom est une image de marque, non seulement il doit plaire mais également refléter les valeurs qu’il incarne. Pour cela, nous avons effectué un brainstorming légèrement spécial.&lt;/p&gt;
+
+&lt;p&gt;Après un petit &lt;strong&gt;“bang”&lt;/strong&gt; - non ce n’est pas ce que vous croyez, mais bien un jeu permettant aux différents membres de faire connaissance rapidement - nous avons composé trois équipes (3 - 3 - 2).&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Objectif 1 : Trouver les deux meilleurs noms possibles en moins de deux minutes ;&lt;/li&gt;
+  &lt;li&gt;Objectif 2 : Trouver les deux pires noms possibles en moins de deux minutes ;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Les deux meilleurs noms de chaque équipe sont jetés à la poubelle tandis que les deux pires noms sont transmis au groupe à sa gauche.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Objectif 3 : Transformer les deux pires noms de son voisin en deux noms en moins de deux minutes ;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Ces six noms (deux par groupes) sont conservés pour la dernière phase. En parlant de phase, ce workshop est composé de six phases. Prévoyez entre une et deux heures pour le faire.&lt;/p&gt;
+
+&lt;p&gt;Nous enchainons avec la présentation de plusieurs images spécifiquement sélectionnées par le WM (workshop master, c’est cool comme nom non ?).&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Objectif 4 : Donner un maximum d’adjectifs et/ou de verbes en rapport avec une image donnée.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Ces “mots” sont sauvegardés, au même titre que les six noms précédents. Nous effectons le même exercice, non plus avec des images mais cinq mots représentants les valeurs que le WM souhaite transmettre. De plus la contrainte adjectifs et/ou verbes n’est plus obligatoire.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Objectif 5 : Trouver des mots en rapport avec les valeurs du WM.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Une fois tous ces éléments à notre disposition, chaque membre dispose &lt;strong&gt;uniquement&lt;/strong&gt; de dix points à répartir entre les différents éléments : noms, valeurs et mots. Il est également possible de voter dix fois pour le même élément. Aucune restriction à ce niveau.&lt;/p&gt;
+
+&lt;p&gt;Une fois les éléments sélectionnés, nous éliminons le reste pour se concentrer sur la dernière phase de l’exercice : &lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Objectif 6 : Trouver un nom, un logo et une histoire à l’aide de tous les éléments restants.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;And… voilà ! :D&lt;/p&gt;
+
+&lt;p&gt;De mon coté, niveau développement, j’ai commencé à mettre au point un dashboard qui sera disponible en live sur l’écran principal. Plusieurs informations importantes doivent y apparaitre :&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Un compte à rebours par rapport à la date de présentation des MVPs : fin mai ;&lt;/li&gt;
+  &lt;li&gt;Les derniers tweets possédants le hashtag #nestup ;&lt;/li&gt;
+  &lt;li&gt;Pour chaque startup afficher une métrique en particulier qui sera updatée tous les matins ;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Pour cela, nous avons décidé d’utiliser &lt;a href=&quot;dashing.io&quot;&gt;Dashing&lt;/a&gt; et principalement sont fork basé sur node.js : &lt;a href=&quot;https://github.com/fabiocaseri/dashing-js&quot;&gt;dashing-js&lt;/a&gt;. L’utilisation est relativement simple : une configuration de modules et du css/js pour personnaliser la board. Voici un screenshot de la V.0.1 (nous sommes toujours en attente des métrics des startups) :&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/img/nest-up-adventures/dashing-v-0-1.png&quot; alt=&quot;dashing v.0.1&quot; class=&quot;img-responsive&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;L’url suivera dès qu’il y aura plus d’informations. Certainement mercredi ;)
+D’ici là, portez-vous bien !&lt;/p&gt;
+</description>
+        <pubDate>Tue, 14 Apr 2015 00:00:00 +0200</pubDate>
+        <link>http://maximesahroui.be/freelance/nest'up/dashboard/brainstorm/comments/2015/04/14/mes-aventures-au-nest-number-4.html</link>
+        <guid isPermaLink="true">http://maximesahroui.be/freelance/nest'up/dashboard/brainstorm/comments/2015/04/14/mes-aventures-au-nest-number-4.html</guid>
+        
+        
+        <category>freelance</category>
+        
+        <category>nest&#39;up</category>
+        
+        <category>dashboard</category>
+        
+        <category>brainstorm</category>
+        
+        <category>comments</category>
+        
+      </item>
     
       <item>
         <title>Mes aventures au NEST #3</title>
@@ -474,21 +551,6 @@ rails server&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
         <pubDate>Sat, 27 Dec 2014 00:00:00 +0100</pubDate>
         <link>http://maximesahroui.be/autre/2014/12/27/f-dot-lux-pour-le-bien-de-vos-yeux.html</link>
         <guid isPermaLink="true">http://maximesahroui.be/autre/2014/12/27/f-dot-lux-pour-le-bien-de-vos-yeux.html</guid>
-        
-        
-        <category>autre</category>
-        
-      </item>
-    
-      <item>
-        <title>Joyeux Noël à vous, chers lecteurs !</title>
-        <description>&lt;p&gt;Je profite d’un rapide passage à mon domicile pour vous souhaitez un excellent réveillon de Noël.&lt;/p&gt;
-
-&lt;p&gt;Thanks you &amp;amp; Merry X-mass!&lt;/p&gt;
-</description>
-        <pubDate>Wed, 24 Dec 2014 00:00:00 +0100</pubDate>
-        <link>http://maximesahroui.be/autre/2014/12/24/joyeux-noel-a-vous-chers-lecteurs.html</link>
-        <guid isPermaLink="true">http://maximesahroui.be/autre/2014/12/24/joyeux-noel-a-vous-chers-lecteurs.html</guid>
         
         
         <category>autre</category>
