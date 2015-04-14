@@ -161,6 +161,12 @@ pre {
     fill: #828282; }
 
 /**
+ * Disqus
+ */
+#disqus_thread {
+  margin-top: 3em; }
+
+/**
  * Helpers
  */
 .text-right {
