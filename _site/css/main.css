@@ -208,6 +208,12 @@ pre {
   width: 100px;
   border-radius: 100px; }
 
+.site-categories {
+  margin: 2em 0;
+  padding: 1em 0;
+  border-top: 2px solid #FF4987;
+  border-bottom: 2px solid #FF4987; }
+
 .page-content {
   background: rgba(0, 0, 0, 0.7);
   padding: 2em 0; }
@@ -238,11 +244,17 @@ h2 {
 
 .list-unstyled {
   list-style: none;
-  margin-left: 0; }
+  margin: 0; }
 
 .list-tags {
   list-style: none;
-  margin-left: 0; }
+  margin: 0; }
+
+.list-inline {
+  list-style: none;
+  margin: 0; }
+  .list-inline li {
+    display: inline; }
 
 .site-footer {
   margin: 2em 0;

@@ -15,13 +15,31 @@ permalink: /archives/
       <p class="text">
         <a href="{{ "/feed.xml" | prepend: site.baseurl }}">RSS</a>
       </p>
-      <ul class="list-unstyled">
-      {% for post in site.posts %}
-        <li>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>&nbsp;&mdash; <span class="post-meta">{{ post.date | date: "%B %Y" }}</span>
-        </li>
-      {% endfor %}
-      </ul>
+
+      <div class="site-categories">
+        <ul class="list-inline" id="istp-filter">
+          <li class="all">
+            <a data-filter="*" href="#">{{ 'All' | upcase }}</a>
+          </li>
+          {% for category in site.categories %}
+            <li class="{{ category | first }}">
+              <a data-filter=".{{ category | first | remove: "'" }}" href="#">
+                {{ category | first | upcase }}
+              </a>
+            </li>
+          {% endfor %}
+        </ul>
+      </div>
+
+      <div class="site-posts">
+        <ul class="list-unstyled" id="istp-container">
+        {% for post in site.posts %}
+          <li class="istp-item {{ post.categories | join: ' ' | remove: "'" }}">
+            <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>&nbsp;&mdash; <span class="post-meta">{{ post.date | date: "%B %Y" }}</span>
+          </li>
+        {% endfor %}
+        </ul>
+      </div>
     </div>
   </div>
 </div>

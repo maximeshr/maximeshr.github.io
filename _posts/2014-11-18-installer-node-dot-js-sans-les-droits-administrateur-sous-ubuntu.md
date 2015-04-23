@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Installer Node.js sans les droits administrateur sous Ubuntu"
+title: "Installer Node.js sous Ubuntu"
 categories:
   - javascript
 ---
