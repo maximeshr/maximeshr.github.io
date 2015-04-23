@@ -6,8 +6,8 @@
 </description>
     <link>http://maximesahroui.be/</link>
     <atom:link href="http://maximesahroui.be/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 23 Apr 2015 20:29:55 +0200</pubDate>
-    <lastBuildDate>Thu, 23 Apr 2015 20:29:55 +0200</lastBuildDate>
+    <pubDate>Thu, 23 Apr 2015 20:58:51 +0200</pubDate>
+    <lastBuildDate>Thu, 23 Apr 2015 20:58:51 +0200</lastBuildDate>
     <generator>Jekyll v2.5.3</generator>
     
       <item>
@@ -47,7 +47,17 @@
     
       <item>
         <title>Learning Meteor, the hard way!</title>
-        <description>
+        <description>&lt;p&gt;Hi guys! I’m so excited because, first of all, it’s my first post in english since long time. I apologize for any orthographic mistake in these posts. English is not my mother tongue but I hope it will be nice to be read :)&lt;/p&gt;
+
+&lt;p&gt;Second, I will write posts about a cool technologie that I wanna learn since months : &lt;a href=&quot;https://www.meteor.com/&quot;&gt;Meteor&lt;/a&gt;. The global goal is to master it after seven weeks of intensive learning. By intensive, I mean learning everyday. The optional goal is to have more reader and maybe some &lt;a href=&quot;https://www.meteor.com/&quot;&gt;Meteor&lt;/a&gt; jobs (as freelance)&lt;/p&gt;
+
+&lt;p&gt;After these weeks, I wanna build a powerful parsing application using what I’ve learned.&lt;/p&gt;
+
+&lt;p&gt;Why seven weeks? Because in seven weeks, it’s my birthday. What is the best gift that mastering &lt;a href=&quot;https://www.meteor.com/&quot;&gt;Meteor&lt;/a&gt;!&lt;/p&gt;
+
+&lt;p&gt;About frequency, I think one or two posts each week is nice for you and for me…&lt;/p&gt;
+
+&lt;p&gt;OK, that’s all for today, cya soon!&lt;/p&gt;
 </description>
         <pubDate>Thu, 23 Apr 2015 00:00:00 +0200</pubDate>
         <link>http://maximesahroui.be/javascript/meteor/learning/english/2015/04/23/learning-meteor-the-hard-way.html</link>
