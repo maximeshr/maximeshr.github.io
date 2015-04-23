@@ -18,11 +18,11 @@ permalink: /archives/
 
       <div class="site-categories">
         <ul class="list-inline" id="istp-filter">
-          <li class="all">
+          <li class="all" data-posts="*">
             <a data-filter="*" href="#">{{ 'All' | upcase }}</a>
           </li>
           {% for category in site.categories %}
-            <li class="{{ category | first }}">
+            <li class="{{ category | first }}" data-posts="{{ category | last | size }}">
               <a data-filter=".{{ category | first | remove: "'" }}" href="#">
                 {{ category | first | upcase }}
               </a>

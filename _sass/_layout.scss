@@ -16,8 +16,8 @@
 .site-categories {
   margin: 2em 0;
   padding: 1em 0;
-  border-top: 2px solid $brand-color;
-  border-bottom: 2px solid $brand-color;
+  border-top: 2px solid $text-color;
+  border-bottom: 2px solid $text-color;
 }
 
 .page-content {
@@ -74,6 +74,13 @@ h2 {
   margin: 0;
   li {
     display: inline;
+    a {
+      display: inline-block;
+      padding-bottom: 2px;
+      &:hover {
+        padding-bottom: 0;
+      }
+    }
   }
 }
 

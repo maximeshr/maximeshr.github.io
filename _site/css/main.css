@@ -211,8 +211,8 @@ pre {
 .site-categories {
   margin: 2em 0;
   padding: 1em 0;
-  border-top: 2px solid #FF4987;
-  border-bottom: 2px solid #FF4987; }
+  border-top: 2px solid #D2D2D2;
+  border-bottom: 2px solid #D2D2D2; }
 
 .page-content {
   background: rgba(0, 0, 0, 0.7);
@@ -255,6 +255,11 @@ h2 {
   margin: 0; }
   .list-inline li {
     display: inline; }
+    .list-inline li a {
+      display: inline-block;
+      padding-bottom: 2px; }
+      .list-inline li a:hover {
+        padding-bottom: 0; }
 
 .site-footer {
   margin: 2em 0;

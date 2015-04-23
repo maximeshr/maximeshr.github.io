@@ -48,131 +48,131 @@
 
       <div class="site-categories">
         <ul class="list-inline" id="istp-filter">
-          <li class="all">
+          <li class="all" data-posts="*">
             <a data-filter="*" href="#">ALL</a>
           </li>
           
-            <li class="autre">
+            <li class="autre" data-posts="7">
               <a data-filter=".autre" href="#">
                 AUTRE
               </a>
             </li>
           
-            <li class="ruby">
+            <li class="ruby" data-posts="2">
               <a data-filter=".ruby" href="#">
                 RUBY
               </a>
             </li>
           
-            <li class="javascript">
+            <li class="javascript" data-posts="2">
               <a data-filter=".javascript" href="#">
                 JAVASCRIPT
               </a>
             </li>
           
-            <li class="freelance">
+            <li class="freelance" data-posts="11">
               <a data-filter=".freelance" href="#">
                 FREELANCE
               </a>
             </li>
           
-            <li class="nest'up">
+            <li class="nest'up" data-posts="6">
               <a data-filter=".nestup" href="#">
                 NEST'UP
               </a>
             </li>
           
-            <li class="réflexion">
+            <li class="réflexion" data-posts="1">
               <a data-filter=".réflexion" href="#">
                 RéFLEXION
               </a>
             </li>
           
-            <li class="objectifs">
+            <li class="objectifs" data-posts="1">
               <a data-filter=".objectifs" href="#">
                 OBJECTIFS
               </a>
             </li>
           
-            <li class="mvp">
+            <li class="mvp" data-posts="2">
               <a data-filter=".mvp" href="#">
                 MVP
               </a>
             </li>
           
-            <li class="metrics">
+            <li class="metrics" data-posts="1">
               <a data-filter=".metrics" href="#">
                 METRICS
               </a>
             </li>
           
-            <li class="hacking">
+            <li class="hacking" data-posts="1">
               <a data-filter=".hacking" href="#">
                 HACKING
               </a>
             </li>
           
-            <li class="twitter">
+            <li class="twitter" data-posts="1">
               <a data-filter=".twitter" href="#">
                 TWITTER
               </a>
             </li>
           
-            <li class="api">
+            <li class="api" data-posts="1">
               <a data-filter=".api" href="#">
                 API
               </a>
             </li>
           
-            <li class="dashboard">
+            <li class="dashboard" data-posts="2">
               <a data-filter=".dashboard" href="#">
                 DASHBOARD
               </a>
             </li>
           
-            <li class="brainstorm">
+            <li class="brainstorm" data-posts="1">
               <a data-filter=".brainstorm" href="#">
                 BRAINSTORM
               </a>
             </li>
           
-            <li class="comments">
+            <li class="comments" data-posts="1">
               <a data-filter=".comments" href="#">
                 COMMENTS
               </a>
             </li>
           
-            <li class="meteor">
+            <li class="meteor" data-posts="1">
               <a data-filter=".meteor" href="#">
                 METEOR
               </a>
             </li>
           
-            <li class="learning">
+            <li class="learning" data-posts="1">
               <a data-filter=".learning" href="#">
                 LEARNING
               </a>
             </li>
           
-            <li class="english">
+            <li class="english" data-posts="1">
               <a data-filter=".english" href="#">
                 ENGLISH
               </a>
             </li>
           
-            <li class="nodejs">
+            <li class="nodejs" data-posts="1">
               <a data-filter=".nodejs" href="#">
                 NODEJS
               </a>
             </li>
           
-            <li class="express">
+            <li class="express" data-posts="1">
               <a data-filter=".express" href="#">
                 EXPRESS
               </a>
             </li>
           
-            <li class="moltin">
+            <li class="moltin" data-posts="1">
               <a data-filter=".moltin" href="#">
                 MOLTIN
               </a>
@@ -282,8 +282,14 @@
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
     <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/2.2.0/isotope.pkgd.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tinysort/2.2.2/tinysort.min.js"></script>
     <script>
-     var $container = $('#istp-container');
+
+      tinysort.defaults.order = 'desc';
+      tinysort('ul#istp-filter>li', { data:'posts' });
+      $('li.all').parent().prepend($('li.all'));
+
+      var $container = $('#istp-container');
       $container.isotope({
         itemSelector: '.istp-item',
         layoutMode: 'vertical',
