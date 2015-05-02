@@ -52,7 +52,7 @@
     <div class="col col-12">
       <h2>My job</h2>
       <p>I specialise in JavaScript application, startup project, growth hacking and creative coding.</p>
-      <p>I have experience with contemporary frontend technologies such as AngularJS, Browserify and Bash/NPM/Gulp/Grunt for project automation. Also experienced with Node.js-based web apps, REST API development and MVPs creation with Meteor.</p>
+      <p>I have experience with Node.js-based web apps, REST API development and MVPs creation with Meteor. Also experienced with contemporary frontend technologies such as AngularJS, Browserify and Bash/NPM/Gulp/Grunt for project automation.</p>
       <p>I have Agile experience and I'm comfortable working in teams of all sizes at all stages of the project lifecycle from planning through to delivery.</p>
     </div>
   </div>
@@ -63,15 +63,15 @@
       <ul class="list-unstyled">
       
         <li>
+          <a class="post-link" href="/freelance/nest'up/nodejs/express/stripe/mvp/2015/05/02/mes-aventures-au-nest-number-7.html">Mes aventures au NEST #7</a>
+        </li>
+      
+        <li>
           <a class="post-link" href="/javascript/meteor/learning/english/2015/04/26/learning-meteor-number-1.html">Learning Meteor #1</a>
         </li>
       
         <li>
           <a class="post-link" href="/freelance/nest'up/nodejs/express/moltin/mvp/2015/04/23/mes-aventures-au-nest-number-6.html">Mes aventures au NEST #6</a>
-        </li>
-      
-        <li>
-          <a class="post-link" href="/javascript/meteor/learning/english/2015/04/23/learning-meteor-the-hard-way.html">Learning Meteor, the hard way!</a>
         </li>
       
       </ul>
@@ -114,23 +114,24 @@
     <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/2.2.0/isotope.pkgd.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/tinysort/2.2.2/tinysort.min.js"></script>
     <script>
+      $(document).ready(function () {
+        tinysort.defaults.order = 'desc';
+        tinysort('ul#istp-filter>li', { data:'posts' });
+        $('li.all').parent().prepend($('li.all'));
 
-      tinysort.defaults.order = 'desc';
-      tinysort('ul#istp-filter>li', { data:'posts' });
-      $('li.all').parent().prepend($('li.all'));
-
-      var $container = $('#istp-container');
-      $container.isotope({
-        itemSelector: '.istp-item',
-        layoutMode: 'vertical',
-        vertical: {
-          horizontalAlignment: 0,
-        }
-      });
-      $('#istp-filter').on( 'click', 'li a', function(e) {
-        e.preventDefault();
-        var filterValue = $( this ).attr('data-filter');
-        $container.isotope({ filter: filterValue });
+        var $container = $('#istp-container');
+        $container.isotope({
+          itemSelector: '.istp-item',
+          layoutMode: 'vertical',
+          vertical: {
+            horizontalAlignment: 0,
+          }
+        });
+        $('#istp-filter').on( 'click', 'li a', function(e) {
+          e.preventDefault();
+          var filterValue = $( this ).attr('data-filter');
+          $container.isotope({ filter: filterValue });
+        });
       });
     </script>
     <script>

@@ -70,13 +70,13 @@
               </a>
             </li>
           
-            <li class="freelance" data-posts="11">
+            <li class="freelance" data-posts="12">
               <a data-filter=".freelance" href="#">
                 FREELANCE
               </a>
             </li>
           
-            <li class="nest'up" data-posts="6">
+            <li class="nest'up" data-posts="7">
               <a data-filter=".nestup" href="#">
                 NEST'UP
               </a>
@@ -94,7 +94,7 @@
               </a>
             </li>
           
-            <li class="mvp" data-posts="2">
+            <li class="mvp" data-posts="3">
               <a data-filter=".mvp" href="#">
                 MVP
               </a>
@@ -160,13 +160,13 @@
               </a>
             </li>
           
-            <li class="nodejs" data-posts="1">
+            <li class="nodejs" data-posts="2">
               <a data-filter=".nodejs" href="#">
                 NODEJS
               </a>
             </li>
           
-            <li class="express" data-posts="1">
+            <li class="express" data-posts="2">
               <a data-filter=".express" href="#">
                 EXPRESS
               </a>
@@ -178,11 +178,21 @@
               </a>
             </li>
           
+            <li class="stripe" data-posts="1">
+              <a data-filter=".stripe" href="#">
+                STRIPE
+              </a>
+            </li>
+          
         </ul>
       </div>
 
       <div class="site-posts">
         <ul class="list-unstyled" id="istp-container">
+        
+          <li class="istp-item freelance nestup nodejs express stripe mvp">
+            <a class="post-link" href="/freelance/nest'up/nodejs/express/stripe/mvp/2015/05/02/mes-aventures-au-nest-number-7.html">Mes aventures au NEST #7</a>&nbsp;&mdash; <span class="post-meta">May 2015</span>
+          </li>
         
           <li class="istp-item javascript meteor learning english">
             <a class="post-link" href="/javascript/meteor/learning/english/2015/04/26/learning-meteor-number-1.html">Learning Meteor #1</a>&nbsp;&mdash; <span class="post-meta">April 2015</span>
@@ -288,23 +298,24 @@
     <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/2.2.0/isotope.pkgd.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/tinysort/2.2.2/tinysort.min.js"></script>
     <script>
+      $(document).ready(function () {
+        tinysort.defaults.order = 'desc';
+        tinysort('ul#istp-filter>li', { data:'posts' });
+        $('li.all').parent().prepend($('li.all'));
 
-      tinysort.defaults.order = 'desc';
-      tinysort('ul#istp-filter>li', { data:'posts' });
-      $('li.all').parent().prepend($('li.all'));
-
-      var $container = $('#istp-container');
-      $container.isotope({
-        itemSelector: '.istp-item',
-        layoutMode: 'vertical',
-        vertical: {
-          horizontalAlignment: 0,
-        }
-      });
-      $('#istp-filter').on( 'click', 'li a', function(e) {
-        e.preventDefault();
-        var filterValue = $( this ).attr('data-filter');
-        $container.isotope({ filter: filterValue });
+        var $container = $('#istp-container');
+        $container.isotope({
+          itemSelector: '.istp-item',
+          layoutMode: 'vertical',
+          vertical: {
+            horizontalAlignment: 0,
+          }
+        });
+        $('#istp-filter').on( 'click', 'li a', function(e) {
+          e.preventDefault();
+          var filterValue = $( this ).attr('data-filter');
+          $container.isotope({ filter: filterValue });
+        });
       });
     </script>
     <script>

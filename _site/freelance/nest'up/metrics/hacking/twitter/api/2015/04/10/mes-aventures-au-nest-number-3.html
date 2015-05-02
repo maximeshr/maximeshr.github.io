@@ -153,23 +153,24 @@ Vous devez vérifier la façon dont vous calculez votre taux de conversion. Par 
     <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/2.2.0/isotope.pkgd.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/tinysort/2.2.2/tinysort.min.js"></script>
     <script>
+      $(document).ready(function () {
+        tinysort.defaults.order = 'desc';
+        tinysort('ul#istp-filter>li', { data:'posts' });
+        $('li.all').parent().prepend($('li.all'));
 
-      tinysort.defaults.order = 'desc';
-      tinysort('ul#istp-filter>li', { data:'posts' });
-      $('li.all').parent().prepend($('li.all'));
-
-      var $container = $('#istp-container');
-      $container.isotope({
-        itemSelector: '.istp-item',
-        layoutMode: 'vertical',
-        vertical: {
-          horizontalAlignment: 0,
-        }
-      });
-      $('#istp-filter').on( 'click', 'li a', function(e) {
-        e.preventDefault();
-        var filterValue = $( this ).attr('data-filter');
-        $container.isotope({ filter: filterValue });
+        var $container = $('#istp-container');
+        $container.isotope({
+          itemSelector: '.istp-item',
+          layoutMode: 'vertical',
+          vertical: {
+            horizontalAlignment: 0,
+          }
+        });
+        $('#istp-filter').on( 'click', 'li a', function(e) {
+          e.preventDefault();
+          var filterValue = $( this ).attr('data-filter');
+          $container.isotope({ filter: filterValue });
+        });
       });
     </script>
     <script>
