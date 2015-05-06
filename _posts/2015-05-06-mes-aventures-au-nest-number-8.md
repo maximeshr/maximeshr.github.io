@@ -35,6 +35,6 @@ Il faut bien évidemment remplacer le {:q} par le critère de recherche. Ce n'es
 
 Pour le reste de la semaine, nous pensons pouvoir clôturer l'application de [VestiR](http://vestir.me/) !
 
-Pour le prochain article, je pense parler du concepte de "__M.V.P. lab" que nous testons. Mais également des choses qui m'ont plues et déplues durant l'aventure. Je suis toujours entrain de chercher des points négatifs, mis à part la distance Mont-Saint-Guibert - Couvin (120 km), je n'en vois pas du tout !
+Pour le prochain article, je pense parler du concept de "__M.V.P. lab__" que nous testons. Mais également des choses qui m'ont plues et déplues durant l'aventure. Je suis toujours entrain de chercher des points négatifs, mis à part la distance Mont-Saint-Guibert - Couvin (120 km), je n'en vois pas du tout !
 
 Allez, à très vite !
