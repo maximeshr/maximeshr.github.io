@@ -6,9 +6,58 @@
 </description>
     <link>http://maximesahroui.be/</link>
     <atom:link href="http://maximesahroui.be/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sat, 02 May 2015 11:37:52 +0200</pubDate>
-    <lastBuildDate>Sat, 02 May 2015 11:37:52 +0200</lastBuildDate>
+    <pubDate>Wed, 06 May 2015 09:35:41 +0200</pubDate>
+    <lastBuildDate>Wed, 06 May 2015 09:35:41 +0200</lastBuildDate>
     <generator>Jekyll v2.5.3</generator>
+    
+      <item>
+        <title>Mes aventures au NEST #8</title>
+        <description>&lt;p&gt;Ca y est ! Il est en ligne : &lt;a href=&quot;http://www.mybeerbox.be&quot;&gt;MyBeerBox&lt;/a&gt; ! #Happy&lt;/p&gt;
+
+&lt;p&gt;Bon c’est un M.V.P. donc soyez indulgents, mais le résultat est assez sympa visuellement et surtout, fonctionnel ! Oui, &lt;a href=&quot;http://www.my-beer.be&quot;&gt;MyBeer&lt;/a&gt; peut &lt;strong&gt;déjà&lt;/strong&gt; faire des revenus grâce à la &lt;strong&gt;#nestupdevteam&lt;/strong&gt; :)&lt;/p&gt;
+
+&lt;p&gt;Pour ce qui est du “dev side”, nous avons même créé un API restful pour une éventuelle évolution du service.&lt;/p&gt;
+
+&lt;p&gt;Pour cette semaine, nous avons également commencé l’application de &lt;a href=&quot;http://vestir.me/&quot;&gt;VestiR&lt;/a&gt; et pour lundi prochain, nous commencerons celle de &lt;a href=&quot;http://www.rengoapp.com/&quot;&gt;Rengo&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Pour &lt;a href=&quot;http://vestir.me/&quot;&gt;VestiR&lt;/a&gt;, il s’agit d’une application web en mode concierge ou l’utilisateur va se créer un profil utilisateur avec ses différentes mensurations. L’objectif de l’équipe derrière sera de lui proposer plusieurs liens en relation avec sa recherche :&lt;/p&gt;
+
+&lt;p&gt;Jules est &lt;strong&gt;grand et fort&lt;/strong&gt; et a toujours des problèmes pour se trouver une chemise. Et bien Jules va donc se créer un &lt;strong&gt;profil&lt;/strong&gt; sur l’application web en mentionnant ses &lt;strong&gt;mensurations de façon précise&lt;/strong&gt;. &lt;a href=&quot;http://vestir.me/&quot;&gt;VestiR&lt;/a&gt;, après une recherche sur différentes plateformes sera en mesure de lui proposer plusieurs solutions pour résoudre son problème : trouver la chemise parfaite pour sa carrure. Pour Jules, il ne restera plus qu’à payer et obtenir sa chemise.&lt;/p&gt;
+
+&lt;p&gt;Du coté de &lt;a href=&quot;http://www.rengoapp.com/&quot;&gt;Rengo&lt;/a&gt;, il s’agit d’une application mobile proposant aux parents de l’aide pour récupérer leurs enfants en cas de problèmes :&lt;/p&gt;
+
+&lt;p&gt;Julia est malheureusement retenue en meeting et &lt;strong&gt;ne peut pas&lt;/strong&gt; se libérer avant 18:30. Pourtant, Quentin, son fils, termine son entrainement de tennis à 17:00 et elle ne veut pas &lt;strong&gt;le laisser attendre tout seul&lt;/strong&gt;. La solution à ses problèmes &lt;a href=&quot;http://www.rengoapp.com/&quot;&gt;Rengo&lt;/a&gt; ! Grâce à l’application, Julia va envoyer à &lt;strong&gt;son cercle&lt;/strong&gt; d’amis proches une alerte pour savoir : qui dans son entourage peut récupérer Quentin à la fin de son entrainement. Heureusement pour Julia, Valentin, le papa du meilleur ami de Quentin va lui aussi rechercher son fils à 17:00. Après &lt;strong&gt;une mise en relation&lt;/strong&gt; en mode concierge (dans un premier temps), Quentin rentera avec Valentin et son fils. Julia, &lt;strong&gt;soulagée&lt;/strong&gt;, n’a plus qu’à passer rechercher son fils à la maison de Valentin après son meeting.&lt;/p&gt;
+
+&lt;p&gt;Les deux conceptes sont super sympa et intéressants niveau technique : du Node.js pour &lt;a href=&quot;https://nodejs.org/&quot;&gt;VestiR&lt;/a&gt; et de l’&lt;a href=&quot;http://ionicframework.com/&quot;&gt;ionic&lt;/a&gt; pour Rengo.&lt;/p&gt;
+
+&lt;p&gt;Nous avons également eu une demande de la part de &lt;a href=&quot;http://trigghr.com/&quot;&gt;trigghr&lt;/a&gt; concernant la mise en place d’un &lt;strong&gt;script de scrapping de données&lt;/strong&gt; sur LinkedIn. L’idée est de récupérer un maximum d’information sur les compagnies. Après quelques minutes nous avons trouvé une API disponible : &lt;/p&gt;
+
+&lt;p&gt;https://www.linkedin.com/ta/federator?query={:q}&amp;amp;types=company&lt;/p&gt;
+
+&lt;p&gt;Il faut bien évidemment remplacer le {:q} par le critère de recherche. Ce n’est pas le plus sexy du monde, mais c’est déjà une bonne base pour commencer.&lt;/p&gt;
+
+&lt;p&gt;Pour le reste de la semaine, nous pensons pouvoir clôturer l’application de &lt;a href=&quot;http://vestir.me/&quot;&gt;VestiR&lt;/a&gt; !&lt;/p&gt;
+
+&lt;p&gt;Pour le prochain article, je pense parler du concepte de “__M.V.P. lab” que nous testons. Mais également des choses qui m’ont plues et déplues durant l’aventure. Je suis toujours entrain de chercher des points négatifs, mis à part la distance Mont-Saint-Guibert - Couvin (120 km), je n’en vois pas du tout !&lt;/p&gt;
+
+&lt;p&gt;Allez, à très vite !&lt;/p&gt;
+</description>
+        <pubDate>Wed, 06 May 2015 00:00:00 +0200</pubDate>
+        <link>http://maximesahroui.be/freelance/nest'up/nodejs/ionic/mvp/2015/05/06/mes-aventures-au-nest-number-8.html</link>
+        <guid isPermaLink="true">http://maximesahroui.be/freelance/nest'up/nodejs/ionic/mvp/2015/05/06/mes-aventures-au-nest-number-8.html</guid>
+        
+        
+        <category>freelance</category>
+        
+        <category>nest&#39;up</category>
+        
+        <category>nodejs</category>
+        
+        <category>ionic</category>
+        
+        <category>mvp</category>
+        
+      </item>
     
       <item>
         <title>Mes aventures au NEST #7</title>
@@ -597,48 +646,6 @@ Vous devez vérifier la façon dont vous calculez votre taux de conversion. Par 
         <category>réflexion</category>
         
         <category>objectifs</category>
-        
-      </item>
-    
-      <item>
-        <title>Mes aventures au NEST #1</title>
-        <description>&lt;p&gt;J’ai eu la chance d’avoir été contacté pour participer au &lt;a href=&quot;http://www.nestup.be/&quot;&gt;NEST’up String 2015&lt;/a&gt; en tant que développeur de la &lt;strong&gt;MVP dev team&lt;/strong&gt;. Pour ceux qui ne le savent pas, le &lt;a href=&quot;http://www.nestup.be/faq&quot;&gt;NEST’up&lt;/a&gt; est un des endroits les plus cool pour les jeunes entrepreneurs belges en soif de création. Ici l’objectif est de créer sa propre startup à l’aide d’une équipe de passionnés expérimentés.&lt;/p&gt;
-
-&lt;p&gt;Un petit dev-talk-check avec &lt;a href=&quot;http://be.linkedin.com/in/marclainez&quot;&gt;Marc&lt;/a&gt; (de chez &lt;a href=&quot;http://spin42.com/&quot;&gt;Spin42&lt;/a&gt;) plus tard et me voilà à bord de la crew, direction le “Demo Day” et je l’espère avec le succès pour chaque équipe !&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/img/nest-up-adventures/map.jpg&quot; alt=&quot;carte du nestup&quot; class=&quot;img-responsive&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Hier (le 02/04), c’était le pitch day final avant le début des hostilités (niveau  développement). Première occasion de rencontrer et discuter avec les différents candidats et autres membre de l’équipe.&lt;/p&gt;
-
-&lt;p&gt;La journée s’est très bien déroulée malgré l’heure de route sous une pluie intense et un trafic de m*rde à cause des travaux sur l’E411 ! En matinée c’était un talk expliquant aux candidats comment discuter avec leurs développeurs. C’était super intéressant et j’ai appris pas mal de choses que j’aimerai reprendre et adapter à mon business : être beaucoup plus agile avec mon client ou encore mettre en place des prestations basées sur le budget (ce n’est pas de la régie ni du forfait). Bref plein de choses cools et sympathiques pour moi et mes clients !&lt;/p&gt;
-
-&lt;p&gt;D’ailleurs en parlant de clients, j’en profite pour vous annoncer que je suis disponible pendant toute la période avril - mai - juin à trois jours par semaine pour tout type de mission (par contre, &lt;strong&gt;je ne fais que du remote&lt;/strong&gt;). N’hésitez pas à me &lt;a href=&quot;&amp;#109;&amp;#097;&amp;#105;&amp;#108;&amp;#116;&amp;#111;:&amp;#109;&amp;#097;&amp;#120;&amp;#105;&amp;#109;&amp;#101;&amp;#064;&amp;#114;&amp;#097;&amp;#110;&amp;#113;&amp;#101;&amp;#100;&amp;#046;&amp;#105;&amp;#111;&quot;&gt;contacter&lt;/a&gt; pour plus d’informations.&lt;/p&gt;
-
-&lt;p&gt;La suite des opérations avec plusieurs boites que je suis depuis pas mal de temps sur l’internet : il s’agit de &lt;a href=&quot;http://ohmydeer.be/&quot;&gt;Oh my deer!&lt;/a&gt; et &lt;a href=&quot;http://www.jellycube.be/&quot;&gt;Jellycube&lt;/a&gt;. Sérieux les gars, vous faites du bon boulot !&lt;/p&gt;
-
-&lt;p&gt;Oh my deer! et WebstanZ en ont également profité pour présenter un outil intéressant : &lt;a href=&quot;http://www.briefingcreatif.com/&quot;&gt;Briefing Creative&lt;/a&gt;.&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;Vous devez communiquer avec une équipe créative? Le Briefing Créatif est fait pour vous aider.
-Grâce à cet outil, vous recevrez gratuitement un document (PDF) qui sera votre base de travail. Cela vous fera gagner du temps en vous posant les bonnes questions. Il aidera aussi l’équipe créative à mieux cerner vos besoins et votre univers.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;Programme de l’après-midi ? Du pitch, du pitch et encore du pitch. Douze équipes, dont huit hébergées au NEST et quatre de chez Fortis. Les idées sont là, la motivation aussi ! En tout cas, on peut dire que les échanges sont biens présents. J’ai particulièrement aimé le concept de cette après-midi : vous et votre équipe présentez trois solutions à votre idée et par la suite, l’auditoire présente ses remarques ainsi que ses questions sans vous laisser l’opportunité de répondre.&lt;/p&gt;
-
-&lt;p&gt;J’ai vraiment passé une excellente journée, j’ai rencontré des gens motivés qui en veulent et qui sont pas prêt de lâcher le morceau avant d’avoir réussi. J’ai vraiment hâte de commencer à développer leurs idées et j’espère en tout cas pouvoir apporter ma pierre à leurs édifices. Où du moins y contribuer en proposant mon expertise ;)&lt;/p&gt;
-
-&lt;p&gt;Je vais essayer de maintenir le rythme d’un article par jour pour partager cette expérience vraiment unique en son genre.&lt;/p&gt;
-
-&lt;p&gt;À très vite !&lt;/p&gt;
-</description>
-        <pubDate>Fri, 03 Apr 2015 00:00:00 +0200</pubDate>
-        <link>http://maximesahroui.be/freelance/nest'up/2015/04/03/mes-aventures-au-nest-number-1.html</link>
-        <guid isPermaLink="true">http://maximesahroui.be/freelance/nest'up/2015/04/03/mes-aventures-au-nest-number-1.html</guid>
-        
-        
-        <category>freelance</category>
-        
-        <category>nest&#39;up</category>
         
       </item>
     
