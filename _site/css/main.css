@@ -322,6 +322,9 @@ h2 {
 .label-unavailable {
   background-color: #c0392b; }
 
+.label-primary {
+  background-color: #FF4987; }
+
 .text-right {
   text-align: right; }
 
