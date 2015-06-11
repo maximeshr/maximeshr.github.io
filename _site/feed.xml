@@ -6,9 +6,55 @@
 </description>
     <link>http://maximesahroui.be/</link>
     <atom:link href="http://maximesahroui.be/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 09 Jun 2015 10:11:06 +0200</pubDate>
-    <lastBuildDate>Tue, 09 Jun 2015 10:11:06 +0200</lastBuildDate>
+    <pubDate>Thu, 11 Jun 2015 13:53:09 +0200</pubDate>
+    <lastBuildDate>Thu, 11 Jun 2015 13:53:09 +0200</lastBuildDate>
     <generator>Jekyll v2.5.3</generator>
+    
+      <item>
+        <title>Mes aventures au NEST #END</title>
+        <description>&lt;p&gt;Deux semaines ! DEUX SEMAINES !!!&lt;/p&gt;
+
+&lt;p&gt;Et oui… deux semaines que le NEST’up Spring 2015 s’est terminé avec un Demo Day assez mémorable. Il est peut être temps pour moi de revenir sur les derniers jours d’action au sein de cette aventure inoubliable.&lt;/p&gt;
+
+&lt;p&gt;Tout d’abord la semaine post-DD (&lt;strong&gt;D&lt;/strong&gt;émo &lt;strong&gt;D&lt;/strong&gt;ay) a été entièrement consacrée à Rengo et le développement de leur application mobile. Je tiens à féliciter principalement &lt;a href=&quot;https://nomocas.github.io/&quot;&gt;Gilles&lt;/a&gt; et &lt;a href=&quot;https://www.linkedin.com/in/jorisvanhecke&quot;&gt;Joris&lt;/a&gt; pour l’application qu’ils ont réussi à sortir en trois petites journées. Même si je les ai rejoins le dernier jour, ils ont fait un boulot assez impressionnant avec &lt;a href=&quot;http://ionicframework.com/&quot;&gt;Ionic&lt;/a&gt; !&lt;/p&gt;
+
+&lt;p&gt;Pour le pré-DD, c’était beaucoup plus choatique : modifications, création, modification, édition, énervement, stress et encore modifications :D&lt;/p&gt;
+
+&lt;p&gt;Bref tout ce qu’on aime en tant que développeur : de la bonne pression. Mais je pense que dans l’ensemble, on a été assez carré et juste dans le temps imputé aux différentes startups. Petit clin d’oeil à &lt;a href=&quot;http://mybeerbox.be/&quot;&gt;MyBeerBox&lt;/a&gt; qui a essayé de nous acheté du temps contre de la bière… Allez comprendre, ça a peut être marché… au début du moins !&lt;/p&gt;
+
+&lt;p&gt;Voilà en gros deux mois de pure folie et d’amusement le plus total. J’ai vraiment aimé cette expérience et j’espère pouvoir la réitérer si l’occassion se présente. Cela m’a ouvert les yeux sur ce que j’aime réellement : le développement ainsi que l’entrepreneuriat. C’est donc tout naturellement que j’ai décidé de participer à un &lt;a href=&quot;http://www.entrepreneurs-weekend.be/&quot;&gt;Entrepreneur Weekend&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;J’y ai appris par le biais de coachs expérimentés le &lt;a href=&quot;http://theleanstartup.com/&quot;&gt;Lean Startup&lt;/a&gt; et globalement comment lancer son activité en tant qu’indépendant ainsi que tout un chapitre très intéressant sur les finances. J’en profite pour citer quelques intervenants que je remercie pour leurs interventions, leurs propos, leurs connaissances ou simplement leur partages. Merci !&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://twitter.com/A_Couvreur&quot;&gt;Aurélie Couvreur&lt;/a&gt; - pour ton accueil et l’organisation du weekend.
+&lt;a href=&quot;https://twitter.com/alexleunen&quot;&gt;Alexandra Leunen&lt;/a&gt; - pour tes précieux conseils.
+&lt;a href=&quot;https://twitter.com/dcourteaux&quot;&gt;Davy Courteaux&lt;/a&gt; - pour ton retour sur expérience et l’honnêteté de tes propos.
+&lt;a href=&quot;https://plus.google.com/117937313026421816635/about&quot;&gt;Olivier Kahn&lt;/a&gt; - car avec toi, la finance n’a jamais été aussi simple !&lt;/p&gt;
+
+&lt;p&gt;N’hésitez pas à les contacter si vous souhaitez lancer votre business… Ils partagent leurs expériences et vous conseilleront.&lt;/p&gt;
+
+&lt;p&gt;J’ai également rencontré quelques entrepreneurs assez sympa comme entre autres : “&lt;a href=&quot;http://www.desfillesaretordre.com/&quot;&gt;Des filles à retordre&lt;/a&gt;” qui vendent &lt;a href=&quot;http://www.desfillesaretordre.com/la-box-belge/&quot;&gt;La Box Belge&lt;/a&gt; (n’hésitez pas, c’est vraiment sympa !).&lt;/p&gt;
+
+&lt;p&gt;Pour conclure : au même titre que le &lt;a href=&quot;http://www.nestup.be&quot;&gt;NEST’up&lt;/a&gt;, je retire de cet &lt;a href=&quot;http://www.entrepreneurs-weekend.be/&quot;&gt;Entrepreneur Weekend&lt;/a&gt; une expérience grandissante me confortant dans mon activité professionnelle.&lt;/p&gt;
+
+&lt;p&gt;Merci à tous et à bientôt !&lt;/p&gt;
+</description>
+        <pubDate>Thu, 11 Jun 2015 00:00:00 +0200</pubDate>
+        <link>http://maximesahroui.be/freelance/nest'up/ionic/mvp/entrepreneurship/2015/06/11/mes-aventures-au-nest-number-end.html</link>
+        <guid isPermaLink="true">http://maximesahroui.be/freelance/nest'up/ionic/mvp/entrepreneurship/2015/06/11/mes-aventures-au-nest-number-end.html</guid>
+        
+        
+        <category>freelance</category>
+        
+        <category>nest&#39;up</category>
+        
+        <category>ionic</category>
+        
+        <category>mvp</category>
+        
+        <category>entrepreneurship</category>
+        
+      </item>
     
       <item>
         <title>Mes aventures au NEST #8</title>
@@ -611,41 +657,6 @@ Vous devez vérifier la façon dont vous calculez votre taux de conversion. Par 
         <category>nest&#39;up</category>
         
         <category>mvp</category>
-        
-      </item>
-    
-      <item>
-        <title>Challenge your limits</title>
-        <description>&lt;p&gt;Un petit article rapide sur les prochains événéments à suivre concernant ma super stratégie de marketing ! Bah oui, car sans marketing -&amp;gt; pas de clients -&amp;gt; pas de missions -&amp;gt; pas de cashflow -&amp;gt; fin de l’aventure, retour à la vie au bureau… Pas cool comme perspective !&lt;/p&gt;
-
-&lt;p&gt;Bon la première chose est de gagner &lt;strong&gt;en visibilité&lt;/strong&gt;, c’est à dire avoir plus de visites sur mon blog et/ou sur le site de mon entreprise (say hi @ &lt;a href=&quot;http://ranqed.io&quot; target=&quot;_blank&quot;&gt;ranqed.io&lt;/a&gt;). Pour cela, je dois attirer mes &lt;strong&gt;prospects&lt;/strong&gt; par des articles intéressants traitants de sujets &lt;strong&gt;actuels&lt;/strong&gt; et &lt;strong&gt;intéressants&lt;/strong&gt;. Pour cela je vous propose les thématiques suivantes :&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Meteor.js ;&lt;/li&gt;
-  &lt;li&gt;Pomodoro &amp;amp; Kanban ;&lt;/li&gt;
-  &lt;li&gt;La vie d’un jeune freelance ;&lt;/li&gt;
-  &lt;li&gt;Growth Hacking ;&lt;/li&gt;
-  &lt;li&gt;Mes aventures au NEST’up (incubateur de startups).&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Je crois sincèrement que ces thématiques peuvent vous intéresser, car moi c’est le cas et j’aimerai vraiment &lt;strong&gt;partager tout ça avec vous !&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;Je vais également réfléchir à l’ajout d’un module de commentaires, ce qui pourrait faciliter les échanges, même si vous avez toujours la possibilité m’envoyer un email @ &lt;a href=&quot;&amp;#109;&amp;#097;&amp;#105;&amp;#108;&amp;#116;&amp;#111;:&amp;#109;&amp;#101;&amp;#064;&amp;#109;&amp;#097;&amp;#120;&amp;#105;&amp;#109;&amp;#101;&amp;#115;&amp;#097;&amp;#104;&amp;#114;&amp;#111;&amp;#117;&amp;#105;&amp;#046;&amp;#098;&amp;#101;&quot;&gt;&amp;#109;&amp;#101;&amp;#064;&amp;#109;&amp;#097;&amp;#120;&amp;#105;&amp;#109;&amp;#101;&amp;#115;&amp;#097;&amp;#104;&amp;#114;&amp;#111;&amp;#117;&amp;#105;&amp;#046;&amp;#098;&amp;#101;&lt;/a&gt; ! (PS: J’aime les feedbacks &lt;s&gt;constructifs&lt;/s&gt; :D)&lt;/p&gt;
-
-&lt;p&gt;Voilà c’est tout pour aujourd’hui, à très vite !&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/img/challenge-your-limits/challenge.jpg&quot; alt=&quot;Challenge your limits&quot; /&gt;&lt;/p&gt;
-</description>
-        <pubDate>Sun, 05 Apr 2015 00:00:00 +0200</pubDate>
-        <link>http://maximesahroui.be/freelance/r%C3%A9flexion/objectifs/2015/04/05/challenge-your-limits.html</link>
-        <guid isPermaLink="true">http://maximesahroui.be/freelance/r%C3%A9flexion/objectifs/2015/04/05/challenge-your-limits.html</guid>
-        
-        
-        <category>freelance</category>
-        
-        <category>réflexion</category>
-        
-        <category>objectifs</category>
         
       </item>
     
