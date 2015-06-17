@@ -47,6 +47,12 @@ img {
     vertical-align: middle;
 }
 
+.img-circle {
+  width: 150px;
+  height: 150px;
+  border-radius: 75px;
+}
+
 .post img {
   margin: 1em 0;
 }
@@ -229,6 +235,46 @@ pre {
 }
 
 /**
+ * Form
+ */
+form input, form textarea {
+  margin-bottom: 0.5em;
+}
+
+input, textarea {
+  font-size: 0.8em;
+  font-family: $base-font-family;
+  border: 1px solid #ddd;
+  background: #fff;
+  padding: 0.9em;
+  width: 80%;
+}
+
+input[type="submit"] {
+  width: 50%;
+  font-size: 1em;
+  text-transform: uppercase;
+  font-weight: 600;
+  border: 2px solid $brand-color;
+  color: $brand-color;
+  background: transparent;
+  line-height: 1em;
+  padding: 0.6em 0.9em;
+  -webkit-appearance: button;
+  cursor: pointer;
+  &:hover,
+  &:focus {
+    border: 2px solid $brand-color-dark;
+    color: $brand-color-dark;
+  }
+}
+
+textarea {
+  overflow: auto;
+  vertical-align: top;
+}
+
+/**
  * Disqus
  */
 #disqus_thread { margin-top: 3em; }
@@ -244,15 +290,15 @@ pre {
 .text-important { font-weight: 800; }
 .text-underline { border-bottom: 1px solid $text-color; }
 .text-line-through { text-decoration: line-through; }
-.m-t-sm { margin-top:    15px; }
-.m-t-md { margin-top:    30px; }
-.m-t-lg { margin-top:    45px; }
-.m-r-sm { margin-right:  15px; }
-.m-r-md { margin-right:  30px; }
-.m-r-lg { margin-right:  45px; }
-.m-b-sm { margin-bottom: 15px; }
-.m-b-md { margin-bottom: 30px; }
-.m-b-lg { margin-bottom: 45px; }
-.m-l-sm { margin-left:   15px; }
-.m-l-md { margin-left:   30px; }
-.m-l-lg { margin-left:   45px; }
+.m-t-sm { margin-top:    15px !important; }
+.m-t-md { margin-top:    30px !important; }
+.m-t-lg { margin-top:    45px !important; }
+.m-r-sm { margin-right:  15px !important; }
+.m-r-md { margin-right:  30px !important; }
+.m-r-lg { margin-right:  45px !important; }
+.m-b-sm { margin-bottom: 15px !important; }
+.m-b-md { margin-bottom: 30px !important; }
+.m-b-lg { margin-bottom: 45px !important; }
+.m-l-sm { margin-left:   15px !important; }
+.m-l-md { margin-left:   30px !important; }
+.m-l-lg { margin-left:   45px !important; }
