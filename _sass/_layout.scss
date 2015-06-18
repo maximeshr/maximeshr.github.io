@@ -138,6 +138,11 @@ h2 {
     width:         calc(25% - (#{$spacing-unit} / 2));
 }
 
+.col-4 {
+    width: -webkit-calc(33% - (#{$spacing-unit} / 2));
+    width:         calc(33% - (#{$spacing-unit} / 2));
+}
+
 .col-6 {
     width: -webkit-calc(50% - (#{$spacing-unit} / 2));
     width:         calc(50% - (#{$spacing-unit} / 2));

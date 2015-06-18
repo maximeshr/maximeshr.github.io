@@ -379,6 +379,10 @@ h2 {
   width: -webkit-calc(25% - (30px / 2));
   width: calc(25% - (30px / 2)); }
 
+.col-4 {
+  width: -webkit-calc(33% - (30px / 2));
+  width: calc(33% - (30px / 2)); }
+
 .col-6 {
   width: -webkit-calc(50% - (30px / 2));
   width: calc(50% - (30px / 2)); }
