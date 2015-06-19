@@ -4,7 +4,7 @@ description: > # this means to ignore newlines until "baseurl:"
   I'm a Freelance JavaScript Developer living in Belgium. I like : JavaScript, Node.js, AngularJS, Meteor, Startup World, Growth Hacking and Agile Methodologies.
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://maximesahroui.be" # the base hostname & protocol for your site
-available: true
+available: false
 
 # Build settings
 markdown: kramdown
