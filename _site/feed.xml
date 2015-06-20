@@ -6,9 +6,47 @@
 </description>
     <link>http://maximesahroui.be/</link>
     <atom:link href="http://maximesahroui.be/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Fri, 19 Jun 2015 11:51:46 +0200</pubDate>
-    <lastBuildDate>Fri, 19 Jun 2015 11:51:46 +0200</lastBuildDate>
+    <pubDate>Sat, 20 Jun 2015 22:19:30 +0200</pubDate>
+    <lastBuildDate>Sat, 20 Jun 2015 22:19:30 +0200</lastBuildDate>
     <generator>Jekyll v2.5.3</generator>
+    
+      <item>
+        <title>ES6 ressources</title>
+        <description>&lt;p&gt;Hey guys! Today is a interesting day ;)&lt;br /&gt;
+I’ve met an interesting company (startup-like) looking for a good JS developer: &lt;a href=&quot;http://www.qualifio.com/&quot;&gt;Qualifio&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;They work with Node.js / AngularJS and more interesting, with ES6 through &lt;a href=&quot;https://babeljs.io/&quot;&gt;Babel&lt;/a&gt;. Thats so cool because, here in Belgium, the Node.js missions are really uncommon… Did I mention that they work Agile? #happy #developer&lt;/p&gt;
+
+&lt;p&gt;For those like me using CoffeeScript, here is an interesting &lt;a href=&quot;https://robots.thoughtbot.com/replace-coffeescript-with-es6&quot;&gt;guide&lt;/a&gt; to switch to ES6.&lt;/p&gt;
+
+&lt;p&gt;If like me you wanna learn ES6, here some interesting links to boost your &lt;strike&gt;rookie&lt;/strike&gt; skill:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/ericdouglas/ES6-Learning&quot;&gt;Eric Douglas Guide&lt;/a&gt; &lt;strong&gt;(best ressource)&lt;/strong&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://exploringjs.com/&quot;&gt;Exploring ES6 Online Book&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.youtube.com/playlist?list=PLEKIsm9AjY8LfH5cYnhJE-L5A7NWis6qB&quot;&gt;Interesting ES6 Playlist on YT&lt;/a&gt; &lt;strong&gt;(JSBroadcast)&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;I hope you’ll enjoy these ressources ;)&lt;/p&gt;
+
+&lt;p&gt;See you next time…&lt;/p&gt;
+</description>
+        <pubDate>Sat, 20 Jun 2015 00:00:00 +0200</pubDate>
+        <link>http://maximesahroui.be/javascript/es6/babel/learning/english/2015/06/20/es6-ressources.html</link>
+        <guid isPermaLink="true">http://maximesahroui.be/javascript/es6/babel/learning/english/2015/06/20/es6-ressources.html</guid>
+        
+        
+        <category>javascript</category>
+        
+        <category>es6</category>
+        
+        <category>babel</category>
+        
+        <category>learning</category>
+        
+        <category>english</category>
+        
+      </item>
     
       <item>
         <title>Mes aventures au NEST #END</title>
@@ -618,45 +656,6 @@ Vous devez vérifier la façon dont vous calculez votre taux de conversion. Par 
         <category>twitter</category>
         
         <category>api</category>
-        
-      </item>
-    
-      <item>
-        <title>Mes aventures au NEST #2</title>
-        <description>&lt;p&gt;Cette deuxième journée au NEST s’est bien déroulée. J’ai pu découvrir le quatrième et dernier membre de l’équipe de développement : &lt;a href=&quot;http://valentin.escoyez.be/&quot;&gt;Valentin&lt;/a&gt;. Je pense sincèrement que l’on peut faire du bon boulot ensemble, en tout cas c’est ce que l’on attend de nous !&lt;/p&gt;
-
-&lt;p&gt;Le début de la journée était consacré à la conception d’un bon MVP dans le cadre du lean development :&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/img/nest-up-adventures/mvp-map.png&quot; alt=&quot;mvp map&quot; class=&quot;img-responsive&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Tous les MVP ne servent pas à valider la même chose, ce sont des outils que l’on va utiliser dans des situations bien particulières. Les encadrés de couleur signifient donc si le MVP sert à valider une hypothèse problème alias un besoin, un concept ou une mécanique de fonctionnement, une proposition de valeur unique, ou tester cette valeur délivrée au client.&lt;/p&gt;
-
-&lt;p&gt;Le lean development, c’est avant tout de la priorisation d’hypothèses, avant d’être de la validation. C’est pourquoi on va chercher à valider un problème client avant de s’intéresser à une solution. Les MVP sont donc plus ou moins foncés selon leur priorité d’intervention dans votre projet.&lt;/p&gt;
-
-&lt;p&gt;Il existe encore d’autres types de MVP tels que :&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Le &lt;strong&gt;Sondage&lt;/strong&gt; : permet de valider un problème de manière quantitative ;&lt;/li&gt;
-  &lt;li&gt;Le &lt;strong&gt;Crowdfunding&lt;/strong&gt; : permet de vérifier si les gens sont prêts à payer pour votre concept/produit ;&lt;/li&gt;
-  &lt;li&gt;Le &lt;strong&gt;Magicien d’Oz&lt;/strong&gt; : c’est un concierge, où le client ne vous voit pas ;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Si vous souhaitez plus d’informations la dessus, je vous renvois &lt;a href=&quot;https://stefanroock.wordpress.com/2012/08/05/lean-startup-a-classification-of-mvps/&quot;&gt;ici&lt;/a&gt; et &lt;a href=&quot;http://www.sebastiensacard.fr/articles/2012/les-differents-types-de-mvp/&quot;&gt;là&lt;/a&gt; dans un premier temps.&lt;/p&gt;
-
-&lt;p&gt;Pour le reste de la journée, nous nous sommes pencher sur le partage de connaissances : &lt;a href=&quot;https://www.nativescript.org/&quot;&gt;Nativescript&lt;/a&gt;, &lt;a href=&quot;http://ionicframework.com/&quot;&gt;Ionic&lt;/a&gt;, &lt;a href=&quot;https://www.meteor.com/&quot;&gt;Meteor&lt;/a&gt; et &lt;a href=&quot;http://www.meteorkitchen.com/&quot;&gt;Meteor Kitchen&lt;/a&gt;. Beaucoup de partages et de choses intéressantes en somme. J’ai hâte de débuter le développement ;)&lt;/p&gt;
-
-&lt;p&gt;À demain pour la troisième journée !&lt;/p&gt;
-</description>
-        <pubDate>Wed, 08 Apr 2015 00:00:00 +0200</pubDate>
-        <link>http://maximesahroui.be/freelance/nest'up/mvp/2015/04/08/mes-aventures-au-nest-number-2.html</link>
-        <guid isPermaLink="true">http://maximesahroui.be/freelance/nest'up/mvp/2015/04/08/mes-aventures-au-nest-number-2.html</guid>
-        
-        
-        <category>freelance</category>
-        
-        <category>nest&#39;up</category>
-        
-        <category>mvp</category>
         
       </item>
     
