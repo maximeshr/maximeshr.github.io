@@ -6,8 +6,8 @@
 </description>
     <link>http://maximesahroui.be/</link>
     <atom:link href="http://maximesahroui.be/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sat, 20 Jun 2015 22:19:30 +0200</pubDate>
-    <lastBuildDate>Sat, 20 Jun 2015 22:19:30 +0200</lastBuildDate>
+    <pubDate>Sun, 05 Jul 2015 16:53:59 +0200</pubDate>
+    <lastBuildDate>Sun, 05 Jul 2015 16:53:59 +0200</lastBuildDate>
     <generator>Jekyll v2.5.3</generator>
     
       <item>
@@ -114,7 +114,7 @@ I’ve met an interesting company (startup-like) looking for a good JS developer
 
 &lt;p&gt;Les deux conceptes sont super sympa et intéressants niveau technique : du Node.js pour &lt;a href=&quot;https://nodejs.org/&quot;&gt;VestiR&lt;/a&gt; et de l’&lt;a href=&quot;http://ionicframework.com/&quot;&gt;ionic&lt;/a&gt; pour Rengo.&lt;/p&gt;
 
-&lt;p&gt;Nous avons également eu une demande de la part de &lt;a href=&quot;http://trigghr.com/&quot;&gt;trigghr&lt;/a&gt; concernant la mise en place d’un &lt;strong&gt;script de scrapping de données&lt;/strong&gt; sur LinkedIn. L’idée est de récupérer un maximum d’information sur les compagnies. Après quelques minutes nous avons trouvé une API disponible : &lt;/p&gt;
+&lt;p&gt;Nous avons également eu une demande de la part de &lt;a href=&quot;http://trigghr.com/&quot;&gt;trigghr&lt;/a&gt; concernant la mise en place d’un &lt;strong&gt;script de scrapping de données&lt;/strong&gt; sur LinkedIn. L’idée est de récupérer un maximum d’information sur les compagnies. Après quelques minutes nous avons trouvé une API disponible :&lt;/p&gt;
 
 &lt;p&gt;https://www.linkedin.com/ta/federator?query={:q}&amp;amp;types=company&lt;/p&gt;
 
@@ -529,7 +529,7 @@ iron:router: Routing specifically designed &lt;span class=&quot;k&quot;&gt;for&l
 
 &lt;p&gt;Une fois tous ces éléments à notre disposition, chaque membre dispose &lt;strong&gt;uniquement&lt;/strong&gt; de dix points à répartir entre les différents éléments : noms, valeurs et mots. Il est également possible de voter dix fois pour le même élément. Aucune restriction à ce niveau.&lt;/p&gt;
 
-&lt;p&gt;Une fois les éléments sélectionnés, nous éliminons le reste pour se concentrer sur la dernière phase de l’exercice : &lt;/p&gt;
+&lt;p&gt;Une fois les éléments sélectionnés, nous éliminons le reste pour se concentrer sur la dernière phase de l’exercice :&lt;/p&gt;
 
 &lt;ul&gt;
   &lt;li&gt;Objectif 6 : Trouver un nom, un logo et une histoire à l’aide de tous les éléments restants.&lt;/li&gt;
