@@ -6,9 +6,115 @@
 </description>
     <link>http://maximesahroui.be/</link>
     <atom:link href="http://maximesahroui.be/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sun, 05 Jul 2015 16:53:59 +0200</pubDate>
-    <lastBuildDate>Sun, 05 Jul 2015 16:53:59 +0200</lastBuildDate>
+    <pubDate>Thu, 16 Jul 2015 21:41:51 +0200</pubDate>
+    <lastBuildDate>Thu, 16 Jul 2015 21:41:51 +0200</lastBuildDate>
     <generator>Jekyll v2.5.3</generator>
+    
+      <item>
+        <title>Using Koa with CoffeeScript</title>
+        <description>&lt;h2 id=&quot;what-is-koa&quot;&gt;What is Koa?&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://koajs.com&quot;&gt;Koa&lt;/a&gt; is a new web framework designed by the team behind Express, which aims to be a &lt;strong&gt;smaller&lt;/strong&gt;, more &lt;strong&gt;expressive&lt;/strong&gt;, and more &lt;strong&gt;robust foundation&lt;/strong&gt; for web applications and APIs. Through leveraging &lt;strong&gt;generators&lt;/strong&gt; Koa allows you to &lt;strong&gt;ditch callbacks&lt;/strong&gt; and greatly increase &lt;strong&gt;error-handling&lt;/strong&gt;. Koa does not bundle any middleware within core, and provides an elegant suite of methods that make writing servers &lt;strong&gt;fast and enjoyable&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;h2 id=&quot;example-with-coffeescript&quot;&gt;Example with CoffeeScript&lt;/h2&gt;
+
+&lt;p&gt;Let’s take koa’s “Hello World” for example :&lt;/p&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-javascript&quot; data-lang=&quot;javascript&quot;&gt;&lt;span class=&quot;kd&quot;&gt;var&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;koa&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;require&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;&amp;#39;koa&amp;#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+&lt;span class=&quot;kd&quot;&gt;var&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;app&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;koa&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;();&lt;/span&gt;
+
+&lt;span class=&quot;c1&quot;&gt;// logger&lt;/span&gt;
+
+&lt;span class=&quot;nx&quot;&gt;app&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;use&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;kd&quot;&gt;function&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;*&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;next&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;){&lt;/span&gt;
+  &lt;span class=&quot;kd&quot;&gt;var&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;start&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;new&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;Date&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+  &lt;span class=&quot;k&quot;&gt;yield&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;next&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+  &lt;span class=&quot;kd&quot;&gt;var&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;ms&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;new&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;Date&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;start&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+  &lt;span class=&quot;nx&quot;&gt;console&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;log&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;&amp;#39;%s %s - %s ms&amp;#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;this&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;method&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;this&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;url&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;ms&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;});&lt;/span&gt;
+
+&lt;span class=&quot;c1&quot;&gt;// response&lt;/span&gt;
+
+&lt;span class=&quot;nx&quot;&gt;app&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;use&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;kd&quot;&gt;function&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;*&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(){&lt;/span&gt;
+  &lt;span class=&quot;k&quot;&gt;this&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;body&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;&amp;#39;Hello World&amp;#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;});&lt;/span&gt;
+
+&lt;span class=&quot;nx&quot;&gt;app&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;listen&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;3000&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;OK! Now let’s CoffeeScript : &lt;code&gt;coffee index.js&lt;/code&gt;&lt;/p&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-coffeescript&quot; data-lang=&quot;coffeescript&quot;&gt;&lt;span class=&quot;nv&quot;&gt;koa = &lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;require&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&amp;quot;koa&amp;quot;&lt;/span&gt;
+&lt;span class=&quot;nv&quot;&gt;app = &lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;koa&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt;
+
+&lt;span class=&quot;c1&quot;&gt;## logger&lt;/span&gt;
+
+&lt;span class=&quot;nx&quot;&gt;app&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;use&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;(next) -&amp;gt;&lt;/span&gt;
+  &lt;span class=&quot;nv&quot;&gt;start = &lt;/span&gt;&lt;span class=&quot;k&quot;&gt;new&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;Date&lt;/span&gt;
+  &lt;span class=&quot;nx&quot;&gt;yield&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;next&lt;/span&gt;
+  &lt;span class=&quot;nv&quot;&gt;ms = &lt;/span&gt;&lt;span class=&quot;k&quot;&gt;new&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;Date&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;start&lt;/span&gt;
+  &lt;span class=&quot;nx&quot;&gt;console&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;log&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&amp;quot;%s %s - %s ms&amp;quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;@method&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;@url&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;ms&lt;/span&gt;
+
+&lt;span class=&quot;c1&quot;&gt;## response&lt;/span&gt;
+
+&lt;span class=&quot;nx&quot;&gt;app&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;use&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;-&amp;gt;&lt;/span&gt;
+  &lt;span class=&quot;vi&quot;&gt;@body = &lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;quot;Hello World&amp;quot;&lt;/span&gt;
+  &lt;span class=&quot;nx&quot;&gt;yield&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;# coffeescript requires &amp;quot;yield&amp;quot; to turn function into generator&lt;/span&gt;
+
+&lt;span class=&quot;nx&quot;&gt;app&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;listen&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;3000&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;CoffeeScript 1.9 defines a generator as any function that uses the new yield keyword.&lt;/p&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-coffeescript&quot; data-lang=&quot;coffeescript&quot;&gt;&lt;span class=&quot;nx&quot;&gt;app&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;use&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;-&amp;gt;&lt;/span&gt;
+  &lt;span class=&quot;vi&quot;&gt;@body = &lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;quot;Hello World&amp;quot;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;This will not turn the function into generator and throw exception :&lt;/p&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;AssertionError: app.use&lt;span class=&quot;o&quot;&gt;()&lt;/span&gt; requires a generator &lt;span class=&quot;k&quot;&gt;function&lt;/span&gt;
+  at Application.app.use &lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;/home/maxime/development/tests/koa/node_modules/koa/lib/application.js:100:5&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt;
+  at Object.&amp;lt;anonymous&amp;gt; &lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;/home/maxime/development/tests/koa/index.coffee:14:5&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt;
+  at Object.&amp;lt;anonymous&amp;gt; &lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;/home/maxime/development/tests/koa/index.coffee:1:1&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt;
+  at Module._compile &lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;module.js:428:26&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt;
+  at Object.exports.run &lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;/home/maxime/.nvm/versions/io.js/v2.3.1/lib/node_modules/coffee-script/lib/coffee-script/coffee-script.js:134:23&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt;
+  at compileScript &lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;/home/maxime/.nvm/versions/io.js/v2.3.1/lib/node_modules/coffee-script/lib/coffee-script/command.js:224:29&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt;
+  at compilePath &lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;/home/maxime/.nvm/versions/io.js/v2.3.1/lib/node_modules/coffee-script/lib/coffee-script/command.js:174:14&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt;
+  at Object.exports.run &lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;/home/maxime/.nvm/versions/io.js/v2.3.1/lib/node_modules/coffee-script/lib/coffee-script/command.js:98:20&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt;
+  at Object.&amp;lt;anonymous&amp;gt; &lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;/home/maxime/.nvm/versions/io.js/v2.3.1/lib/node_modules/coffee-script/bin/coffee:7:41&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt;
+  at Module._compile &lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;module.js:428:26&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt;
+  at Object.Module._extensions..js &lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;module.js:446:10&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt;
+  at Module.load &lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;module.js:353:32&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt;
+  at Function.Module._load &lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;module.js:308:12&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt;
+  at Function.Module.runMain &lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;module.js:469:10&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt;
+  at startup &lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;node.js:117:18&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt;
+  at node.js:948:3&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;h2 id=&quot;what-can-i-yield-with-koa-&quot;&gt;What can I yield with Koa ?&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Promises&lt;/li&gt;
+  &lt;li&gt;Thunks - functions you call with a single parameter, &lt;strong&gt;callback&lt;/strong&gt;&lt;/li&gt;
+  &lt;li&gt;Generators&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;more&quot;&gt;More&lt;/h2&gt;
+
+&lt;p&gt;Using iojs v2.3.1 - repository available &lt;a href=&quot;https://github.com/maximeshr/coffeescript-koa&quot;&gt;here&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Have fun experimenting with Koa and CoffeeScript :)&lt;/p&gt;
+
+</description>
+        <pubDate>Thu, 16 Jul 2015 00:00:00 +0200</pubDate>
+        <link>http://maximesahroui.be/javascript/coffeescript/es6/english/2015/07/16/using-koa-with-coffeescript.html</link>
+        <guid isPermaLink="true">http://maximesahroui.be/javascript/coffeescript/es6/english/2015/07/16/using-koa-with-coffeescript.html</guid>
+        
+        
+        <category>javascript</category>
+        
+        <category>coffeescript</category>
+        
+        <category>es6</category>
+        
+        <category>english</category>
+        
+      </item>
     
       <item>
         <title>ES6 ressources</title>
@@ -114,7 +220,7 @@ I’ve met an interesting company (startup-like) looking for a good JS developer
 
 &lt;p&gt;Les deux conceptes sont super sympa et intéressants niveau technique : du Node.js pour &lt;a href=&quot;https://nodejs.org/&quot;&gt;VestiR&lt;/a&gt; et de l’&lt;a href=&quot;http://ionicframework.com/&quot;&gt;ionic&lt;/a&gt; pour Rengo.&lt;/p&gt;
 
-&lt;p&gt;Nous avons également eu une demande de la part de &lt;a href=&quot;http://trigghr.com/&quot;&gt;trigghr&lt;/a&gt; concernant la mise en place d’un &lt;strong&gt;script de scrapping de données&lt;/strong&gt; sur LinkedIn. L’idée est de récupérer un maximum d’information sur les compagnies. Après quelques minutes nous avons trouvé une API disponible :&lt;/p&gt;
+&lt;p&gt;Nous avons également eu une demande de la part de &lt;a href=&quot;http://trigghr.com/&quot;&gt;trigghr&lt;/a&gt; concernant la mise en place d’un &lt;strong&gt;script de scrapping de données&lt;/strong&gt; sur LinkedIn. L’idée est de récupérer un maximum d’information sur les compagnies. Après quelques minutes nous avons trouvé une API disponible : &lt;/p&gt;
 
 &lt;p&gt;https://www.linkedin.com/ta/federator?query={:q}&amp;amp;types=company&lt;/p&gt;
 
@@ -529,7 +635,7 @@ iron:router: Routing specifically designed &lt;span class=&quot;k&quot;&gt;for&l
 
 &lt;p&gt;Une fois tous ces éléments à notre disposition, chaque membre dispose &lt;strong&gt;uniquement&lt;/strong&gt; de dix points à répartir entre les différents éléments : noms, valeurs et mots. Il est également possible de voter dix fois pour le même élément. Aucune restriction à ce niveau.&lt;/p&gt;
 
-&lt;p&gt;Une fois les éléments sélectionnés, nous éliminons le reste pour se concentrer sur la dernière phase de l’exercice :&lt;/p&gt;
+&lt;p&gt;Une fois les éléments sélectionnés, nous éliminons le reste pour se concentrer sur la dernière phase de l’exercice : &lt;/p&gt;
 
 &lt;ul&gt;
   &lt;li&gt;Objectif 6 : Trouver un nom, un logo et une histoire à l’aide de tous les éléments restants.&lt;/li&gt;
@@ -566,96 +672,6 @@ D’ici là, portez-vous bien !&lt;/p&gt;
         <category>brainstorm</category>
         
         <category>comments</category>
-        
-      </item>
-    
-      <item>
-        <title>Mes aventures au NEST #3</title>
-        <description>&lt;p&gt;Un petit article pour relater les différents points que nous avons abordé lors de cette troisième matinée au sein du NEST : les metrics.&lt;/p&gt;
-
-&lt;p&gt;Pour ceux qui ne savent pas ce que c’est, je vous invite à faire un petit tour du coté de &lt;a href=&quot;http://www.google.com/analytics/&quot;&gt;Google Analytics&lt;/a&gt; ou de &lt;a href=&quot;https://www.kissmetrics.com&quot;&gt;KISSmetrics&lt;/a&gt; pour de plus amples informations.&lt;/p&gt;
-
-&lt;p&gt;Après plusieurs recherches, voici un listing des six métriques les plus importantes à traquer :&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;h4 id=&quot;visites-qualifies&quot;&gt;Visites qualifiées&lt;/h4&gt;
-  &lt;p&gt;Cette métrique est vivement recommandée pour tous les marketeurs. En effet, elle capte deux dimensions importantes qu’aucun autre système métrique simple ne fait : elle associe à la fois le quantitatif (nombre d’individus) et le qualitatif (les interactions des utilisateurs, ce qui suggère un degré d’intérêt de la part des consommateurs). Selon le canal utilisé, les métriques du marketeur varient, néanmoins l’accent est toujours mis sur le comportement – une démarche bien différente que les autres mesures de performance classiques.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;blockquote&gt;
-  &lt;h4 id=&quot;le-taux-de-clics&quot;&gt;Le taux de clics&lt;/h4&gt;
-  &lt;p&gt;Le taux de clic est la métrique la plus utilisée par les annonceurs en ligne. Cela correspond au pourcentage d’internautes exposés à un contenu publicitaire qui ont cliqué sur celui-ci afin de se rendre sur le site de l’annonceur ou de répondre à la sollicitation du message. Bien que son importance décroit et que cette métrique n’est pas toujours représentative, le taux de clic reste une des mesures les plus utilisées par les entreprises pour mesurer la performance de leurs actions marketing. Par exemple, un taux de clic supérieur à 1% peut-être considéré comme bon mais certains scores peuvent dépasser les 10%, difficile d’émettre un jugement. Certains supports se font rémunérer sur la base de ce taux de clic : on parle de rémunération au clic.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;blockquote&gt;
-  &lt;h4 id=&quot;image-de-marque-perue&quot;&gt;Image de marque perçue&lt;/h4&gt;
-  &lt;p&gt;Cette métrique est calculée en déterminant le changement de perception de la marque auprès d’un public bien défini, en comparant les résultats à ceux d’un groupe témoin qui n’a pas été exposé à l’image de cette même entreprise (ou au message).&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;blockquote&gt;
-  &lt;h4 id=&quot;le-taux-dengagement&quot;&gt;Le taux d’engagement&lt;/h4&gt;
-  &lt;p&gt;L’engagement fait référence à la création d’un intérêt ou d’une attention favorable de l’internaute envers votre site. Il s’agit d’un ensemble spécial de mesures intégrées qui saisit le degré de l’influence d’un contenu ou d’une annonce. Vous pouvez mesurer le degré d’engagement d’un internaute sur votre site à l’aide, par exemple, du temps passé sur le site, l’inscription à une newletter, l’abonnement au fil RSS, la soumission d’un commentaire, l’intervalle entre les visites d’un même internaute, etc. Basé sur un système de points de valeur flexible, le taux d’engagement fonctionne sur tous les médias digitaux, que ce soit des vidéos, des applications mobiles,  jusqu’aux réseaux sociaux.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;blockquote&gt;
-  &lt;h4 id=&quot;le-taux-de-conversion&quot;&gt;Le taux de conversion&lt;/h4&gt;
-  &lt;p&gt;Le taux de conversion correspond au rapport entre les internautes ayant réalisé l’action recherchée dans le cadre de votre action marketing par rapport au nombre total d’utilisateurs touchés par l’action. Bien souvent, un internaute « convertit » au moment où il achète un produit, s’inscrit à une Newsletter, s’abonne à un flux RSS ou télécharge un fichier. Cependant, une action de fin peut être aussi un « like », une « vue » d’une vidéo, un « follower » sur Twitter, etc. C’est le but ultime d’une page Web ou d’une publicité.
-Vous devez vérifier la façon dont vous calculez votre taux de conversion. Par exemple, est-ce que le dénominateur sera les visiteurs uniques ou le nombre de visites? Cela peut avoir un impact conséquent sur votre organisation et pourra influencer la stratégie que vous mettrez en place. C’est donc une métrique essentielle pour déterminer l’efficacité de la campagne marketing mise en œuvre.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;Ces différentes métriques représentent l’efficacité d’une stratégie de webmarketing qui va générer de l’engagement, une action, favoriser l’image de marque, etc. Mais les buts atteints sont-ils finalement rentables pour l’entreprise ?&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;h4 id=&quot;retour-sur-investissement-roi&quot;&gt;Retour sur investissement (ROI)&lt;/h4&gt;
-  &lt;p&gt;Le ROI est une mesure financière qui représente la valeur créée par votre campagne marketing. Les entreprises ont besoin de déterminer si oui ou non un programme social média est efficace. Cela dépend en grande partie des objectifs de l’entreprise sur les médias sociaux et l’organisation de celle-ci.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;Si l’objectif est de mesurer le trafic, la vente ou le référencement, il est possible d’avoir une approche plus quantitative.  Il y a quelques outils gratuits qui peuvent vous aider avec ce type de mesure, y compris Google Analytics et Feedburner qui sont essentiels. Ce sont des outils gratuits qui aident à analyser le trafic de ​​votre entreprise, nombre d’abonnés, optimisation des mots clés et autres tendances.&lt;/p&gt;
-
-&lt;p&gt;Si vous avez envie de creuser le sujet, je vous invite à lire cet &lt;a href=&quot;http://articles.bplans.com/the-6-most-important-web-metrics-to-track-for-your-business-website/&quot;&gt;article&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;En ce qui concerne l’après-midi, nous avons passé en revue les besoins de quatre startups. Ce qui est revenu constamment était une landing page composée d’une description de leur “value proposition” ainsi qu’un champs email. Pour les plus avancés nous avons également eu une demande de mise en place de scripts permettant de sortir une liste d’utilisateurs twitter belges parlant de cuisine.&lt;/p&gt;
-
-&lt;p&gt;La solution fût rapidement implémentée à l’aide de l’&lt;a href=&quot;https://dev.twitter.com/overview/documentation&quot;&gt;api twitter&lt;/a&gt; :&lt;/p&gt;
-
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-javascript&quot; data-lang=&quot;javascript&quot;&gt;&lt;span class=&quot;c1&quot;&gt;// twitter.api.js&lt;/span&gt;
-
-&lt;span class=&quot;kd&quot;&gt;var&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;Twitter&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;require&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;&amp;#39;twitter&amp;#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
- 
-&lt;span class=&quot;kd&quot;&gt;var&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;client&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;new&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;Twitter&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;({&lt;/span&gt;
-  &lt;span class=&quot;nx&quot;&gt;consumer_key&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;process&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;env&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;TWITTER_CONSUMER_KEY&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
-  &lt;span class=&quot;nx&quot;&gt;consumer_secret&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;process&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;env&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;TWITTER_CONSUMER_SECRET&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
-  &lt;span class=&quot;nx&quot;&gt;access_token_key&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;process&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;env&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;TWITTER_ACCESS_TOKEN_KEY&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
-  &lt;span class=&quot;nx&quot;&gt;access_token_secret&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;process&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;env&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;TWITTER_ACCESS_TOKEN_SECRET&lt;/span&gt;
-&lt;span class=&quot;p&quot;&gt;});&lt;/span&gt;
- 
-&lt;span class=&quot;kd&quot;&gt;var&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;params&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;q&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;&amp;#39;cuisine&amp;#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;lang&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;&amp;#39;fr&amp;#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;count&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;&amp;#39;100&amp;#39;&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;};&lt;/span&gt;
-&lt;span class=&quot;nx&quot;&gt;client&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;get&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;&amp;#39;search/tweets&amp;#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;params&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;kd&quot;&gt;function&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;err&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;tweets&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;res&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
-  &lt;span class=&quot;k&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;err&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;throw&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;err&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-  &lt;span class=&quot;nx&quot;&gt;console&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;log&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;tweets&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;// or save it in database !&lt;/span&gt;
-&lt;span class=&quot;p&quot;&gt;});&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-
-&lt;p&gt;Voilà c’est tout pour cette troisième journée. Pour ce weekend, je vais écrire mon premier article en anglais sur la création d’un petit tools avec Meteor et l’api twitter pour la récupération d’offres d’emplois mais je dois encore améliorer le système. La version beta est disponible &lt;a href=&quot;http://needrr.meteor.com/&quot;&gt;ici&lt;/a&gt; ainsi que son &lt;a href=&quot;https://github.com/maximeshr/needrr&quot;&gt;code source&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;À la semaine prochaine !&lt;/p&gt;
-
-</description>
-        <pubDate>Fri, 10 Apr 2015 00:00:00 +0200</pubDate>
-        <link>http://maximesahroui.be/freelance/nest'up/metrics/hacking/twitter/api/2015/04/10/mes-aventures-au-nest-number-3.html</link>
-        <guid isPermaLink="true">http://maximesahroui.be/freelance/nest'up/metrics/hacking/twitter/api/2015/04/10/mes-aventures-au-nest-number-3.html</guid>
-        
-        
-        <category>freelance</category>
-        
-        <category>nest&#39;up</category>
-        
-        <category>metrics</category>
-        
-        <category>hacking</category>
-        
-        <category>twitter</category>
-        
-        <category>api</category>
         
       </item>
     
