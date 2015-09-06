@@ -1,0 +1,16 @@
+{
+  "name": "maximesahroui.be",
+  "version": "0.0.0",
+  "homepage": "https://github.com/maximeshr/maximesahroui.be",
+  "authors": [
+    "Maxime Sahroui <maxime.sahroui@gmail.com>"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
