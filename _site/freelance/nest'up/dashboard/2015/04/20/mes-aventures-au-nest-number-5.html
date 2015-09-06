@@ -157,11 +157,23 @@
     </script>
     <script>
       $(document).ready(function() {
+        //Sort random function
+        function random(owlSelector){
+          owlSelector.children().sort(function(){
+            return Math.round(Math.random()) - 0.5;
+          }).each(function(){
+            $(this).appendTo(owlSelector);
+          });
+        }
         $("#owl-carousel").owlCarousel({
           autoPlay: 3000,
           items: 4,
           itemsDesktop: [1199,3],
-          itemsDesktopSmall: [979,3]
+          itemsDesktopSmall: [979,3],
+          beforeInit : function(elem){
+            //Parameter elem pointing to $("#owl-demo")
+            random(elem);
+          }
         });
       });
     </script>
