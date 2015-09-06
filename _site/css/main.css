@@ -271,6 +271,13 @@ textarea {
 .m-l-lg {
   margin-left: 45px !important; }
 
+#owl-carousel .item {
+  margin: 3px; }
+  #owl-carousel .item img {
+    display: block;
+    width: 100%;
+    height: auto; }
+
 .site-header {
   margin: 2em 0 1em;
   font-size: 1em; }

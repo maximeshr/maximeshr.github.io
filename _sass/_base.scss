@@ -302,3 +302,14 @@ textarea {
 .m-l-sm { margin-left:   15px !important; }
 .m-l-md { margin-left:   30px !important; }
 .m-l-lg { margin-left:   45px !important; }
+
+#owl-carousel {
+  .item {
+    margin: 3px;
+    img {
+      display: block;
+      width: 100%;
+      height: auto;
+    }
+  }
+}

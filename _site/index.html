@@ -24,6 +24,8 @@
   <link href='http://fonts.googleapis.com/css?family=Source+Code+Pro:300,500,700' rel='stylesheet' type='text/css'>
 
   <link rel="stylesheet" href="/css/main.css">
+  <link rel="stylesheet" href="bower_components/owlcarousel/owl-carousel/owl.carousel.css">
+  <link rel="stylesheet" href="bower_components/owlcarousel/owl-carousel/owl.theme.css">
   <link rel="canonical" href="http://maximesahroui.be/">
   <link rel="alternate" type="application/rss+xml" title="Maxime Sahroui - Freelance JavaScript Developer" href="http://maximesahroui.be/feed.xml" />
 </head>
@@ -61,6 +63,9 @@
     </div>
   </div>
 
+  <div>
+  </div>
+
   <div class="col-wrapper">
     <div class="col col-12">
       <h2>My job</h2>
@@ -76,17 +81,13 @@
     </div>
   </div>
   <div class="col-wrapper m-b-lg">
-    <div class="col col-3 text-center">
-      <a href="http://www.nestup.be" target="_blank"><img src="/img/clients/nestup.png" alt="NEST'up by Creative Wallonia"></a>
-    </div>
-    <div class="col col-3 text-center">
-      <a href="http://www.tipi.be" target="_blank"><img src="/img/clients/tipi.png" alt="MyTipi"></a>
-    </div>
-    <div class="col col-3 text-center">
-      <a href="http://www.leanstudio.eu" target="_blank"><img src="/img/clients/lean_studio.png" alt="Lean Studio"></a>
-    </div>
-    <div class="col col-3 text-center">
-      <a href="https://www.bnpparibasfortis.be" target="_blank"><img src="/img/clients/bnp_parisbas.png" alt="BNP Parisbas Fortis"></a>
+    <div id="owl-carousel" class="owl-carousel">
+      <div class="item"><a href="http://www.nestup.be" target="_blank"><img src="/img/clients/nestup.png" alt="NEST'up by Creative Wallonia"></a></div>
+      <div class="item"><a href="http://www.tipi.be" target="_blank"><img src="/img/clients/tipi.png" alt="MyTipi"></a></div>
+      <div class="item"><a href="http://www.leanstudio.eu" target="_blank"><img src="/img/clients/lean_studio.png" alt="Lean Studio"></a></div>
+      <div class="item"><a href="https://www.bnpparibasfortis.be" target="_blank"><img src="/img/clients/bnp_parisbas.png" alt="BNP Parisbas Fortis"></a></div>
+      <div class="item"><a href="http://www.qualifio.com/" target="_blank"><img src="/img/clients/qualifio.png" alt="Qualifio"></a></div>
+      <div class="item"><a href="http://www.breadsy.be/" target="_blank"><img src="/img/clients/breadsy.png" alt="Breadsy"></a></div>
     </div>
   </div>
 
@@ -169,6 +170,7 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
     <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/2.2.0/isotope.pkgd.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/tinysort/2.2.2/tinysort.min.js"></script>
+    <script src="bower_components/owlcarousel/owl-carousel/owl.carousel.min.js">
     <script>
       $(document).ready(function () {
         tinysort.defaults.order = 'desc';
@@ -206,6 +208,16 @@
       })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
       ga('create', 'UA-56769084-1', 'auto');
       ga('send', 'pageview');
+    </script>
+    <script>
+      $(document).ready(function() {
+        $("#owl-carousel").owlCarousel({
+          autoPlay: 3000,
+          items: 4,
+          itemsDesktop: [1199,3],
+          itemsDesktopSmall: [979,3]
+        });
+      });
     </script>
 
   </body>
