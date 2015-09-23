@@ -53,11 +53,16 @@ img {
   border-radius: 75px;
 }
 
+.img-office {
+  width: 100px;
+  height: 100px;
+  border-radius: 50px;
+  margin-top: 1em;
+}
+
 .post img {
   margin: 1em 0;
 }
-
-
 
 /**
  * Figures
@@ -290,6 +295,8 @@ textarea {
 .text-important { font-weight: 800; }
 .text-underline { border-bottom: 1px solid $text-color; }
 .text-line-through { text-decoration: line-through; }
+.float-right { float: right; }
+.float-left { float: left; }
 .m-t-sm { margin-top:    15px !important; }
 .m-t-md { margin-top:    30px !important; }
 .m-t-lg { margin-top:    45px !important; }
