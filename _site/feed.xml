@@ -2,12 +2,12 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Maxime Sahroui - Freelance JavaScript Developer</title>
-    <description>I&#39;m a Freelance JavaScript Developer living in Belgium. I like : JavaScript, Node.js, AngularJS, Meteor, Startup World, Growth Hacking and Agile Methodologies.
+    <description>Freelance JavaScript Developer living in Belgium. I&#39;m confortable with JavaScript, ES6/7, Node.js, AngularJS, Meteor, Startup World, Growth Hacking and Agile Methodologies.
 </description>
     <link>http://maximesahroui.be/</link>
     <atom:link href="http://maximesahroui.be/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 29 Oct 2015 14:41:08 +0100</pubDate>
-    <lastBuildDate>Thu, 29 Oct 2015 14:41:08 +0100</lastBuildDate>
+    <pubDate>Thu, 29 Oct 2015 15:00:23 +0100</pubDate>
+    <lastBuildDate>Thu, 29 Oct 2015 15:00:23 +0100</lastBuildDate>
     <generator>Jekyll v3.0.0</generator>
     
   </channel>

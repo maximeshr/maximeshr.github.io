@@ -1,7 +1,8 @@
 # Site settings
 title: Maxime Sahroui - Freelance JavaScript Developer
 description: > # this means to ignore newlines until "baseurl:"
-  I'm a Freelance JavaScript Developer living in Belgium. I like : JavaScript, Node.js, AngularJS, Meteor, Startup World, Growth Hacking and Agile Methodologies.
+  Freelance JavaScript Developer living in Belgium. I'm confortable with JavaScript, ES6/7, Node.js, AngularJS, Meteor, Startup World, Growth Hacking and Agile Methodologies.
+keywords: Maxime Sahroui, Developer, Freelance, Web, Mobile, Hybrid, JavaScript, ES6, Meteor, AngularJS, Application developer, REST, API
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://maximesahroui.be" # the base hostname & protocol for your site
 available: true
