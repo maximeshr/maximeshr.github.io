@@ -6,9 +6,24 @@
 </description>
     <link>http://maximesahroui.be/</link>
     <atom:link href="http://maximesahroui.be/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 07 Dec 2015 14:57:34 +0100</pubDate>
-    <lastBuildDate>Mon, 07 Dec 2015 14:57:34 +0100</lastBuildDate>
+    <pubDate>Mon, 07 Dec 2015 14:59:29 +0100</pubDate>
+    <lastBuildDate>Mon, 07 Dec 2015 14:59:29 +0100</lastBuildDate>
     <generator>Jekyll v3.0.0</generator>
+    
+      <item>
+        <title>Freelance et libre, 12 mois après le grand saut</title>
+        <description>
+</description>
+        <pubDate>Mon, 07 Dec 2015 00:00:00 +0100</pubDate>
+        <link>http://maximesahroui.be/freelance/francais/2015/12/07/freelance-et-libre-12-mois-apres-le-grand-saut.html</link>
+        <guid isPermaLink="true">http://maximesahroui.be/freelance/francais/2015/12/07/freelance-et-libre-12-mois-apres-le-grand-saut.html</guid>
+        
+        
+        <category>freelance</category>
+        
+        <category>francais</category>
+        
+      </item>
     
   </channel>
 </rss>
