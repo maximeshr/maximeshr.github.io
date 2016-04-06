@@ -10,13 +10,13 @@ categories:
 >
 > C’est à l'origine un rassemblement de développeurs organisés par équipe autour de porteurs de projet avec l’objectif de produire un prototype d’application en quelques heures. Sous forme de concours chronométré, l’équipe gagnante est généralement désignée par un jury à l’issue du temps imparti. La référence au Marathon se justifie par le travail sans interruption des développeurs pendant deux jours, généralement lors d'un week-end.
 
-Je viens de terminer mon premier hackathon il y a un mois et je trouvais l'idée de partager cette expérience avec vous intéressante.
+J'ai terminé mon premier hackathon il y a un mois et je trouvais l'idée de partager cette expérience avec vous intéressante.
 
 Outre le projet, j'y ai appris beaucoup de choses, tant sur le plan humain que personnel.
 
 Je vais essayer de vous présenter mes impressions et expériences sous forme d'une liste très simplifiée de points
 
-Pour moi, le Citizen Wallonia Hackathon, c'est :
+Pour moi, le [Citizen Wallonia Hackathon](http://www.citizensofwallonia.be/), c'est :
 
 - former une équipe avec des gens que l'on ne connait pas mais qui partagent une vision commune à la problématique donnée ;
 - confronter rapidement son ou ses idées au marché - get out of the building ;
