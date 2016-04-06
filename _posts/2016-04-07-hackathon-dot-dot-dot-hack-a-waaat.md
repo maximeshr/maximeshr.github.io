@@ -10,7 +10,7 @@ categories:
 >
 > C’est à l'origine un rassemblement de développeurs organisés par équipe autour de porteurs de projet avec l’objectif de produire un prototype d’application en quelques heures. Sous forme de concours chronométré, l’équipe gagnante est généralement désignée par un jury à l’issue du temps imparti. La référence au Marathon se justifie par le travail sans interruption des développeurs pendant deux jours, généralement lors d'un week-end.
 
-Je viens de terminer mon premier hackathon ce weekend et je trouvais l'idée de partager cette expérience avec vous intéressante.
+Je viens de terminer mon premier hackathon il y a un mois et je trouvais l'idée de partager cette expérience avec vous intéressante.
 
 Outre le projet, j'y ai appris beaucoup de choses, tant sur le plan humain que personnel.
 
@@ -20,25 +20,25 @@ Pour moi, le Citizen Wallonia Hackathon, c'est :
 
 - former une équipe avec des gens que l'on ne connait pas mais qui partagent une vision commune à la problématique donnée ;
 - confronter rapidement son ou ses idées au marché - get out of the building ;
-- trouver un moyen d'avancer rapidement malgré la fatigue et (parfois) la baise de motivation ;
+- trouver un moyen d'avancer rapidement malgré la fatigue et (parfois) la perte de motivation ;
 - s'entraider entre les équipes et être récompensé d'un prix pour ça ;
 - rencontrer des gens bourrés de talents qui ne demandent qu'à apprendre et à en découdre ;
 - dormir à même le sol et moins de dix heures du vendredi au dimanche ;
 - trouver et prototyper une solution en quelques heures seulement ;
 - des coachs motivés, passionnés et investis qui vous aident dans votre périple ;
 - une expérience humaine et entreprenariale formidable ;
-- rater son pitch car ce dernier n'a pas été préparé ;
-- se remettre en question sur sa vie et sa propre vision des choses ;
+- rater son pitch car ce dernier n'a pas été préparé (pas bien !) ;
+- remettre en question sa propre vision des choses ;
 - une formidable aventure humaine ;
 - ne pas passer à la T.V. car on nous a coupé au montage ;
-- cette sensation de se dire, je l'ai fait et c'était vraiment génial !
+- cette sensation de se dire, je l'ai fait et c'était vraiment top !
 
 Notre projet en quelques mots :
 
 - C'est quoi : Mnémo est une plateforme de partage collaboratif de cours.
-- Pour qui : D'une part les étudiants du primaire et secondaire. D'autre part, les professeurs souhaitant partager leurs cours/moyens mnémotechniques.
-- Pourquoi : Il n'existe actuellement pas, ou peu de plateforme permettant de partager du contenu interractif pour le segment primaire/secondaire.
-- Comment : Création et mise en place d'une plateforme collaborative de partage ou la communauté vote et trie naturellement les meilleurs contenus.
+- Pour qui : D'une part, les étudiants du primaire et du secondaire. D'autre part, les professeurs souhaitants partager leurs cours et/ou moyens mnémotechniques.
+- Pourquoi : Il n'existe actuellement pas de plateforme permettant de partager du contenu visuel pour ce segment (primaire et secondaire).
+- Comment : Création et mise en place d'une plateforme collaborative de partage ou la communauté vote et propose naturellement les meilleurs contenus.
 
 Je tiens à remercier particulièrement mon équipe :
 
