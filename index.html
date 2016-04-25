@@ -5,7 +5,7 @@ layout: default
 <div class="home">
 
   <div class="col-wrapper">
-    <div class="col col-9">
+    <div class="col col-6">
       <h2>Contact</h2>
       <p>
         <a href="mailto:maxime.sahroui@gmail.com">maxime.sahroui@gmail.com</a><br />
@@ -13,6 +13,25 @@ layout: default
         <a href="https://github.com/maximeshr" target="_blank">github/maximeshr</a><br />
         <a href="https://www.linkedin.com/in/maximeshr" target="_blank">linkedin/maximeshr</a>
       </p>
+    </div>
+    <div class="col col-6">
+      <h2>Mon carnet (in French)</h2>
+      {% if site.posts.size == 0 %}
+        <p class="text">First article soon ;)</p>
+      {% else %}
+        <ul class="list-unstyled">
+        {% for post in site.posts limit:5 %}
+          <li>
+            <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+          </li>
+        {% endfor %}
+        </ul>
+        <p class="text m-t-sm">
+          <a href="{{ '/archives/' | prepend: site.baseurl }}">
+            Show me more...
+          </a>
+        </p>
+      {% endif %}
     </div>
   </div>
 
@@ -49,27 +68,6 @@ layout: default
       <h2>About me</h2>
       <p class="text">I'm a 26 y/o JavaScript ninja living in Belgium (Louvain-la-Neuve). I like building <strong>modular</strong> and <strong>tested</strong> applications for my clients. I've started my activity in 2015 and I like sharing my experiences with other entrepreneurs through events and conferences.</p>
       <p class="text">I'm currently working on an entrepreneurship program to help new entrepreneurs to build <strong>correct M.V.P</strong> and improve their LEAN vision.</p>
-    </div>
-  </div>
-  <div class="col-wrapper">
-    <div class="col col-12">
-      <h2>Mon carnet (in French)</h2>
-      {% if site.posts.size == 0 %}
-        <p class="text">First article soon ;)</p>
-      {% else %}
-        <ul class="list-unstyled">
-        {% for post in site.posts limit:5 %}
-          <li>
-            <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-          </li>
-        {% endfor %}
-        </ul>
-        <p class="text m-t-sm">
-          <a href="{{ '/archives/' | prepend: site.baseurl }}">
-            Show me more...
-          </a>
-        </p>
-      {% endif %}
     </div>
   </div>
 
