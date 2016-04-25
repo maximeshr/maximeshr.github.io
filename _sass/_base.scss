@@ -255,6 +255,18 @@ input, textarea {
   width: 80%;
 }
 
+.button {
+  font-size: 1em;
+  text-transform: uppercase;
+  font-weight: 600;
+  border: 2px solid $brand-color;
+  color: $brand-color;
+  background: transparent;
+  line-height: 1em;
+  padding: 0.6em 0.9em;
+  cursor: pointer;
+}
+
 input[type="submit"] {
   width: 50%;
   font-size: 1em;
