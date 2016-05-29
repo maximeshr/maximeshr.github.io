@@ -142,16 +142,16 @@ pre {
  * Wrapper
  */
 .wrapper {
-  max-width: -webkit-calc(800px - (30px * 2));
-  max-width: calc(800px - (30px * 2));
+  max-width: -webkit-calc(900px - (30px * 2));
+  max-width: calc(900px - (30px * 2));
   margin-right: auto;
   margin-left: auto;
   padding-right: 30px;
   padding-left: 30px; }
   @media screen and (max-width: 800px) {
     .wrapper {
-      max-width: -webkit-calc(800px - (30px));
-      max-width: calc(800px - (30px));
+      max-width: -webkit-calc(900px - (30px));
+      max-width: calc(900px - (30px));
       padding-right: 15px;
       padding-left: 15px; } }
 
@@ -293,6 +293,11 @@ textarea {
 
 .m-l-lg {
   margin-left: 45px !important; }
+
+.separator {
+  border-bottom: 3px dashed #333333;
+  margin: 0;
+  padding-top: 2em; }
 
 #owl-carousel .item {
   margin: 3px; }
