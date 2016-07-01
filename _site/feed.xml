@@ -4,10 +4,10 @@
     <title>Maxime Sahroui - Freelance JavaScript Developer</title>
     <description>Freelance JavaScript Developer living in Belgium. I&#39;m confortable with JavaScript, ES6/7, Node.js, AngularJS, Meteor, Startup World, Growth Hacking and Agile Methodologies.
 </description>
-    <link>http://maximesahroui.be/</link>
-    <atom:link href="http://maximesahroui.be/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Fri, 01 Jul 2016 21:26:36 +0200</pubDate>
-    <lastBuildDate>Fri, 01 Jul 2016 21:26:36 +0200</lastBuildDate>
+    <link>//maximesahroui.be/</link>
+    <atom:link href="//maximesahroui.be/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Fri, 01 Jul 2016 21:30:11 +0200</pubDate>
+    <lastBuildDate>Fri, 01 Jul 2016 21:30:11 +0200</lastBuildDate>
     <generator>Jekyll v3.0.0</generator>
     
       <item>
@@ -64,8 +64,8 @@
 &lt;p&gt;Merci également à toute l’organisation ainsi qu’à tous les participants, coachs et intervenants pour avoir fait de ce weekend une expérience unique et très plaisante.&lt;/p&gt;
 </description>
         <pubDate>Wed, 06 Apr 2016 00:00:00 +0200</pubDate>
-        <link>http://maximesahroui.be/hackathon/feedback/2016/04/06/hackathon-dot-dot-dot-hack-a-waaat.html</link>
-        <guid isPermaLink="true">http://maximesahroui.be/hackathon/feedback/2016/04/06/hackathon-dot-dot-dot-hack-a-waaat.html</guid>
+        <link>//maximesahroui.be/hackathon/feedback/2016/04/06/hackathon-dot-dot-dot-hack-a-waaat.html</link>
+        <guid isPermaLink="true">//maximesahroui.be/hackathon/feedback/2016/04/06/hackathon-dot-dot-dot-hack-a-waaat.html</guid>
         
         
         <category>hackathon</category>
