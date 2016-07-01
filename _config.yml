@@ -1,3 +1,5 @@
+include: [".well-known"]
+
 # Site settings
 title: Maxime Sahroui - Freelance JavaScript Developer
 description: > # this means to ignore newlines until "baseurl:"

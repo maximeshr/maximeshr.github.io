@@ -1,0 +1,54 @@
+==================================================================
+https://keybase.io/maximeshr
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://maximeshr.github.io
+  * I am maximeshr (https://keybase.io/maximeshr) on keybase.
+  * I have a public key ASB4nOm4ts50guKogv7VUasqa0ilAzPGMqJK83ybz6X51go
+
+To do so, I am signing this object:
+
+{
+    "body": {
+        "key": {
+            "eldest_kid": "0120789ce9b8b6ce7482e2a882fed551ab2a6b48a50333c632a24af37c9bcfa5f9d60a",
+            "host": "keybase.io",
+            "kid": "0120789ce9b8b6ce7482e2a882fed551ab2a6b48a50333c632a24af37c9bcfa5f9d60a",
+            "uid": "1812c3d9210b82e32589f67ce097fa19",
+            "username": "maximeshr"
+        },
+        "service": {
+            "hostname": "maximeshr.github.io",
+            "protocol": "https:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "client": {
+        "name": "keybase.io go client",
+        "version": "1.0.16"
+    },
+    "ctime": 1467401176,
+    "expire_in": 504576000,
+    "merkle_root": {
+        "ctime": 1467401167,
+        "hash": "24b78d67010ec628cc0b3b2e9d09391b379e9f593d5bb9d4a088361e68b686e6b117560573d3cdd2f8e12958b0b3a69d2dcc5e4797c78146052535a347df6bb5",
+        "seqno": 506143
+    },
+    "prev": "b262f6d1582891401bb30c220e74a35879253b475e981fbfd3d405e1dc8f4a79",
+    "seqno": 12,
+    "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgeJzpuLbOdILiqIL+1VGrKmtIpQMzxjKiSvN8m8+l+dYKp3BheWxvYWTFAv17ImJvZHkiOnsia2V5Ijp7ImVsZGVzdF9raWQiOiIwMTIwNzg5Y2U5YjhiNmNlNzQ4MmUyYTg4MmZlZDU1MWFiMmE2YjQ4YTUwMzMzYzYzMmEyNGFmMzdjOWJjZmE1ZjlkNjBhIiwiaG9zdCI6ImtleWJhc2UuaW8iLCJraWQiOiIwMTIwNzg5Y2U5YjhiNmNlNzQ4MmUyYTg4MmZlZDU1MWFiMmE2YjQ4YTUwMzMzYzYzMmEyNGFmMzdjOWJjZmE1ZjlkNjBhIiwidWlkIjoiMTgxMmMzZDkyMTBiODJlMzI1ODlmNjdjZTA5N2ZhMTkiLCJ1c2VybmFtZSI6Im1heGltZXNociJ9LCJzZXJ2aWNlIjp7Imhvc3RuYW1lIjoibWF4aW1lc2hyLmdpdGh1Yi5pbyIsInByb3RvY29sIjoiaHR0cHM6In0sInR5cGUiOiJ3ZWJfc2VydmljZV9iaW5kaW5nIiwidmVyc2lvbiI6MX0sImNsaWVudCI6eyJuYW1lIjoia2V5YmFzZS5pbyBnbyBjbGllbnQiLCJ2ZXJzaW9uIjoiMS4wLjE2In0sImN0aW1lIjoxNDY3NDAxMTc2LCJleHBpcmVfaW4iOjUwNDU3NjAwMCwibWVya2xlX3Jvb3QiOnsiY3RpbWUiOjE0Njc0MDExNjcsImhhc2giOiIyNGI3OGQ2NzAxMGVjNjI4Y2MwYjNiMmU5ZDA5MzkxYjM3OWU5ZjU5M2Q1YmI5ZDRhMDg4MzYxZTY4YjY4NmU2YjExNzU2MDU3M2QzY2RkMmY4ZTEyOTU4YjBiM2E2OWQyZGNjNWU0Nzk3Yzc4MTQ2MDUyNTM1YTM0N2RmNmJiNSIsInNlcW5vIjo1MDYxNDN9LCJwcmV2IjoiYjI2MmY2ZDE1ODI4OTE0MDFiYjMwYzIyMGU3NGEzNTg3OTI1M2I0NzVlOTgxZmJmZDNkNDA1ZTFkYzhmNGE3OSIsInNlcW5vIjoxMiwidGFnIjoic2lnbmF0dXJlIn2jc2lnxEDn5BNotHqO+Aeq5miKTRzbvEIBXNlq3Dwr9HGY9R2DDckN8uiWE+okvmuEBvE81roC9ne3yqWYVaZrbetmDPkCqHNpZ190eXBlIKRoYXNogqR0eXBlCKV2YWx1ZcQgXcNqOHtlek0gYdQyxiG5aThIUAjKwENlwDMg96/4pZqjdGFnzQICp3ZlcnNpb24B
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/maximeshr
+
+==================================================================
