@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>This site moved to okq.me</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="noindex">
+  <link rel="canonical" href="https://okq.me/">
+  <meta http-equiv="refresh" content="0;url=https://okq.me/">
+  <script>
+    (function () {
+      var p = location.pathname;
+      // okq.me only serves "/" and "/blog[/<slug>]"; every legacy path
+      // (/archives/, /thanks/, /feed.xml, old Jekyll posts, assets) maps to root,
+      // the old 2016 post maps to the blog index.
+      if (/^\/hackathon\//.test(p) || /^\/archives\/?$/.test(p) || p === "/feed.xml") {
+        p = "/blog";
+      } else if (!/^\/blog(\/[\w-]+)?\/?$/.test(p)) {
+        p = "/";
+      }
+      location.replace("https://okq.me" + p + location.search + location.hash);
+    })();
+  </script>
+  <style>
+    body { font: 16px/1.5 system-ui, sans-serif; display: flex; min-height: 100vh; margin: 0; align-items: center; justify-content: center; color: #222; }
+    a { color: #0a58ca; }
+  </style>
+</head>
+<body>
+  <p>This site moved to <a href="https://okq.me/">okq.me</a>.</p>
+</body>
+</html>

@@ -1,132 +1,32 @@
----
-layout: default
----
-
-<div class="home">
-
-  <div class="col-wrapper">
-    <div class="col col-6">
-      <h2>Contact</h2>
-      <p>
-        <a href="mailto:maxime.sahroui@gmail.com">maxime.sahroui@gmail.com</a><br />
-        <a href="https://twitter.com/maximeshr" target="_blank">twitter/maximeshr</a><br />
-        <a href="https://github.com/maximeshr" target="_blank">github/maximeshr</a><br />
-        <a href="https://www.linkedin.com/in/maximeshr" target="_blank">linkedin/maximeshr</a>
-      </p>
-    </div>
-    <div class="col col-6">
-      <h2>Mon carnet (in French)</h2>
-      {% if site.posts.size == 0 %}
-        <p class="text">First article soon ;)</p>
-      {% else %}
-        <ul class="list-unstyled">
-        {% for post in site.posts limit:5 %}
-          <li>
-            <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-          </li>
-        {% endfor %}
-        </ul>
-        <p class="text m-t-sm">
-          <a href="{{ '/archives/' | prepend: site.baseurl }}">
-            Show me more...
-          </a>
-        </p>
-      {% endif %}
-    </div>
-  </div>
-
-  <div class="col-wrapper">
-    <div class="col col-12">
-      <h2>My job</h2>
-      <p>I specialise myself in JavaScript applications and entrepreneurship.</p>
-      <p>I have experience with Node.js-based web apps, ES2016/2017 with Babel and JSON/REST API development. Also experienced with contemporary front-end technologies such as React and Vue.js.</p>
-      <p>I'm also a TDD/BDD enthusiast fighting against <a target="_blank" href="https://github.com/nelsonic/practical-js-tdd#cowboy-coders">Cowboy-Coders</a> and <a target="_blank" href="https://jaxenter.com/yolo-driven-development-methodology-113469.html"><acronym title="YOLO-driven development">YDD</acronym></a>.</p>
-      <p>I have Agile experience and I'm comfortable working in teams of all sizes at all stages of the project lifecycle.</p>
-    </div>
-  </div>
-
-  <div class="col-wrapper m-b-lg">
-    <div class="col col-12">
-      <h2>They already trust me</h2>
-    </div>
-  </div>
-  <div class="col-wrapper m-b-lg">
-    <div id="owl-carousel" class="owl-carousel">
-      <div class="item"><a href="http://www.nestup.be" target="_blank"><img src="{{ '/img/clients/nestup.png' | prepend: site.baseurl }}" alt="NEST'up by Creative Wallonia"></a></div>
-      <div class="item"><a href="http://www.tipi.be" target="_blank"><img src="{{ '/img/clients/tipi.png' | prepend: site.baseurl }}" alt="MyTipi"></a></div>
-      <div class="item"><a href="http://www.leanstudio.eu" target="_blank"><img src="{{ '/img/clients/lean_studio.png' | prepend: site.baseurl }}" alt="Lean Studio"></a></div>
-      <div class="item"><a href="https://www.bnpparibasfortis.be" target="_blank"><img src="{{ '/img/clients/bnp_parisbas.png' | prepend: site.baseurl }}" alt="BNP Parisbas Fortis"></a></div>
-      <div class="item"><a href="http://www.qualifio.com/" target="_blank"><img src="{{ '/img/clients/qualifio.png' | prepend: site.baseurl }}" alt="Qualifio"></a></div>
-      <div class="item"><a href="http://www.breadsy.be/" target="_blank"><img src="{{ '/img/clients/breadsy.png' | prepend: site.baseurl }}" alt="Breadsy"></a></div>
-      <div class="item"><a href="http://www.makevisionhappen.com/" target="_blank"><img src="{{ '/img/clients/makevisionhappen.png' | prepend: site.baseurl }}" alt="Make.Vision.Happen"></a></div>
-      <div class="item"><a href="http://laroulotte.strikingly.com/" target="_blank"><img src="{{ '/img/clients/la-roulotte.png' | prepend: site.baseurl }}" alt="La Roulotte"></a></div>
-      <div class="item"><a href="http://www.entrepreneurs-weekend.be/" target="_blank"><img src="{{ '/img/clients/entrepreneurs-weekend.png' | prepend: site.baseurl }}" alt="Entrepreneurs Weekend"></a></div>
-    </div>
-  </div>
-
-  <div class="col-wrapper">
-    <div class="col col-12">
-      <h2>About me</h2>
-      <p class="text">I'm a 27 y/o Software Engineer living in Belgium (near Louvain-la-Neuve). I like building <strong>modular</strong> and <strong>tested</strong> applications for my clients. I've started my freelance activity in january 2015 and I like sharing my experiences with other entrepreneurs through events and conferences.</p>
-    </div>
-  </div>
-
-  <div class="col-wrapper">
-    <div class="col col-6">
-      <h2>Work with me ?</h2>
-      <p style="padding-right: 2.25em; margin-bottom: 1.75em;">
-        <a target="_blank" href="https://www.m.me/maxime.sahroui">Let's talk</a> about your project or feel free to send me an email.
-      </p>
-      <form action="//formspree.io/maxime.sahroui@gmail.com"
-      method="POST">
-        <input type="hidden" name="_next" value="{{ '/thanks/' | prepend: site.baseurl }}" />
-        <input type="email" name="_replyto" placeholder="Your email" required>
-        <textarea name="message" rows="5" placeholder="Your message" required></textarea>
-        <input type="submit" value="Send">
-      </form>
-    </div>
-    <div class="col col-6">
-      <h2>Current projects</h2>
-      <ul class="projects list-unstyled">
-        <li><a href="http://www.qualifio.com/">Qualifio</a> as Software Engineer</li>
-      </ul>
-      <div class="separator"></div>
-      <div class="m-t-md">
-        {% if site.available %}
-          <p class="text">
-            I'm currently <span class="label label-available">available</span> for small projects.
-          </p>
-        {% else %}
-          <p class="text">
-            I'm <span class="label label-unavailable">not available</span> for other projects. But you can contact me, I know some experts that may be interested ;)
-          </p>
-        {% endif %}
-      </div>
-    </div>
-  </div>
-
-  <div class="col-wrapper">
-    <div class="col col-12 text-center">
-      <h2>You can find me here</h2>
-    </div>
-    <div class="col col-6 float-right">
-      <address>
-        <strong>Creative Spark</strong><br />
-        6, rue Émile Francqui<br />
-        1435 Mont-Saint-Guibert<br />
-        Belgium<br />
-        <a href="http://creativespark.be/" target="_blank">www.creativespark.be</a>
-      </address>
-    </div>
-    <div class="col col-6 float-left">
-      <address class="float-left">
-        <strong>Qualifio (Open Space)</strong><br />
-        16, place de l'Université<br />
-        1348  Ottignies-Louvain-la-Neuve<br />
-        Belgium<br />
-        <a href="http://www.qualifio.com/" target="_blank">www.qualifio.com</a>
-      </address>
-    </div>
-  </div>
-
-</div>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>This site moved to okq.me</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="noindex">
+  <link rel="canonical" href="https://okq.me/">
+  <meta http-equiv="refresh" content="0;url=https://okq.me/">
+  <script>
+    (function () {
+      var p = location.pathname;
+      // okq.me only serves "/" and "/blog[/<slug>]"; every legacy path
+      // (/archives/, /thanks/, /feed.xml, old Jekyll posts, assets) maps to root,
+      // the old 2016 post maps to the blog index.
+      if (/^\/hackathon\//.test(p) || /^\/archives\/?$/.test(p) || p === "/feed.xml") {
+        p = "/blog";
+      } else if (!/^\/blog(\/[\w-]+)?\/?$/.test(p)) {
+        p = "/";
+      }
+      location.replace("https://okq.me" + p + location.search + location.hash);
+    })();
+  </script>
+  <style>
+    body { font: 16px/1.5 system-ui, sans-serif; display: flex; min-height: 100vh; margin: 0; align-items: center; justify-content: center; color: #222; }
+    a { color: #0a58ca; }
+  </style>
+</head>
+<body>
+  <p>This site moved to <a href="https://okq.me/">okq.me</a>.</p>
+</body>
+</html>
